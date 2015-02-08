@@ -37,11 +37,11 @@ def get_quote_yahoojp(code, start=None, end=None, interval='d'):
 
 def DataReader(name, data_source=None, start=None, end=None, **kwargs):
     if data_source == "yahoojp":
-        return get_quote_yahoojp(symbols=name, start=start, end=end, **kwargs)
-
+        return get_quote_yahoojp(symbols=name, start=start,
+                                 end=end, **kwargs)
     else:
-
-        return web.DataReader(name, data_source=data_source, start=start, end=end, **kwargs)
+        return web.DataReader(name, data_source=data_source,
+                              start=start, end=end, **kwargs)
 
 
 DataReader.__doc__ = web.DataReader.__doc__

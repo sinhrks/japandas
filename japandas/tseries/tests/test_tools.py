@@ -12,7 +12,6 @@ import japandas as jpd
 
 class TestTools(tm.TestCase):
 
-
     def test_to_datetime(self):
         cases = {'2011年10月30日': ('2011-10-30', '%Y-%m-%d'),
                  '2012年12月': ('2012-12', '%Y-%m'),
