@@ -78,6 +78,18 @@ class TestCalendar(tm.TestCase):
         tm.assert_equal(dt + cday, datetime.datetime(2014, 5, 7))
 
 
+    def test_factory(self):
+        calendar = pd.tseries.holiday.get_calendar('JapaneseHolidayCalendar')
+        self.assertTrue(isinstance(calendar, jpd.JapaneseHolidayCalendar))
+
+    def test_holiday_attributes(self):
+        calendar = jpd.JapaneseHolidayCalendar()
+        tm.assert_equal(calendar.rules[0].name, '元日')
+        tm.assert_equal(calendar.rules[0].year, 1970)
+        tm.assert_equal(calendar.rules[0].month, 1)
+        tm.assert_equal(calendar.rules[0].day, 1)
+
+
 if __name__ == '__main__':
     import nose
     nose.runmodule(argv=[__file__, '-vvs', '-x', '--pdb', '--pdb-failure'],

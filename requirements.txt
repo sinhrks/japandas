@@ -1,6 +1,2 @@
 setuptools
-lxml
-html5lib
-beautifulsoup4
 pandas >= 0.14.0
-matplotlib

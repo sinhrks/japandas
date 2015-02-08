@@ -16,7 +16,7 @@ NsS'observance'
 p8
 NsS'name'
 p9
-S"New Year's Day"
+V\u5143\u65e5
 p10
 sS'end_date'
 p11
@@ -41,7 +41,7 @@ NtRp17
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p19
 sg11
 Nsg12
@@ -60,7 +60,7 @@ NtRp20
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p22
 sg11
 Nsg12
@@ -79,7 +79,7 @@ NtRp23
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p25
 sg11
 Nsg12
@@ -98,7 +98,7 @@ NtRp26
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p28
 sg11
 Nsg12
@@ -117,7 +117,7 @@ NtRp29
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p31
 sg11
 Nsg12
@@ -136,7 +136,7 @@ NtRp32
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p34
 sg11
 Nsg12
@@ -155,7 +155,7 @@ NtRp35
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p37
 sg11
 Nsg12
@@ -174,7 +174,7 @@ NtRp38
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p40
 sg11
 Nsg12
@@ -193,7 +193,7 @@ NtRp41
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p43
 sg11
 Nsg12
@@ -212,7 +212,7 @@ NtRp44
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p46
 sg11
 Nsg12
@@ -231,7 +231,7 @@ NtRp47
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p49
 sg11
 Nsg12
@@ -250,7 +250,7 @@ NtRp50
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p52
 sg11
 Nsg12
@@ -269,7 +269,7 @@ NtRp53
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p55
 sg11
 Nsg12
@@ -288,7 +288,7 @@ NtRp56
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p58
 sg11
 Nsg12
@@ -307,7 +307,7 @@ NtRp59
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p61
 sg11
 Nsg12
@@ -326,7 +326,7 @@ NtRp62
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p64
 sg11
 Nsg12
@@ -345,7 +345,7 @@ NtRp65
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p67
 sg11
 Nsg12
@@ -364,7 +364,7 @@ NtRp68
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p70
 sg11
 Nsg12
@@ -383,7 +383,7 @@ NtRp71
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p73
 sg11
 Nsg12
@@ -402,7 +402,7 @@ NtRp74
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p76
 sg11
 Nsg12
@@ -421,7 +421,7 @@ NtRp77
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p79
 sg11
 Nsg12
@@ -440,7 +440,7 @@ NtRp80
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p82
 sg11
 Nsg12
@@ -459,7 +459,7 @@ NtRp83
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p85
 sg11
 Nsg12
@@ -478,7 +478,7 @@ NtRp86
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p88
 sg11
 Nsg12
@@ -497,7 +497,7 @@ NtRp89
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p91
 sg11
 Nsg12
@@ -516,7 +516,7 @@ NtRp92
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p94
 sg11
 Nsg12
@@ -535,7 +535,7 @@ NtRp95
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p97
 sg11
 Nsg12
@@ -554,7 +554,7 @@ NtRp98
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p100
 sg11
 Nsg12
@@ -573,7 +573,7 @@ NtRp101
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p103
 sg11
 Nsg12
@@ -592,7 +592,7 @@ NtRp104
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p106
 sg11
 Nsg12
@@ -611,7 +611,7 @@ NtRp107
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p109
 sg11
 Nsg12
@@ -630,7 +630,7 @@ NtRp110
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p112
 sg11
 Nsg12
@@ -649,7 +649,7 @@ NtRp113
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p115
 sg11
 Nsg12
@@ -668,7 +668,7 @@ NtRp116
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p118
 sg11
 Nsg12
@@ -687,7 +687,7 @@ NtRp119
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p121
 sg11
 Nsg12
@@ -706,7 +706,7 @@ NtRp122
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p124
 sg11
 Nsg12
@@ -725,7 +725,7 @@ NtRp125
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p127
 sg11
 Nsg12
@@ -744,7 +744,7 @@ NtRp128
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p130
 sg11
 Nsg12
@@ -763,7 +763,7 @@ NtRp131
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p133
 sg11
 Nsg12
@@ -782,7 +782,7 @@ NtRp134
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p136
 sg11
 Nsg12
@@ -801,7 +801,7 @@ NtRp137
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p139
 sg11
 Nsg12
@@ -820,7 +820,7 @@ NtRp140
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p142
 sg11
 Nsg12
@@ -839,7 +839,7 @@ NtRp143
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p145
 sg11
 Nsg12
@@ -858,7 +858,7 @@ NtRp146
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p148
 sg11
 Nsg12
@@ -877,7 +877,7 @@ NtRp149
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p151
 sg11
 Nsg12
@@ -896,7 +896,7 @@ NtRp152
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p154
 sg11
 Nsg12
@@ -915,7 +915,7 @@ NtRp155
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p157
 sg11
 Nsg12
@@ -934,7 +934,7 @@ NtRp158
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p160
 sg11
 Nsg12
@@ -953,7 +953,7 @@ NtRp161
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p163
 sg11
 Nsg12
@@ -972,7 +972,7 @@ NtRp164
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p166
 sg11
 Nsg12
@@ -991,7 +991,7 @@ NtRp167
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p169
 sg11
 Nsg12
@@ -1010,7 +1010,7 @@ NtRp170
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p172
 sg11
 Nsg12
@@ -1029,7 +1029,7 @@ NtRp173
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p175
 sg11
 Nsg12
@@ -1048,7 +1048,7 @@ NtRp176
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p178
 sg11
 Nsg12
@@ -1067,7 +1067,7 @@ NtRp179
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p181
 sg11
 Nsg12
@@ -1086,7 +1086,7 @@ NtRp182
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p184
 sg11
 Nsg12
@@ -1105,7 +1105,7 @@ NtRp185
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p187
 sg11
 Nsg12
@@ -1124,7 +1124,7 @@ NtRp188
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p190
 sg11
 Nsg12
@@ -1143,7 +1143,7 @@ NtRp191
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p193
 sg11
 Nsg12
@@ -1162,7 +1162,7 @@ NtRp194
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p196
 sg11
 Nsg12
@@ -1181,7 +1181,7 @@ NtRp197
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p199
 sg11
 Nsg12
@@ -1200,7 +1200,7 @@ NtRp200
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p202
 sg11
 Nsg12
@@ -1219,7 +1219,7 @@ NtRp203
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p205
 sg11
 Nsg12
@@ -1238,7 +1238,7 @@ NtRp206
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p208
 sg11
 Nsg12
@@ -1257,7 +1257,7 @@ NtRp209
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p211
 sg11
 Nsg12
@@ -1276,7 +1276,7 @@ NtRp212
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p214
 sg11
 Nsg12
@@ -1295,7 +1295,7 @@ NtRp215
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p217
 sg11
 Nsg12
@@ -1314,7 +1314,7 @@ NtRp218
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p220
 sg11
 Nsg12
@@ -1333,7 +1333,7 @@ NtRp221
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p223
 sg11
 Nsg12
@@ -1352,7 +1352,7 @@ NtRp224
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p226
 sg11
 Nsg12
@@ -1371,7 +1371,7 @@ NtRp227
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p229
 sg11
 Nsg12
@@ -1390,7 +1390,7 @@ NtRp230
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p232
 sg11
 Nsg12
@@ -1409,7 +1409,7 @@ NtRp233
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p235
 sg11
 Nsg12
@@ -1428,7 +1428,7 @@ NtRp236
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p238
 sg11
 Nsg12
@@ -1447,7 +1447,7 @@ NtRp239
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p241
 sg11
 Nsg12
@@ -1466,7 +1466,7 @@ NtRp242
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p244
 sg11
 Nsg12
@@ -1485,7 +1485,7 @@ NtRp245
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p247
 sg11
 Nsg12
@@ -1504,7 +1504,7 @@ NtRp248
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p250
 sg11
 Nsg12
@@ -1523,7 +1523,7 @@ NtRp251
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p253
 sg11
 Nsg12
@@ -1542,7 +1542,7 @@ NtRp254
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p256
 sg11
 Nsg12
@@ -1561,7 +1561,7 @@ NtRp257
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p259
 sg11
 Nsg12
@@ -1580,7 +1580,7 @@ NtRp260
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p262
 sg11
 Nsg12
@@ -1599,7 +1599,7 @@ NtRp263
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p265
 sg11
 Nsg12
@@ -1618,7 +1618,7 @@ NtRp266
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p268
 sg11
 Nsg12
@@ -1637,7 +1637,7 @@ NtRp269
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p271
 sg11
 Nsg12
@@ -1656,7 +1656,7 @@ NtRp272
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p274
 sg11
 Nsg12
@@ -1675,7 +1675,7 @@ NtRp275
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p277
 sg11
 Nsg12
@@ -1694,7 +1694,7 @@ NtRp278
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p280
 sg11
 Nsg12
@@ -1713,7 +1713,7 @@ NtRp281
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p283
 sg11
 Nsg12
@@ -1732,7 +1732,7 @@ NtRp284
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p286
 sg11
 Nsg12
@@ -1751,7 +1751,7 @@ NtRp287
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p289
 sg11
 Nsg12
@@ -1770,7 +1770,7 @@ NtRp290
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p292
 sg11
 Nsg12
@@ -1789,7 +1789,7 @@ NtRp293
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p295
 sg11
 Nsg12
@@ -1808,7 +1808,7 @@ NtRp296
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p298
 sg11
 Nsg12
@@ -1827,7 +1827,7 @@ NtRp299
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p301
 sg11
 Nsg12
@@ -1846,7 +1846,7 @@ NtRp302
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p304
 sg11
 Nsg12
@@ -1865,7 +1865,7 @@ NtRp305
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p307
 sg11
 Nsg12
@@ -1884,7 +1884,7 @@ NtRp308
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p310
 sg11
 Nsg12
@@ -1903,7 +1903,7 @@ NtRp311
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p313
 sg11
 Nsg12
@@ -1922,7 +1922,7 @@ NtRp314
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p316
 sg11
 Nsg12
@@ -1941,7 +1941,7 @@ NtRp317
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p319
 sg11
 Nsg12
@@ -1960,7 +1960,7 @@ NtRp320
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p322
 sg11
 Nsg12
@@ -1979,7 +1979,7 @@ NtRp323
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p325
 sg11
 Nsg12
@@ -1998,7 +1998,7 @@ NtRp326
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p328
 sg11
 Nsg12
@@ -2017,7 +2017,7 @@ NtRp329
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p331
 sg11
 Nsg12
@@ -2036,7 +2036,7 @@ NtRp332
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p334
 sg11
 Nsg12
@@ -2055,7 +2055,7 @@ NtRp335
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p337
 sg11
 Nsg12
@@ -2074,7 +2074,7 @@ NtRp338
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p340
 sg11
 Nsg12
@@ -2093,7 +2093,7 @@ NtRp341
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p343
 sg11
 Nsg12
@@ -2112,7 +2112,7 @@ NtRp344
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p346
 sg11
 Nsg12
@@ -2131,7 +2131,7 @@ NtRp347
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p349
 sg11
 Nsg12
@@ -2150,7 +2150,7 @@ NtRp350
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p352
 sg11
 Nsg12
@@ -2169,7 +2169,7 @@ NtRp353
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p355
 sg11
 Nsg12
@@ -2188,7 +2188,7 @@ NtRp356
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p358
 sg11
 Nsg12
@@ -2207,7 +2207,7 @@ NtRp359
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p361
 sg11
 Nsg12
@@ -2226,7 +2226,7 @@ NtRp362
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p364
 sg11
 Nsg12
@@ -2245,7 +2245,7 @@ NtRp365
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p367
 sg11
 Nsg12
@@ -2264,7 +2264,7 @@ NtRp368
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p370
 sg11
 Nsg12
@@ -2283,7 +2283,7 @@ NtRp371
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p373
 sg11
 Nsg12
@@ -2302,7 +2302,7 @@ NtRp374
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p376
 sg11
 Nsg12
@@ -2321,7 +2321,7 @@ NtRp377
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p379
 sg11
 Nsg12
@@ -2340,7 +2340,7 @@ NtRp380
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p382
 sg11
 Nsg12
@@ -2359,7 +2359,7 @@ NtRp383
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p385
 sg11
 Nsg12
@@ -2378,7 +2378,7 @@ NtRp386
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p388
 sg11
 Nsg12
@@ -2397,7 +2397,7 @@ NtRp389
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p391
 sg11
 Nsg12
@@ -2416,7 +2416,7 @@ NtRp392
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p394
 sg11
 Nsg12
@@ -2435,7 +2435,7 @@ NtRp395
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p397
 sg11
 Nsg12
@@ -2454,7 +2454,7 @@ NtRp398
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p400
 sg11
 Nsg12
@@ -2473,7 +2473,7 @@ NtRp401
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p403
 sg11
 Nsg12
@@ -2492,7 +2492,7 @@ NtRp404
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p406
 sg11
 Nsg12
@@ -2511,7 +2511,7 @@ NtRp407
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p409
 sg11
 Nsg12
@@ -2530,7 +2530,7 @@ NtRp410
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p412
 sg11
 Nsg12
@@ -2549,7 +2549,7 @@ NtRp413
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p415
 sg11
 Nsg12
@@ -2568,7 +2568,7 @@ NtRp416
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p418
 sg11
 Nsg12
@@ -2587,7 +2587,7 @@ NtRp419
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p421
 sg11
 Nsg12
@@ -2606,7 +2606,7 @@ NtRp422
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p424
 sg11
 Nsg12
@@ -2625,7 +2625,7 @@ NtRp425
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p427
 sg11
 Nsg12
@@ -2644,7 +2644,7 @@ NtRp428
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p430
 sg11
 Nsg12
@@ -2663,7 +2663,7 @@ NtRp431
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p433
 sg11
 Nsg12
@@ -2682,7 +2682,7 @@ NtRp434
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p436
 sg11
 Nsg12
@@ -2701,7 +2701,7 @@ NtRp437
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p439
 sg11
 Nsg12
@@ -2720,7 +2720,7 @@ NtRp440
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p442
 sg11
 Nsg12
@@ -2739,7 +2739,7 @@ NtRp443
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p445
 sg11
 Nsg12
@@ -2758,7 +2758,7 @@ NtRp446
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p448
 sg11
 Nsg12
@@ -2777,7 +2777,7 @@ NtRp449
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p451
 sg11
 Nsg12
@@ -2796,7 +2796,7 @@ NtRp452
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p454
 sg11
 Nsg12
@@ -2815,7 +2815,7 @@ NtRp455
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p457
 sg11
 Nsg12
@@ -2834,7 +2834,7 @@ NtRp458
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p460
 sg11
 Nsg12
@@ -2853,7 +2853,7 @@ NtRp461
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p463
 sg11
 Nsg12
@@ -2872,7 +2872,7 @@ NtRp464
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p466
 sg11
 Nsg12
@@ -2891,7 +2891,7 @@ NtRp467
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p469
 sg11
 Nsg12
@@ -2910,7 +2910,7 @@ NtRp470
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p472
 sg11
 Nsg12
@@ -2929,7 +2929,7 @@ NtRp473
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p475
 sg11
 Nsg12
@@ -2948,7 +2948,7 @@ NtRp476
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p478
 sg11
 Nsg12
@@ -2967,7 +2967,7 @@ NtRp479
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p481
 sg11
 Nsg12
@@ -2986,7 +2986,7 @@ NtRp482
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p484
 sg11
 Nsg12
@@ -3005,7 +3005,7 @@ NtRp485
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p487
 sg11
 Nsg12
@@ -3024,7 +3024,7 @@ NtRp488
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p490
 sg11
 Nsg12
@@ -3043,7 +3043,7 @@ NtRp491
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p493
 sg11
 Nsg12
@@ -3062,7 +3062,7 @@ NtRp494
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p496
 sg11
 Nsg12
@@ -3081,7 +3081,7 @@ NtRp497
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p499
 sg11
 Nsg12
@@ -3100,7 +3100,7 @@ NtRp500
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p502
 sg11
 Nsg12
@@ -3119,7 +3119,7 @@ NtRp503
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p505
 sg11
 Nsg12
@@ -3138,7 +3138,7 @@ NtRp506
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p508
 sg11
 Nsg12
@@ -3157,7 +3157,7 @@ NtRp509
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p511
 sg11
 Nsg12
@@ -3176,7 +3176,7 @@ NtRp512
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p514
 sg11
 Nsg12
@@ -3195,7 +3195,7 @@ NtRp515
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p517
 sg11
 Nsg12
@@ -3214,7 +3214,7 @@ NtRp518
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p520
 sg11
 Nsg12
@@ -3233,7 +3233,7 @@ NtRp521
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p523
 sg11
 Nsg12
@@ -3252,7 +3252,7 @@ NtRp524
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p526
 sg11
 Nsg12
@@ -3271,7 +3271,7 @@ NtRp527
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p529
 sg11
 Nsg12
@@ -3290,7 +3290,7 @@ NtRp530
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p532
 sg11
 Nsg12
@@ -3309,7 +3309,7 @@ NtRp533
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p535
 sg11
 Nsg12
@@ -3328,7 +3328,7 @@ NtRp536
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p538
 sg11
 Nsg12
@@ -3347,7 +3347,7 @@ NtRp539
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p541
 sg11
 Nsg12
@@ -3366,7 +3366,7 @@ NtRp542
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p544
 sg11
 Nsg12
@@ -3385,7 +3385,7 @@ NtRp545
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p547
 sg11
 Nsg12
@@ -3404,7 +3404,7 @@ NtRp548
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p550
 sg11
 Nsg12
@@ -3423,7 +3423,7 @@ NtRp551
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p553
 sg11
 Nsg12
@@ -3442,7 +3442,7 @@ NtRp554
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p556
 sg11
 Nsg12
@@ -3461,7 +3461,7 @@ NtRp557
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p559
 sg11
 Nsg12
@@ -3480,7 +3480,7 @@ NtRp560
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p562
 sg11
 Nsg12
@@ -3499,7 +3499,7 @@ NtRp563
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p565
 sg11
 Nsg12
@@ -3518,7 +3518,7 @@ NtRp566
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p568
 sg11
 Nsg12
@@ -3537,7 +3537,7 @@ NtRp569
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p571
 sg11
 Nsg12
@@ -3556,7 +3556,7 @@ NtRp572
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p574
 sg11
 Nsg12
@@ -3575,7 +3575,7 @@ NtRp575
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p577
 sg11
 Nsg12
@@ -3594,7 +3594,7 @@ NtRp578
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p580
 sg11
 Nsg12
@@ -3613,7 +3613,7 @@ NtRp581
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p583
 sg11
 Nsg12
@@ -3632,7 +3632,7 @@ NtRp584
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p586
 sg11
 Nsg12
@@ -3651,7 +3651,7 @@ NtRp587
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p589
 sg11
 Nsg12
@@ -3670,7 +3670,7 @@ NtRp590
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p592
 sg11
 Nsg12
@@ -3689,7 +3689,7 @@ NtRp593
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p595
 sg11
 Nsg12
@@ -3708,7 +3708,7 @@ NtRp596
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p598
 sg11
 Nsg12
@@ -3727,7 +3727,7 @@ NtRp599
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p601
 sg11
 Nsg12
@@ -3746,7 +3746,7 @@ NtRp602
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p604
 sg11
 Nsg12
@@ -3765,7 +3765,7 @@ NtRp605
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p607
 sg11
 Nsg12
@@ -3784,7 +3784,7 @@ NtRp608
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p610
 sg11
 Nsg12
@@ -3803,7 +3803,7 @@ NtRp611
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p613
 sg11
 Nsg12
@@ -3822,7 +3822,7 @@ NtRp614
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p616
 sg11
 Nsg12
@@ -3841,7 +3841,7 @@ NtRp617
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p619
 sg11
 Nsg12
@@ -3860,7 +3860,7 @@ NtRp620
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p622
 sg11
 Nsg12
@@ -3879,7 +3879,7 @@ NtRp623
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p625
 sg11
 Nsg12
@@ -3898,7 +3898,7 @@ NtRp626
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p628
 sg11
 Nsg12
@@ -3917,7 +3917,7 @@ NtRp629
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p631
 sg11
 Nsg12
@@ -3936,7 +3936,7 @@ NtRp632
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p634
 sg11
 Nsg12
@@ -3955,7 +3955,7 @@ NtRp635
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p637
 sg11
 Nsg12
@@ -3974,7 +3974,7 @@ NtRp638
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p640
 sg11
 Nsg12
@@ -3993,7 +3993,7 @@ NtRp641
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p643
 sg11
 Nsg12
@@ -4012,7 +4012,7 @@ NtRp644
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p646
 sg11
 Nsg12
@@ -4031,7 +4031,7 @@ NtRp647
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p649
 sg11
 Nsg12
@@ -4050,7 +4050,7 @@ NtRp650
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p652
 sg11
 Nsg12
@@ -4069,7 +4069,7 @@ NtRp653
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p655
 sg11
 Nsg12
@@ -4088,7 +4088,7 @@ NtRp656
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p658
 sg11
 Nsg12
@@ -4107,7 +4107,7 @@ NtRp659
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p661
 sg11
 Nsg12
@@ -4126,7 +4126,7 @@ NtRp662
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p664
 sg11
 Nsg12
@@ -4145,7 +4145,7 @@ NtRp665
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p667
 sg11
 Nsg12
@@ -4164,7 +4164,7 @@ NtRp668
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p670
 sg11
 Nsg12
@@ -4183,7 +4183,7 @@ NtRp671
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p673
 sg11
 Nsg12
@@ -4202,7 +4202,7 @@ NtRp674
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p676
 sg11
 Nsg12
@@ -4221,7 +4221,7 @@ NtRp677
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p679
 sg11
 Nsg12
@@ -4240,7 +4240,7 @@ NtRp680
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p682
 sg11
 Nsg12
@@ -4259,7 +4259,7 @@ NtRp683
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p685
 sg11
 Nsg12
@@ -4278,7 +4278,7 @@ NtRp686
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p688
 sg11
 Nsg12
@@ -4297,7 +4297,7 @@ NtRp689
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p691
 sg11
 Nsg12
@@ -4316,7 +4316,7 @@ NtRp692
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p694
 sg11
 Nsg12
@@ -4335,7 +4335,7 @@ NtRp695
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p697
 sg11
 Nsg12
@@ -4354,7 +4354,7 @@ NtRp698
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p700
 sg11
 Nsg12
@@ -4373,7 +4373,7 @@ NtRp701
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p703
 sg11
 Nsg12
@@ -4392,7 +4392,7 @@ NtRp704
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p706
 sg11
 Nsg12
@@ -4411,7 +4411,7 @@ NtRp707
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p709
 sg11
 Nsg12
@@ -4430,7 +4430,7 @@ NtRp710
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p712
 sg11
 Nsg12
@@ -4449,7 +4449,7 @@ NtRp713
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p715
 sg11
 Nsg12
@@ -4468,7 +4468,7 @@ NtRp716
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p718
 sg11
 Nsg12
@@ -4487,7 +4487,7 @@ NtRp719
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p721
 sg11
 Nsg12
@@ -4506,7 +4506,7 @@ NtRp722
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p724
 sg11
 Nsg12
@@ -4525,7 +4525,7 @@ NtRp725
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p727
 sg11
 Nsg12
@@ -4544,7 +4544,7 @@ NtRp728
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p730
 sg11
 Nsg12
@@ -4563,7 +4563,7 @@ NtRp731
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p733
 sg11
 Nsg12
@@ -4582,7 +4582,7 @@ NtRp734
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p736
 sg11
 Nsg12
@@ -4601,7 +4601,7 @@ NtRp737
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p739
 sg11
 Nsg12
@@ -4620,7 +4620,7 @@ NtRp740
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p742
 sg11
 Nsg12
@@ -4639,7 +4639,7 @@ NtRp743
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p745
 sg11
 Nsg12
@@ -4658,7 +4658,7 @@ NtRp746
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p748
 sg11
 Nsg12
@@ -4677,7 +4677,7 @@ NtRp749
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p751
 sg11
 Nsg12
@@ -4696,7 +4696,7 @@ NtRp752
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p754
 sg11
 Nsg12
@@ -4715,7 +4715,7 @@ NtRp755
 g7
 Nsg8
 Nsg9
-S"Citizen's Holiday"
+V\u56fd\u6c11\u306e\u4f11\u65e5
 p757
 sg11
 Nsg12
@@ -4734,7 +4734,7 @@ NtRp758
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p760
 sg11
 Nsg12
@@ -4753,7 +4753,7 @@ NtRp761
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p763
 sg11
 Nsg12
@@ -4772,7 +4772,7 @@ NtRp764
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p766
 sg11
 Nsg12
@@ -4791,7 +4791,7 @@ NtRp767
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p769
 sg11
 Nsg12
@@ -4810,7 +4810,7 @@ NtRp770
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p772
 sg11
 Nsg12
@@ -4829,7 +4829,7 @@ NtRp773
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p775
 sg11
 Nsg12
@@ -4848,7 +4848,7 @@ NtRp776
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p778
 sg11
 Nsg12
@@ -4867,7 +4867,7 @@ NtRp779
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p781
 sg11
 Nsg12
@@ -4886,7 +4886,7 @@ NtRp782
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p784
 sg11
 Nsg12
@@ -4905,7 +4905,7 @@ NtRp785
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p787
 sg11
 Nsg12
@@ -4924,7 +4924,7 @@ NtRp788
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p790
 sg11
 Nsg12
@@ -4943,7 +4943,7 @@ NtRp791
 g7
 Nsg8
 Nsg9
-S'The Funeral Ceremony of Emperor Showa.'
+V\u662d\u548c\u5929\u7687\u306e\u5927\u55aa\u306e\u793c
 p793
 sg11
 Nsg12
@@ -4962,7 +4962,7 @@ NtRp794
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p796
 sg11
 Nsg12
@@ -4981,7 +4981,7 @@ NtRp797
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p799
 sg11
 Nsg12
@@ -5000,7 +5000,7 @@ NtRp800
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p802
 sg11
 Nsg12
@@ -5019,7 +5019,7 @@ NtRp803
 g7
 Nsg8
 Nsg9
-S"Citizen's Holiday"
+V\u56fd\u6c11\u306e\u4f11\u65e5
 p805
 sg11
 Nsg12
@@ -5038,7 +5038,7 @@ NtRp806
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p808
 sg11
 Nsg12
@@ -5057,7 +5057,7 @@ NtRp809
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p811
 sg11
 Nsg12
@@ -5076,7 +5076,7 @@ NtRp812
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p814
 sg11
 Nsg12
@@ -5095,7 +5095,7 @@ NtRp815
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p817
 sg11
 Nsg12
@@ -5114,7 +5114,7 @@ NtRp818
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p820
 sg11
 Nsg12
@@ -5133,7 +5133,7 @@ NtRp821
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p823
 sg11
 Nsg12
@@ -5152,7 +5152,7 @@ NtRp824
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p826
 sg11
 Nsg12
@@ -5171,7 +5171,7 @@ NtRp827
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p829
 sg11
 Nsg12
@@ -5190,7 +5190,7 @@ NtRp830
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p832
 sg11
 Nsg12
@@ -5209,7 +5209,7 @@ NtRp833
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p835
 sg11
 Nsg12
@@ -5228,7 +5228,7 @@ NtRp836
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p838
 sg11
 Nsg12
@@ -5247,7 +5247,7 @@ NtRp839
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p841
 sg11
 Nsg12
@@ -5266,7 +5266,7 @@ NtRp842
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p844
 sg11
 Nsg12
@@ -5285,7 +5285,7 @@ NtRp845
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p847
 sg11
 Nsg12
@@ -5304,7 +5304,7 @@ NtRp848
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p850
 sg11
 Nsg12
@@ -5323,7 +5323,7 @@ NtRp851
 g7
 Nsg8
 Nsg9
-S"Citizen's Holiday"
+V\u56fd\u6c11\u306e\u4f11\u65e5
 p853
 sg11
 Nsg12
@@ -5342,7 +5342,7 @@ NtRp854
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p856
 sg11
 Nsg12
@@ -5361,7 +5361,7 @@ NtRp857
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p859
 sg11
 Nsg12
@@ -5380,7 +5380,7 @@ NtRp860
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p862
 sg11
 Nsg12
@@ -5399,7 +5399,7 @@ NtRp863
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p865
 sg11
 Nsg12
@@ -5418,7 +5418,7 @@ NtRp866
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p868
 sg11
 Nsg12
@@ -5437,7 +5437,7 @@ NtRp869
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p871
 sg11
 Nsg12
@@ -5456,7 +5456,7 @@ NtRp872
 g7
 Nsg8
 Nsg9
-S'The Ceremony of the Enthronement of His Majesty th Emperor (at the Seiden)'
+V\u5373\u4f4d\u793c\u6b63\u6bbf\u306e\u5100
 p874
 sg11
 Nsg12
@@ -5475,7 +5475,7 @@ NtRp875
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p877
 sg11
 Nsg12
@@ -5494,7 +5494,7 @@ NtRp878
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p880
 sg11
 Nsg12
@@ -5513,7 +5513,7 @@ NtRp881
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p883
 sg11
 Nsg12
@@ -5532,7 +5532,7 @@ NtRp884
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p886
 sg11
 Nsg12
@@ -5551,7 +5551,7 @@ NtRp887
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p889
 sg11
 Nsg12
@@ -5570,7 +5570,7 @@ NtRp890
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p892
 sg11
 Nsg12
@@ -5589,7 +5589,7 @@ NtRp893
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p895
 sg11
 Nsg12
@@ -5608,7 +5608,7 @@ NtRp896
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p898
 sg11
 Nsg12
@@ -5627,7 +5627,7 @@ NtRp899
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p901
 sg11
 Nsg12
@@ -5646,7 +5646,7 @@ NtRp902
 g7
 Nsg8
 Nsg9
-S"Citizen's Holiday"
+V\u56fd\u6c11\u306e\u4f11\u65e5
 p904
 sg11
 Nsg12
@@ -5665,7 +5665,7 @@ NtRp905
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p907
 sg11
 Nsg12
@@ -5684,7 +5684,7 @@ NtRp908
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p910
 sg11
 Nsg12
@@ -5703,7 +5703,7 @@ NtRp911
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p913
 sg11
 Nsg12
@@ -5722,7 +5722,7 @@ NtRp914
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p916
 sg11
 Nsg12
@@ -5741,7 +5741,7 @@ NtRp917
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p919
 sg11
 Nsg12
@@ -5760,7 +5760,7 @@ NtRp920
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p922
 sg11
 Nsg12
@@ -5779,7 +5779,7 @@ NtRp923
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p925
 sg11
 Nsg12
@@ -5798,7 +5798,7 @@ NtRp926
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p928
 sg11
 Nsg12
@@ -5817,7 +5817,7 @@ NtRp929
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p931
 sg11
 Nsg12
@@ -5836,7 +5836,7 @@ NtRp932
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p934
 sg11
 Nsg12
@@ -5855,7 +5855,7 @@ NtRp935
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p937
 sg11
 Nsg12
@@ -5874,7 +5874,7 @@ NtRp938
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p940
 sg11
 Nsg12
@@ -5893,7 +5893,7 @@ NtRp941
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p943
 sg11
 Nsg12
@@ -5912,7 +5912,7 @@ NtRp944
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p946
 sg11
 Nsg12
@@ -5931,7 +5931,7 @@ NtRp947
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p949
 sg11
 Nsg12
@@ -5950,7 +5950,7 @@ NtRp950
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p952
 sg11
 Nsg12
@@ -5969,7 +5969,7 @@ NtRp953
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p955
 sg11
 Nsg12
@@ -5988,7 +5988,7 @@ NtRp956
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p958
 sg11
 Nsg12
@@ -6007,7 +6007,7 @@ NtRp959
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p961
 sg11
 Nsg12
@@ -6026,7 +6026,7 @@ NtRp962
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p964
 sg11
 Nsg12
@@ -6045,7 +6045,7 @@ NtRp965
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p967
 sg11
 Nsg12
@@ -6064,7 +6064,7 @@ NtRp968
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p970
 sg11
 Nsg12
@@ -6083,7 +6083,7 @@ NtRp971
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p973
 sg11
 Nsg12
@@ -6102,7 +6102,7 @@ NtRp974
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p976
 sg11
 Nsg12
@@ -6121,7 +6121,7 @@ NtRp977
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p979
 sg11
 Nsg12
@@ -6140,7 +6140,7 @@ NtRp980
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p982
 sg11
 Nsg12
@@ -6159,7 +6159,7 @@ NtRp983
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p985
 sg11
 Nsg12
@@ -6178,7 +6178,7 @@ NtRp986
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p988
 sg11
 Nsg12
@@ -6197,7 +6197,7 @@ NtRp989
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p991
 sg11
 Nsg12
@@ -6216,7 +6216,7 @@ NtRp992
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p994
 sg11
 Nsg12
@@ -6235,7 +6235,7 @@ NtRp995
 g7
 Nsg8
 Nsg9
-S"Citizen's Holiday"
+V\u56fd\u6c11\u306e\u4f11\u65e5
 p997
 sg11
 Nsg12
@@ -6254,7 +6254,7 @@ NtRp998
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p1000
 sg11
 Nsg12
@@ -6273,7 +6273,7 @@ NtRp1001
 g7
 Nsg8
 Nsg9
-S'The Rite of Wedding of HIH Crown Prince Naruhito'
+V\u7687\u592a\u5b50\u5fb3\u4ec1\u89aa\u738b\u306e\u7d50\u5a5a\u306e\u5100
 p1003
 sg11
 Nsg12
@@ -6292,7 +6292,7 @@ NtRp1004
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p1006
 sg11
 Nsg12
@@ -6311,7 +6311,7 @@ NtRp1007
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p1009
 sg11
 Nsg12
@@ -6330,7 +6330,7 @@ NtRp1010
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p1012
 sg11
 Nsg12
@@ -6349,7 +6349,7 @@ NtRp1013
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p1015
 sg11
 Nsg12
@@ -6368,7 +6368,7 @@ NtRp1016
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p1018
 sg11
 Nsg12
@@ -6387,7 +6387,7 @@ NtRp1019
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p1021
 sg11
 Nsg12
@@ -6406,7 +6406,7 @@ NtRp1022
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p1024
 sg11
 Nsg12
@@ -6425,7 +6425,7 @@ NtRp1025
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p1027
 sg11
 Nsg12
@@ -6444,7 +6444,7 @@ NtRp1028
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p1030
 sg11
 Nsg12
@@ -6463,7 +6463,7 @@ NtRp1031
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p1033
 sg11
 Nsg12
@@ -6482,7 +6482,7 @@ NtRp1034
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p1036
 sg11
 Nsg12
@@ -6501,7 +6501,7 @@ NtRp1037
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p1039
 sg11
 Nsg12
@@ -6520,7 +6520,7 @@ NtRp1040
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p1042
 sg11
 Nsg12
@@ -6539,7 +6539,7 @@ NtRp1043
 g7
 Nsg8
 Nsg9
-S"Citizen's Holiday"
+V\u56fd\u6c11\u306e\u4f11\u65e5
 p1045
 sg11
 Nsg12
@@ -6558,7 +6558,7 @@ NtRp1046
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p1048
 sg11
 Nsg12
@@ -6577,7 +6577,7 @@ NtRp1049
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p1051
 sg11
 Nsg12
@@ -6596,7 +6596,7 @@ NtRp1052
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p1054
 sg11
 Nsg12
@@ -6615,7 +6615,7 @@ NtRp1055
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p1057
 sg11
 Nsg12
@@ -6634,7 +6634,7 @@ NtRp1058
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p1060
 sg11
 Nsg12
@@ -6653,7 +6653,7 @@ NtRp1061
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p1063
 sg11
 Nsg12
@@ -6672,7 +6672,7 @@ NtRp1064
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p1066
 sg11
 Nsg12
@@ -6691,7 +6691,7 @@ NtRp1067
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p1069
 sg11
 Nsg12
@@ -6710,7 +6710,7 @@ NtRp1070
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p1072
 sg11
 Nsg12
@@ -6729,7 +6729,7 @@ NtRp1073
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p1075
 sg11
 Nsg12
@@ -6748,7 +6748,7 @@ NtRp1076
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p1078
 sg11
 Nsg12
@@ -6767,7 +6767,7 @@ NtRp1079
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p1081
 sg11
 Nsg12
@@ -6786,7 +6786,7 @@ NtRp1082
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p1084
 sg11
 Nsg12
@@ -6805,7 +6805,7 @@ NtRp1085
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p1087
 sg11
 Nsg12
@@ -6824,7 +6824,7 @@ NtRp1088
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p1090
 sg11
 Nsg12
@@ -6843,7 +6843,7 @@ NtRp1091
 g7
 Nsg8
 Nsg9
-S"Citizen's Holiday"
+V\u56fd\u6c11\u306e\u4f11\u65e5
 p1093
 sg11
 Nsg12
@@ -6862,7 +6862,7 @@ NtRp1094
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p1096
 sg11
 Nsg12
@@ -6881,7 +6881,7 @@ NtRp1097
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p1099
 sg11
 Nsg12
@@ -6900,7 +6900,7 @@ NtRp1100
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p1102
 sg11
 Nsg12
@@ -6919,7 +6919,7 @@ NtRp1103
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p1105
 sg11
 Nsg12
@@ -6938,7 +6938,7 @@ NtRp1106
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p1108
 sg11
 Nsg12
@@ -6957,7 +6957,7 @@ NtRp1109
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p1111
 sg11
 Nsg12
@@ -6976,7 +6976,7 @@ NtRp1112
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p1114
 sg11
 Nsg12
@@ -6995,7 +6995,7 @@ NtRp1115
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p1117
 sg11
 Nsg12
@@ -7014,7 +7014,7 @@ NtRp1118
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p1120
 sg11
 Nsg12
@@ -7033,7 +7033,7 @@ NtRp1121
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p1123
 sg11
 Nsg12
@@ -7052,7 +7052,7 @@ NtRp1124
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p1126
 sg11
 Nsg12
@@ -7071,7 +7071,7 @@ NtRp1127
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p1129
 sg11
 Nsg12
@@ -7090,7 +7090,7 @@ NtRp1130
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p1132
 sg11
 Nsg12
@@ -7109,7 +7109,7 @@ NtRp1133
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p1135
 sg11
 Nsg12
@@ -7128,7 +7128,7 @@ NtRp1136
 g7
 Nsg8
 Nsg9
-S"Citizen's Holiday"
+V\u56fd\u6c11\u306e\u4f11\u65e5
 p1138
 sg11
 Nsg12
@@ -7147,7 +7147,7 @@ NtRp1139
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p1141
 sg11
 Nsg12
@@ -7166,7 +7166,7 @@ NtRp1142
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p1144
 sg11
 Nsg12
@@ -7185,7 +7185,7 @@ NtRp1145
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p1147
 sg11
 Nsg12
@@ -7204,7 +7204,7 @@ NtRp1148
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p1150
 sg11
 Nsg12
@@ -7223,7 +7223,7 @@ NtRp1151
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p1153
 sg11
 Nsg12
@@ -7242,7 +7242,7 @@ NtRp1154
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p1156
 sg11
 Nsg12
@@ -7261,7 +7261,7 @@ NtRp1157
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p1159
 sg11
 Nsg12
@@ -7280,7 +7280,7 @@ NtRp1160
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p1162
 sg11
 Nsg12
@@ -7299,7 +7299,7 @@ NtRp1163
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p1165
 sg11
 Nsg12
@@ -7318,7 +7318,7 @@ NtRp1166
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p1168
 sg11
 Nsg12
@@ -7337,7 +7337,7 @@ NtRp1169
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p1171
 sg11
 Nsg12
@@ -7356,7 +7356,7 @@ NtRp1172
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p1174
 sg11
 Nsg12
@@ -7375,7 +7375,7 @@ NtRp1175
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p1177
 sg11
 Nsg12
@@ -7394,7 +7394,7 @@ NtRp1178
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p1180
 sg11
 Nsg12
@@ -7413,7 +7413,7 @@ NtRp1181
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p1183
 sg11
 Nsg12
@@ -7432,7 +7432,7 @@ NtRp1184
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p1186
 sg11
 Nsg12
@@ -7451,7 +7451,7 @@ NtRp1187
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p1189
 sg11
 Nsg12
@@ -7470,7 +7470,7 @@ NtRp1190
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p1192
 sg11
 Nsg12
@@ -7489,7 +7489,7 @@ NtRp1193
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p1195
 sg11
 Nsg12
@@ -7508,7 +7508,7 @@ NtRp1196
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p1198
 sg11
 Nsg12
@@ -7527,7 +7527,7 @@ NtRp1199
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p1201
 sg11
 Nsg12
@@ -7546,7 +7546,7 @@ NtRp1202
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p1204
 sg11
 Nsg12
@@ -7565,7 +7565,7 @@ NtRp1205
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p1207
 sg11
 Nsg12
@@ -7584,7 +7584,7 @@ NtRp1208
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p1210
 sg11
 Nsg12
@@ -7603,7 +7603,7 @@ NtRp1211
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p1213
 sg11
 Nsg12
@@ -7622,7 +7622,7 @@ NtRp1214
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p1216
 sg11
 Nsg12
@@ -7641,7 +7641,7 @@ NtRp1217
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p1219
 sg11
 Nsg12
@@ -7660,7 +7660,7 @@ NtRp1220
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p1222
 sg11
 Nsg12
@@ -7679,7 +7679,7 @@ NtRp1223
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p1225
 sg11
 Nsg12
@@ -7698,7 +7698,7 @@ NtRp1226
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p1228
 sg11
 Nsg12
@@ -7717,7 +7717,7 @@ NtRp1229
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p1231
 sg11
 Nsg12
@@ -7736,7 +7736,7 @@ NtRp1232
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p1234
 sg11
 Nsg12
@@ -7755,7 +7755,7 @@ NtRp1235
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p1237
 sg11
 Nsg12
@@ -7774,7 +7774,7 @@ NtRp1238
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p1240
 sg11
 Nsg12
@@ -7793,7 +7793,7 @@ NtRp1241
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p1243
 sg11
 Nsg12
@@ -7812,7 +7812,7 @@ NtRp1244
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p1246
 sg11
 Nsg12
@@ -7831,7 +7831,7 @@ NtRp1247
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p1249
 sg11
 Nsg12
@@ -7850,7 +7850,7 @@ NtRp1250
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p1252
 sg11
 Nsg12
@@ -7869,7 +7869,7 @@ NtRp1253
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p1255
 sg11
 Nsg12
@@ -7888,7 +7888,7 @@ NtRp1256
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p1258
 sg11
 Nsg12
@@ -7907,7 +7907,7 @@ NtRp1259
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p1261
 sg11
 Nsg12
@@ -7926,7 +7926,7 @@ NtRp1262
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p1264
 sg11
 Nsg12
@@ -7945,7 +7945,7 @@ NtRp1265
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p1267
 sg11
 Nsg12
@@ -7964,7 +7964,7 @@ NtRp1268
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p1270
 sg11
 Nsg12
@@ -7983,7 +7983,7 @@ NtRp1271
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p1273
 sg11
 Nsg12
@@ -8002,7 +8002,7 @@ NtRp1274
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p1276
 sg11
 Nsg12
@@ -8021,7 +8021,7 @@ NtRp1277
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p1279
 sg11
 Nsg12
@@ -8040,7 +8040,7 @@ NtRp1280
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p1282
 sg11
 Nsg12
@@ -8059,7 +8059,7 @@ NtRp1283
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p1285
 sg11
 Nsg12
@@ -8078,7 +8078,7 @@ NtRp1286
 g7
 Nsg8
 Nsg9
-S"Citizen's Holiday"
+V\u56fd\u6c11\u306e\u4f11\u65e5
 p1288
 sg11
 Nsg12
@@ -8097,7 +8097,7 @@ NtRp1289
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p1291
 sg11
 Nsg12
@@ -8116,7 +8116,7 @@ NtRp1292
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p1294
 sg11
 Nsg12
@@ -8135,7 +8135,7 @@ NtRp1295
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p1297
 sg11
 Nsg12
@@ -8154,7 +8154,7 @@ NtRp1298
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p1300
 sg11
 Nsg12
@@ -8173,7 +8173,7 @@ NtRp1301
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p1303
 sg11
 Nsg12
@@ -8192,7 +8192,7 @@ NtRp1304
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p1306
 sg11
 Nsg12
@@ -8211,7 +8211,7 @@ NtRp1307
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p1309
 sg11
 Nsg12
@@ -8230,7 +8230,7 @@ NtRp1310
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p1312
 sg11
 Nsg12
@@ -8249,7 +8249,7 @@ NtRp1313
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p1315
 sg11
 Nsg12
@@ -8268,7 +8268,7 @@ NtRp1316
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p1318
 sg11
 Nsg12
@@ -8287,7 +8287,7 @@ NtRp1319
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p1321
 sg11
 Nsg12
@@ -8306,7 +8306,7 @@ NtRp1322
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p1324
 sg11
 Nsg12
@@ -8325,7 +8325,7 @@ NtRp1325
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p1327
 sg11
 Nsg12
@@ -8344,7 +8344,7 @@ NtRp1328
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p1330
 sg11
 Nsg12
@@ -8363,7 +8363,7 @@ NtRp1331
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p1333
 sg11
 Nsg12
@@ -8382,7 +8382,7 @@ NtRp1334
 g7
 Nsg8
 Nsg9
-S"Citizen's Holiday"
+V\u56fd\u6c11\u306e\u4f11\u65e5
 p1336
 sg11
 Nsg12
@@ -8401,7 +8401,7 @@ NtRp1337
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p1339
 sg11
 Nsg12
@@ -8420,7 +8420,7 @@ NtRp1340
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p1342
 sg11
 Nsg12
@@ -8439,7 +8439,7 @@ NtRp1343
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p1345
 sg11
 Nsg12
@@ -8458,7 +8458,7 @@ NtRp1346
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p1348
 sg11
 Nsg12
@@ -8477,7 +8477,7 @@ NtRp1349
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p1351
 sg11
 Nsg12
@@ -8496,7 +8496,7 @@ NtRp1352
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p1354
 sg11
 Nsg12
@@ -8515,7 +8515,7 @@ NtRp1355
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p1357
 sg11
 Nsg12
@@ -8534,7 +8534,7 @@ NtRp1358
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p1360
 sg11
 Nsg12
@@ -8553,7 +8553,7 @@ NtRp1361
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p1363
 sg11
 Nsg12
@@ -8572,7 +8572,7 @@ NtRp1364
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p1366
 sg11
 Nsg12
@@ -8591,7 +8591,7 @@ NtRp1367
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p1369
 sg11
 Nsg12
@@ -8610,7 +8610,7 @@ NtRp1370
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p1372
 sg11
 Nsg12
@@ -8629,7 +8629,7 @@ NtRp1373
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p1375
 sg11
 Nsg12
@@ -8648,7 +8648,7 @@ NtRp1376
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p1378
 sg11
 Nsg12
@@ -8667,7 +8667,7 @@ NtRp1379
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p1381
 sg11
 Nsg12
@@ -8686,7 +8686,7 @@ NtRp1382
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p1384
 sg11
 Nsg12
@@ -8705,7 +8705,7 @@ NtRp1385
 g7
 Nsg8
 Nsg9
-S"Citizen's Holiday"
+V\u56fd\u6c11\u306e\u4f11\u65e5
 p1387
 sg11
 Nsg12
@@ -8724,7 +8724,7 @@ NtRp1388
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p1390
 sg11
 Nsg12
@@ -8743,7 +8743,7 @@ NtRp1391
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p1393
 sg11
 Nsg12
@@ -8762,7 +8762,7 @@ NtRp1394
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p1396
 sg11
 Nsg12
@@ -8781,7 +8781,7 @@ NtRp1397
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p1399
 sg11
 Nsg12
@@ -8800,7 +8800,7 @@ NtRp1400
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p1402
 sg11
 Nsg12
@@ -8819,7 +8819,7 @@ NtRp1403
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p1405
 sg11
 Nsg12
@@ -8838,7 +8838,7 @@ NtRp1406
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p1408
 sg11
 Nsg12
@@ -8857,7 +8857,7 @@ NtRp1409
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p1411
 sg11
 Nsg12
@@ -8876,7 +8876,7 @@ NtRp1412
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p1414
 sg11
 Nsg12
@@ -8895,7 +8895,7 @@ NtRp1415
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p1417
 sg11
 Nsg12
@@ -8914,7 +8914,7 @@ NtRp1418
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p1420
 sg11
 Nsg12
@@ -8933,7 +8933,7 @@ NtRp1421
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p1423
 sg11
 Nsg12
@@ -8952,7 +8952,7 @@ NtRp1424
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p1426
 sg11
 Nsg12
@@ -8971,7 +8971,7 @@ NtRp1427
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p1429
 sg11
 Nsg12
@@ -8990,7 +8990,7 @@ NtRp1430
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p1432
 sg11
 Nsg12
@@ -9009,7 +9009,7 @@ NtRp1433
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p1435
 sg11
 Nsg12
@@ -9028,7 +9028,7 @@ NtRp1436
 g7
 Nsg8
 Nsg9
-S"Citizen's Holiday"
+V\u56fd\u6c11\u306e\u4f11\u65e5
 p1438
 sg11
 Nsg12
@@ -9047,7 +9047,7 @@ NtRp1439
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p1441
 sg11
 Nsg12
@@ -9066,7 +9066,7 @@ NtRp1442
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p1444
 sg11
 Nsg12
@@ -9085,7 +9085,7 @@ NtRp1445
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p1447
 sg11
 Nsg12
@@ -9104,7 +9104,7 @@ NtRp1448
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p1450
 sg11
 Nsg12
@@ -9123,7 +9123,7 @@ NtRp1451
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p1453
 sg11
 Nsg12
@@ -9142,7 +9142,7 @@ NtRp1454
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p1456
 sg11
 Nsg12
@@ -9161,7 +9161,7 @@ NtRp1457
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p1459
 sg11
 Nsg12
@@ -9180,7 +9180,7 @@ NtRp1460
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p1462
 sg11
 Nsg12
@@ -9199,7 +9199,7 @@ NtRp1463
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p1465
 sg11
 Nsg12
@@ -9218,7 +9218,7 @@ NtRp1466
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p1468
 sg11
 Nsg12
@@ -9237,7 +9237,7 @@ NtRp1469
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p1471
 sg11
 Nsg12
@@ -9256,7 +9256,7 @@ NtRp1472
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p1474
 sg11
 Nsg12
@@ -9275,7 +9275,7 @@ NtRp1475
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p1477
 sg11
 Nsg12
@@ -9294,7 +9294,7 @@ NtRp1478
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p1480
 sg11
 Nsg12
@@ -9313,7 +9313,7 @@ NtRp1481
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p1483
 sg11
 Nsg12
@@ -9332,7 +9332,7 @@ NtRp1484
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p1486
 sg11
 Nsg12
@@ -9351,7 +9351,7 @@ NtRp1487
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p1489
 sg11
 Nsg12
@@ -9370,7 +9370,7 @@ NtRp1490
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p1492
 sg11
 Nsg12
@@ -9389,7 +9389,7 @@ NtRp1493
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p1495
 sg11
 Nsg12
@@ -9408,7 +9408,7 @@ NtRp1496
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p1498
 sg11
 Nsg12
@@ -9427,7 +9427,7 @@ NtRp1499
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p1501
 sg11
 Nsg12
@@ -9446,7 +9446,7 @@ NtRp1502
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p1504
 sg11
 Nsg12
@@ -9465,7 +9465,7 @@ NtRp1505
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p1507
 sg11
 Nsg12
@@ -9484,7 +9484,7 @@ NtRp1508
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p1510
 sg11
 Nsg12
@@ -9503,7 +9503,7 @@ NtRp1511
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p1513
 sg11
 Nsg12
@@ -9522,7 +9522,7 @@ NtRp1514
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p1516
 sg11
 Nsg12
@@ -9541,7 +9541,7 @@ NtRp1517
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p1519
 sg11
 Nsg12
@@ -9560,7 +9560,7 @@ NtRp1520
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p1522
 sg11
 Nsg12
@@ -9579,7 +9579,7 @@ NtRp1523
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p1525
 sg11
 Nsg12
@@ -9598,7 +9598,7 @@ NtRp1526
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p1528
 sg11
 Nsg12
@@ -9617,7 +9617,7 @@ NtRp1529
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p1531
 sg11
 Nsg12
@@ -9636,7 +9636,7 @@ NtRp1532
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p1534
 sg11
 Nsg12
@@ -9655,7 +9655,7 @@ NtRp1535
 g7
 Nsg8
 Nsg9
-S"Citizen's Holiday"
+V\u56fd\u6c11\u306e\u4f11\u65e5
 p1537
 sg11
 Nsg12
@@ -9674,7 +9674,7 @@ NtRp1538
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p1540
 sg11
 Nsg12
@@ -9693,7 +9693,7 @@ NtRp1541
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p1543
 sg11
 Nsg12
@@ -9712,7 +9712,7 @@ NtRp1544
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p1546
 sg11
 Nsg12
@@ -9731,7 +9731,7 @@ NtRp1547
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p1549
 sg11
 Nsg12
@@ -9750,7 +9750,7 @@ NtRp1550
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p1552
 sg11
 Nsg12
@@ -9769,7 +9769,7 @@ NtRp1553
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p1555
 sg11
 Nsg12
@@ -9788,7 +9788,7 @@ NtRp1556
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p1558
 sg11
 Nsg12
@@ -9807,7 +9807,7 @@ NtRp1559
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p1561
 sg11
 Nsg12
@@ -9826,7 +9826,7 @@ NtRp1562
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p1564
 sg11
 Nsg12
@@ -9845,7 +9845,7 @@ NtRp1565
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p1567
 sg11
 Nsg12
@@ -9864,7 +9864,7 @@ NtRp1568
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p1570
 sg11
 Nsg12
@@ -9883,7 +9883,7 @@ NtRp1571
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p1573
 sg11
 Nsg12
@@ -9902,7 +9902,7 @@ NtRp1574
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p1576
 sg11
 Nsg12
@@ -9921,7 +9921,7 @@ NtRp1577
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p1579
 sg11
 Nsg12
@@ -9940,7 +9940,7 @@ NtRp1580
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p1582
 sg11
 Nsg12
@@ -9959,7 +9959,7 @@ NtRp1583
 g7
 Nsg8
 Nsg9
-S"Citizen's Holiday"
+V\u56fd\u6c11\u306e\u4f11\u65e5
 p1585
 sg11
 Nsg12
@@ -9978,7 +9978,7 @@ NtRp1586
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p1588
 sg11
 Nsg12
@@ -9997,7 +9997,7 @@ NtRp1589
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p1591
 sg11
 Nsg12
@@ -10016,7 +10016,7 @@ NtRp1592
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p1594
 sg11
 Nsg12
@@ -10035,7 +10035,7 @@ NtRp1595
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p1597
 sg11
 Nsg12
@@ -10054,7 +10054,7 @@ NtRp1598
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p1600
 sg11
 Nsg12
@@ -10073,7 +10073,7 @@ NtRp1601
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p1603
 sg11
 Nsg12
@@ -10092,7 +10092,7 @@ NtRp1604
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p1606
 sg11
 Nsg12
@@ -10111,7 +10111,7 @@ NtRp1607
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p1609
 sg11
 Nsg12
@@ -10130,7 +10130,7 @@ NtRp1610
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p1612
 sg11
 Nsg12
@@ -10149,7 +10149,7 @@ NtRp1613
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p1615
 sg11
 Nsg12
@@ -10168,7 +10168,7 @@ NtRp1616
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p1618
 sg11
 Nsg12
@@ -10187,7 +10187,7 @@ NtRp1619
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p1621
 sg11
 Nsg12
@@ -10206,7 +10206,7 @@ NtRp1622
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p1624
 sg11
 Nsg12
@@ -10225,7 +10225,7 @@ NtRp1625
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p1627
 sg11
 Nsg12
@@ -10244,7 +10244,7 @@ NtRp1628
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p1630
 sg11
 Nsg12
@@ -10263,7 +10263,7 @@ NtRp1631
 g7
 Nsg8
 Nsg9
-S"Citizen's Holiday"
+V\u56fd\u6c11\u306e\u4f11\u65e5
 p1633
 sg11
 Nsg12
@@ -10282,7 +10282,7 @@ NtRp1634
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p1636
 sg11
 Nsg12
@@ -10301,7 +10301,7 @@ NtRp1637
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p1639
 sg11
 Nsg12
@@ -10320,7 +10320,7 @@ NtRp1640
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p1642
 sg11
 Nsg12
@@ -10339,7 +10339,7 @@ NtRp1643
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p1645
 sg11
 Nsg12
@@ -10358,7 +10358,7 @@ NtRp1646
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p1648
 sg11
 Nsg12
@@ -10377,7 +10377,7 @@ NtRp1649
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p1651
 sg11
 Nsg12
@@ -10396,7 +10396,7 @@ NtRp1652
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p1654
 sg11
 Nsg12
@@ -10415,7 +10415,7 @@ NtRp1655
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p1657
 sg11
 Nsg12
@@ -10434,7 +10434,7 @@ NtRp1658
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p1660
 sg11
 Nsg12
@@ -10453,7 +10453,7 @@ NtRp1661
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p1663
 sg11
 Nsg12
@@ -10472,7 +10472,7 @@ NtRp1664
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p1666
 sg11
 Nsg12
@@ -10491,7 +10491,7 @@ NtRp1667
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p1669
 sg11
 Nsg12
@@ -10510,7 +10510,7 @@ NtRp1670
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p1672
 sg11
 Nsg12
@@ -10529,7 +10529,7 @@ NtRp1673
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p1675
 sg11
 Nsg12
@@ -10548,7 +10548,7 @@ NtRp1676
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p1678
 sg11
 Nsg12
@@ -10567,7 +10567,7 @@ NtRp1679
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p1681
 sg11
 Nsg12
@@ -10586,7 +10586,7 @@ NtRp1682
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p1684
 sg11
 Nsg12
@@ -10605,7 +10605,7 @@ NtRp1685
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p1687
 sg11
 Nsg12
@@ -10624,7 +10624,7 @@ NtRp1688
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p1690
 sg11
 Nsg12
@@ -10643,7 +10643,7 @@ NtRp1691
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p1693
 sg11
 Nsg12
@@ -10662,7 +10662,7 @@ NtRp1694
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p1696
 sg11
 Nsg12
@@ -10681,7 +10681,7 @@ NtRp1697
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p1699
 sg11
 Nsg12
@@ -10700,7 +10700,7 @@ NtRp1700
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p1702
 sg11
 Nsg12
@@ -10719,7 +10719,7 @@ NtRp1703
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p1705
 sg11
 Nsg12
@@ -10738,7 +10738,7 @@ NtRp1706
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p1708
 sg11
 Nsg12
@@ -10757,7 +10757,7 @@ NtRp1709
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p1711
 sg11
 Nsg12
@@ -10776,7 +10776,7 @@ NtRp1712
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p1714
 sg11
 Nsg12
@@ -10795,7 +10795,7 @@ NtRp1715
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p1717
 sg11
 Nsg12
@@ -10814,7 +10814,7 @@ NtRp1718
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p1720
 sg11
 Nsg12
@@ -10833,7 +10833,7 @@ NtRp1721
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p1723
 sg11
 Nsg12
@@ -10852,7 +10852,7 @@ NtRp1724
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p1726
 sg11
 Nsg12
@@ -10871,7 +10871,7 @@ NtRp1727
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p1729
 sg11
 Nsg12
@@ -10890,7 +10890,7 @@ NtRp1730
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p1732
 sg11
 Nsg12
@@ -10909,7 +10909,7 @@ NtRp1733
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p1735
 sg11
 Nsg12
@@ -10928,7 +10928,7 @@ NtRp1736
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p1738
 sg11
 Nsg12
@@ -10947,7 +10947,7 @@ NtRp1739
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p1741
 sg11
 Nsg12
@@ -10966,7 +10966,7 @@ NtRp1742
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p1744
 sg11
 Nsg12
@@ -10985,7 +10985,7 @@ NtRp1745
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p1747
 sg11
 Nsg12
@@ -11004,7 +11004,7 @@ NtRp1748
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p1750
 sg11
 Nsg12
@@ -11023,7 +11023,7 @@ NtRp1751
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p1753
 sg11
 Nsg12
@@ -11042,7 +11042,7 @@ NtRp1754
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p1756
 sg11
 Nsg12
@@ -11061,7 +11061,7 @@ NtRp1757
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p1759
 sg11
 Nsg12
@@ -11080,7 +11080,7 @@ NtRp1760
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p1762
 sg11
 Nsg12
@@ -11099,7 +11099,7 @@ NtRp1763
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p1765
 sg11
 Nsg12
@@ -11118,7 +11118,7 @@ NtRp1766
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p1768
 sg11
 Nsg12
@@ -11137,7 +11137,7 @@ NtRp1769
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p1771
 sg11
 Nsg12
@@ -11156,7 +11156,7 @@ NtRp1772
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p1774
 sg11
 Nsg12
@@ -11175,7 +11175,7 @@ NtRp1775
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p1777
 sg11
 Nsg12
@@ -11194,7 +11194,7 @@ NtRp1778
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p1780
 sg11
 Nsg12
@@ -11213,7 +11213,7 @@ NtRp1781
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p1783
 sg11
 Nsg12
@@ -11232,7 +11232,7 @@ NtRp1784
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p1786
 sg11
 Nsg12
@@ -11251,7 +11251,7 @@ NtRp1787
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p1789
 sg11
 Nsg12
@@ -11270,7 +11270,7 @@ NtRp1790
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p1792
 sg11
 Nsg12
@@ -11289,7 +11289,7 @@ NtRp1793
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p1795
 sg11
 Nsg12
@@ -11308,7 +11308,7 @@ NtRp1796
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p1798
 sg11
 Nsg12
@@ -11327,7 +11327,7 @@ NtRp1799
 g7
 Nsg8
 Nsg9
-S"Citizen's Holiday"
+V\u56fd\u6c11\u306e\u4f11\u65e5
 p1801
 sg11
 Nsg12
@@ -11346,7 +11346,7 @@ NtRp1802
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p1804
 sg11
 Nsg12
@@ -11365,7 +11365,7 @@ NtRp1805
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p1807
 sg11
 Nsg12
@@ -11384,7 +11384,7 @@ NtRp1808
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p1810
 sg11
 Nsg12
@@ -11403,7 +11403,7 @@ NtRp1811
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p1813
 sg11
 Nsg12
@@ -11422,7 +11422,7 @@ NtRp1814
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p1816
 sg11
 Nsg12
@@ -11441,7 +11441,7 @@ NtRp1817
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p1819
 sg11
 Nsg12
@@ -11460,7 +11460,7 @@ NtRp1820
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p1822
 sg11
 Nsg12
@@ -11479,7 +11479,7 @@ NtRp1823
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p1825
 sg11
 Nsg12
@@ -11498,7 +11498,7 @@ NtRp1826
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p1828
 sg11
 Nsg12
@@ -11517,7 +11517,7 @@ NtRp1829
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p1831
 sg11
 Nsg12
@@ -11536,7 +11536,7 @@ NtRp1832
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p1834
 sg11
 Nsg12
@@ -11555,7 +11555,7 @@ NtRp1835
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p1837
 sg11
 Nsg12
@@ -11574,7 +11574,7 @@ NtRp1838
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p1840
 sg11
 Nsg12
@@ -11593,7 +11593,7 @@ NtRp1841
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p1843
 sg11
 Nsg12
@@ -11612,7 +11612,7 @@ NtRp1844
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p1846
 sg11
 Nsg12
@@ -11631,7 +11631,7 @@ NtRp1847
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p1849
 sg11
 Nsg12
@@ -11650,7 +11650,7 @@ NtRp1850
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p1852
 sg11
 Nsg12
@@ -11669,7 +11669,7 @@ NtRp1853
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p1855
 sg11
 Nsg12
@@ -11688,7 +11688,7 @@ NtRp1856
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p1858
 sg11
 Nsg12
@@ -11707,7 +11707,7 @@ NtRp1859
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p1861
 sg11
 Nsg12
@@ -11726,7 +11726,7 @@ NtRp1862
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p1864
 sg11
 Nsg12
@@ -11745,7 +11745,7 @@ NtRp1865
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p1867
 sg11
 Nsg12
@@ -11764,7 +11764,7 @@ NtRp1868
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p1870
 sg11
 Nsg12
@@ -11783,7 +11783,7 @@ NtRp1871
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p1873
 sg11
 Nsg12
@@ -11802,7 +11802,7 @@ NtRp1874
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p1876
 sg11
 Nsg12
@@ -11821,7 +11821,7 @@ NtRp1877
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p1879
 sg11
 Nsg12
@@ -11840,7 +11840,7 @@ NtRp1880
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p1882
 sg11
 Nsg12
@@ -11859,7 +11859,7 @@ NtRp1883
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p1885
 sg11
 Nsg12
@@ -11878,7 +11878,7 @@ NtRp1886
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p1888
 sg11
 Nsg12
@@ -11897,7 +11897,7 @@ NtRp1889
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p1891
 sg11
 Nsg12
@@ -11916,7 +11916,7 @@ NtRp1892
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p1894
 sg11
 Nsg12
@@ -11935,7 +11935,7 @@ NtRp1895
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p1897
 sg11
 Nsg12
@@ -11954,7 +11954,7 @@ NtRp1898
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p1900
 sg11
 Nsg12
@@ -11973,7 +11973,7 @@ NtRp1901
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p1903
 sg11
 Nsg12
@@ -11992,7 +11992,7 @@ NtRp1904
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p1906
 sg11
 Nsg12
@@ -12011,7 +12011,7 @@ NtRp1907
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p1909
 sg11
 Nsg12
@@ -12030,7 +12030,7 @@ NtRp1910
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p1912
 sg11
 Nsg12
@@ -12049,7 +12049,7 @@ NtRp1913
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p1915
 sg11
 Nsg12
@@ -12068,7 +12068,7 @@ NtRp1916
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p1918
 sg11
 Nsg12
@@ -12087,7 +12087,7 @@ NtRp1919
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p1921
 sg11
 Nsg12
@@ -12106,7 +12106,7 @@ NtRp1922
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p1924
 sg11
 Nsg12
@@ -12125,7 +12125,7 @@ NtRp1925
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p1927
 sg11
 Nsg12
@@ -12144,7 +12144,7 @@ NtRp1928
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p1930
 sg11
 Nsg12
@@ -12163,7 +12163,7 @@ NtRp1931
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p1933
 sg11
 Nsg12
@@ -12182,7 +12182,7 @@ NtRp1934
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p1936
 sg11
 Nsg12
@@ -12201,7 +12201,7 @@ NtRp1937
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p1939
 sg11
 Nsg12
@@ -12220,7 +12220,7 @@ NtRp1940
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p1942
 sg11
 Nsg12
@@ -12239,7 +12239,7 @@ NtRp1943
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p1945
 sg11
 Nsg12
@@ -12258,7 +12258,7 @@ NtRp1946
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p1948
 sg11
 Nsg12
@@ -12277,7 +12277,7 @@ NtRp1949
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p1951
 sg11
 Nsg12
@@ -12296,7 +12296,7 @@ NtRp1952
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p1954
 sg11
 Nsg12
@@ -12315,7 +12315,7 @@ NtRp1955
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p1957
 sg11
 Nsg12
@@ -12334,7 +12334,7 @@ NtRp1958
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p1960
 sg11
 Nsg12
@@ -12353,7 +12353,7 @@ NtRp1961
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p1963
 sg11
 Nsg12
@@ -12372,7 +12372,7 @@ NtRp1964
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p1966
 sg11
 Nsg12
@@ -12391,7 +12391,7 @@ NtRp1967
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p1969
 sg11
 Nsg12
@@ -12410,7 +12410,7 @@ NtRp1970
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p1972
 sg11
 Nsg12
@@ -12429,7 +12429,7 @@ NtRp1973
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p1975
 sg11
 Nsg12
@@ -12448,7 +12448,7 @@ NtRp1976
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p1978
 sg11
 Nsg12
@@ -12467,7 +12467,7 @@ NtRp1979
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p1981
 sg11
 Nsg12
@@ -12486,7 +12486,7 @@ NtRp1982
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p1984
 sg11
 Nsg12
@@ -12505,7 +12505,7 @@ NtRp1985
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p1987
 sg11
 Nsg12
@@ -12524,7 +12524,7 @@ NtRp1988
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p1990
 sg11
 Nsg12
@@ -12543,7 +12543,7 @@ NtRp1991
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p1993
 sg11
 Nsg12
@@ -12562,7 +12562,7 @@ NtRp1994
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p1996
 sg11
 Nsg12
@@ -12581,7 +12581,7 @@ NtRp1997
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p1999
 sg11
 Nsg12
@@ -12600,7 +12600,7 @@ NtRp2000
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p2002
 sg11
 Nsg12
@@ -12619,7 +12619,7 @@ NtRp2003
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p2005
 sg11
 Nsg12
@@ -12638,7 +12638,7 @@ NtRp2006
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p2008
 sg11
 Nsg12
@@ -12657,7 +12657,7 @@ NtRp2009
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p2011
 sg11
 Nsg12
@@ -12676,7 +12676,7 @@ NtRp2012
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p2014
 sg11
 Nsg12
@@ -12695,7 +12695,7 @@ NtRp2015
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p2017
 sg11
 Nsg12
@@ -12714,7 +12714,7 @@ NtRp2018
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p2020
 sg11
 Nsg12
@@ -12733,7 +12733,7 @@ NtRp2021
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p2023
 sg11
 Nsg12
@@ -12752,7 +12752,7 @@ NtRp2024
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p2026
 sg11
 Nsg12
@@ -12771,7 +12771,7 @@ NtRp2027
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p2029
 sg11
 Nsg12
@@ -12790,7 +12790,7 @@ NtRp2030
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p2032
 sg11
 Nsg12
@@ -12809,7 +12809,7 @@ NtRp2033
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p2035
 sg11
 Nsg12
@@ -12828,7 +12828,7 @@ NtRp2036
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p2038
 sg11
 Nsg12
@@ -12847,7 +12847,7 @@ NtRp2039
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p2041
 sg11
 Nsg12
@@ -12866,7 +12866,7 @@ NtRp2042
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p2044
 sg11
 Nsg12
@@ -12885,7 +12885,7 @@ NtRp2045
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p2047
 sg11
 Nsg12
@@ -12904,7 +12904,7 @@ NtRp2048
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p2050
 sg11
 Nsg12
@@ -12923,7 +12923,7 @@ NtRp2051
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p2053
 sg11
 Nsg12
@@ -12942,7 +12942,7 @@ NtRp2054
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p2056
 sg11
 Nsg12
@@ -12961,7 +12961,7 @@ NtRp2057
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p2059
 sg11
 Nsg12
@@ -12980,7 +12980,7 @@ NtRp2060
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p2062
 sg11
 Nsg12
@@ -12999,7 +12999,7 @@ NtRp2063
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p2065
 sg11
 Nsg12
@@ -13018,7 +13018,7 @@ NtRp2066
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p2068
 sg11
 Nsg12
@@ -13037,7 +13037,7 @@ NtRp2069
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p2071
 sg11
 Nsg12
@@ -13056,7 +13056,7 @@ NtRp2072
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p2074
 sg11
 Nsg12
@@ -13075,7 +13075,7 @@ NtRp2075
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p2077
 sg11
 Nsg12
@@ -13094,7 +13094,7 @@ NtRp2078
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p2080
 sg11
 Nsg12
@@ -13113,7 +13113,7 @@ NtRp2081
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p2083
 sg11
 Nsg12
@@ -13132,7 +13132,7 @@ NtRp2084
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p2086
 sg11
 Nsg12
@@ -13151,7 +13151,7 @@ NtRp2087
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p2089
 sg11
 Nsg12
@@ -13170,7 +13170,7 @@ NtRp2090
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p2092
 sg11
 Nsg12
@@ -13189,7 +13189,7 @@ NtRp2093
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p2095
 sg11
 Nsg12
@@ -13208,7 +13208,7 @@ NtRp2096
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p2098
 sg11
 Nsg12
@@ -13227,7 +13227,7 @@ NtRp2099
 g7
 Nsg8
 Nsg9
-S"Citizen's Holiday"
+V\u56fd\u6c11\u306e\u4f11\u65e5
 p2101
 sg11
 Nsg12
@@ -13246,7 +13246,7 @@ NtRp2102
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p2104
 sg11
 Nsg12
@@ -13265,7 +13265,7 @@ NtRp2105
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p2107
 sg11
 Nsg12
@@ -13284,7 +13284,7 @@ NtRp2108
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p2110
 sg11
 Nsg12
@@ -13303,7 +13303,7 @@ NtRp2111
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p2113
 sg11
 Nsg12
@@ -13322,7 +13322,7 @@ NtRp2114
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p2116
 sg11
 Nsg12
@@ -13341,7 +13341,7 @@ NtRp2117
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p2119
 sg11
 Nsg12
@@ -13360,7 +13360,7 @@ NtRp2120
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p2122
 sg11
 Nsg12
@@ -13379,7 +13379,7 @@ NtRp2123
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p2125
 sg11
 Nsg12
@@ -13398,7 +13398,7 @@ NtRp2126
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p2128
 sg11
 Nsg12
@@ -13417,7 +13417,7 @@ NtRp2129
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p2131
 sg11
 Nsg12
@@ -13436,7 +13436,7 @@ NtRp2132
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p2134
 sg11
 Nsg12
@@ -13455,7 +13455,7 @@ NtRp2135
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p2137
 sg11
 Nsg12
@@ -13474,7 +13474,7 @@ NtRp2138
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p2140
 sg11
 Nsg12
@@ -13493,7 +13493,7 @@ NtRp2141
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p2143
 sg11
 Nsg12
@@ -13512,7 +13512,7 @@ NtRp2144
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p2146
 sg11
 Nsg12
@@ -13531,7 +13531,7 @@ NtRp2147
 g7
 Nsg8
 Nsg9
-S'Mountain Day'
+V\u5c71\u306e\u65e5
 p2149
 sg11
 Nsg12
@@ -13550,7 +13550,7 @@ NtRp2150
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p2152
 sg11
 Nsg12
@@ -13569,7 +13569,7 @@ NtRp2153
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p2155
 sg11
 Nsg12
@@ -13588,7 +13588,7 @@ NtRp2156
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p2158
 sg11
 Nsg12
@@ -13607,7 +13607,7 @@ NtRp2159
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p2161
 sg11
 Nsg12
@@ -13626,7 +13626,7 @@ NtRp2162
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p2164
 sg11
 Nsg12
@@ -13645,7 +13645,7 @@ NtRp2165
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p2167
 sg11
 Nsg12
@@ -13664,7 +13664,7 @@ NtRp2168
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p2170
 sg11
 Nsg12
@@ -13683,7 +13683,7 @@ NtRp2171
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p2173
 sg11
 Nsg12
@@ -13702,7 +13702,7 @@ NtRp2174
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p2176
 sg11
 Nsg12
@@ -13721,7 +13721,7 @@ NtRp2177
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p2179
 sg11
 Nsg12
@@ -13740,7 +13740,7 @@ NtRp2180
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p2182
 sg11
 Nsg12
@@ -13759,7 +13759,7 @@ NtRp2183
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p2185
 sg11
 Nsg12
@@ -13778,7 +13778,7 @@ NtRp2186
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p2188
 sg11
 Nsg12
@@ -13797,7 +13797,7 @@ NtRp2189
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p2191
 sg11
 Nsg12
@@ -13816,7 +13816,7 @@ NtRp2192
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p2194
 sg11
 Nsg12
@@ -13835,7 +13835,7 @@ NtRp2195
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p2197
 sg11
 Nsg12
@@ -13854,7 +13854,7 @@ NtRp2198
 g7
 Nsg8
 Nsg9
-S'Mountain Day'
+V\u5c71\u306e\u65e5
 p2200
 sg11
 Nsg12
@@ -13873,7 +13873,7 @@ NtRp2201
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p2203
 sg11
 Nsg12
@@ -13892,7 +13892,7 @@ NtRp2204
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p2206
 sg11
 Nsg12
@@ -13911,7 +13911,7 @@ NtRp2207
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p2209
 sg11
 Nsg12
@@ -13930,7 +13930,7 @@ NtRp2210
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p2212
 sg11
 Nsg12
@@ -13949,7 +13949,7 @@ NtRp2213
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p2215
 sg11
 Nsg12
@@ -13968,7 +13968,7 @@ NtRp2216
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p2218
 sg11
 Nsg12
@@ -13987,7 +13987,7 @@ NtRp2219
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p2221
 sg11
 Nsg12
@@ -14006,7 +14006,7 @@ NtRp2222
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p2224
 sg11
 Nsg12
@@ -14025,7 +14025,7 @@ NtRp2225
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p2227
 sg11
 Nsg12
@@ -14044,7 +14044,7 @@ NtRp2228
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p2230
 sg11
 Nsg12
@@ -14063,7 +14063,7 @@ NtRp2231
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p2233
 sg11
 Nsg12
@@ -14082,7 +14082,7 @@ NtRp2234
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p2236
 sg11
 Nsg12
@@ -14101,7 +14101,7 @@ NtRp2237
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p2239
 sg11
 Nsg12
@@ -14120,7 +14120,7 @@ NtRp2240
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p2242
 sg11
 Nsg12
@@ -14139,7 +14139,7 @@ NtRp2243
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p2245
 sg11
 Nsg12
@@ -14158,7 +14158,7 @@ NtRp2246
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p2248
 sg11
 Nsg12
@@ -14177,7 +14177,7 @@ NtRp2249
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p2251
 sg11
 Nsg12
@@ -14196,7 +14196,7 @@ NtRp2252
 g7
 Nsg8
 Nsg9
-S'Mountain Day'
+V\u5c71\u306e\u65e5
 p2254
 sg11
 Nsg12
@@ -14215,7 +14215,7 @@ NtRp2255
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p2257
 sg11
 Nsg12
@@ -14234,7 +14234,7 @@ NtRp2258
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p2260
 sg11
 Nsg12
@@ -14253,7 +14253,7 @@ NtRp2261
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p2263
 sg11
 Nsg12
@@ -14272,7 +14272,7 @@ NtRp2264
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p2266
 sg11
 Nsg12
@@ -14291,7 +14291,7 @@ NtRp2267
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p2269
 sg11
 Nsg12
@@ -14310,7 +14310,7 @@ NtRp2270
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p2272
 sg11
 Nsg12
@@ -14329,7 +14329,7 @@ NtRp2273
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p2275
 sg11
 Nsg12
@@ -14348,7 +14348,7 @@ NtRp2276
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p2278
 sg11
 Nsg12
@@ -14367,7 +14367,7 @@ NtRp2279
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p2281
 sg11
 Nsg12
@@ -14386,7 +14386,7 @@ NtRp2282
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p2284
 sg11
 Nsg12
@@ -14405,7 +14405,7 @@ NtRp2285
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p2287
 sg11
 Nsg12
@@ -14424,7 +14424,7 @@ NtRp2288
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p2290
 sg11
 Nsg12
@@ -14443,7 +14443,7 @@ NtRp2291
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p2293
 sg11
 Nsg12
@@ -14462,7 +14462,7 @@ NtRp2294
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p2296
 sg11
 Nsg12
@@ -14481,7 +14481,7 @@ NtRp2297
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p2299
 sg11
 Nsg12
@@ -14500,7 +14500,7 @@ NtRp2300
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p2302
 sg11
 Nsg12
@@ -14519,7 +14519,7 @@ NtRp2303
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p2305
 sg11
 Nsg12
@@ -14538,7 +14538,7 @@ NtRp2306
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p2308
 sg11
 Nsg12
@@ -14557,7 +14557,7 @@ NtRp2309
 g7
 Nsg8
 Nsg9
-S'Mountain Day'
+V\u5c71\u306e\u65e5
 p2311
 sg11
 Nsg12
@@ -14576,7 +14576,7 @@ NtRp2312
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p2314
 sg11
 Nsg12
@@ -14595,7 +14595,7 @@ NtRp2315
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p2317
 sg11
 Nsg12
@@ -14614,7 +14614,7 @@ NtRp2318
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p2320
 sg11
 Nsg12
@@ -14633,7 +14633,7 @@ NtRp2321
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p2323
 sg11
 Nsg12
@@ -14652,7 +14652,7 @@ NtRp2324
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p2326
 sg11
 Nsg12
@@ -14671,7 +14671,7 @@ NtRp2327
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p2329
 sg11
 Nsg12
@@ -14690,7 +14690,7 @@ NtRp2330
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p2332
 sg11
 Nsg12
@@ -14709,7 +14709,7 @@ NtRp2333
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p2335
 sg11
 Nsg12
@@ -14728,7 +14728,7 @@ NtRp2336
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p2338
 sg11
 Nsg12
@@ -14747,7 +14747,7 @@ NtRp2339
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p2341
 sg11
 Nsg12
@@ -14766,7 +14766,7 @@ NtRp2342
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p2344
 sg11
 Nsg12
@@ -14785,7 +14785,7 @@ NtRp2345
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p2347
 sg11
 Nsg12
@@ -14804,7 +14804,7 @@ NtRp2348
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p2350
 sg11
 Nsg12
@@ -14823,7 +14823,7 @@ NtRp2351
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p2353
 sg11
 Nsg12
@@ -14842,7 +14842,7 @@ NtRp2354
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p2356
 sg11
 Nsg12
@@ -14861,7 +14861,7 @@ NtRp2357
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p2359
 sg11
 Nsg12
@@ -14880,7 +14880,7 @@ NtRp2360
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p2362
 sg11
 Nsg12
@@ -14899,7 +14899,7 @@ NtRp2363
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p2365
 sg11
 Nsg12
@@ -14918,7 +14918,7 @@ NtRp2366
 g7
 Nsg8
 Nsg9
-S'Mountain Day'
+V\u5c71\u306e\u65e5
 p2368
 sg11
 Nsg12
@@ -14937,7 +14937,7 @@ NtRp2369
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p2371
 sg11
 Nsg12
@@ -14956,7 +14956,7 @@ NtRp2372
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p2374
 sg11
 Nsg12
@@ -14975,7 +14975,7 @@ NtRp2375
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p2377
 sg11
 Nsg12
@@ -14994,7 +14994,7 @@ NtRp2378
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p2380
 sg11
 Nsg12
@@ -15013,7 +15013,7 @@ NtRp2381
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p2383
 sg11
 Nsg12
@@ -15032,7 +15032,7 @@ NtRp2384
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p2386
 sg11
 Nsg12
@@ -15051,7 +15051,7 @@ NtRp2387
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p2389
 sg11
 Nsg12
@@ -15070,7 +15070,7 @@ NtRp2390
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p2392
 sg11
 Nsg12
@@ -15089,7 +15089,7 @@ NtRp2393
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p2395
 sg11
 Nsg12
@@ -15108,7 +15108,7 @@ NtRp2396
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p2398
 sg11
 Nsg12
@@ -15127,7 +15127,7 @@ NtRp2399
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p2401
 sg11
 Nsg12
@@ -15146,7 +15146,7 @@ NtRp2402
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p2404
 sg11
 Nsg12
@@ -15165,7 +15165,7 @@ NtRp2405
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p2407
 sg11
 Nsg12
@@ -15184,7 +15184,7 @@ NtRp2408
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p2410
 sg11
 Nsg12
@@ -15203,7 +15203,7 @@ NtRp2411
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p2413
 sg11
 Nsg12
@@ -15222,7 +15222,7 @@ NtRp2414
 g7
 Nsg8
 Nsg9
-S'Mountain Day'
+V\u5c71\u306e\u65e5
 p2416
 sg11
 Nsg12
@@ -15241,7 +15241,7 @@ NtRp2417
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p2419
 sg11
 Nsg12
@@ -15260,7 +15260,7 @@ NtRp2420
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p2422
 sg11
 Nsg12
@@ -15279,7 +15279,7 @@ NtRp2423
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p2425
 sg11
 Nsg12
@@ -15298,7 +15298,7 @@ NtRp2426
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p2428
 sg11
 Nsg12
@@ -15317,7 +15317,7 @@ NtRp2429
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p2431
 sg11
 Nsg12
@@ -15336,7 +15336,7 @@ NtRp2432
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p2434
 sg11
 Nsg12
@@ -15355,7 +15355,7 @@ NtRp2435
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p2437
 sg11
 Nsg12
@@ -15374,7 +15374,7 @@ NtRp2438
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p2440
 sg11
 Nsg12
@@ -15393,7 +15393,7 @@ NtRp2441
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p2443
 sg11
 Nsg12
@@ -15412,7 +15412,7 @@ NtRp2444
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p2446
 sg11
 Nsg12
@@ -15431,7 +15431,7 @@ NtRp2447
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p2449
 sg11
 Nsg12
@@ -15450,7 +15450,7 @@ NtRp2450
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p2452
 sg11
 Nsg12
@@ -15469,7 +15469,7 @@ NtRp2453
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p2455
 sg11
 Nsg12
@@ -15488,7 +15488,7 @@ NtRp2456
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p2458
 sg11
 Nsg12
@@ -15507,7 +15507,7 @@ NtRp2459
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p2461
 sg11
 Nsg12
@@ -15526,7 +15526,7 @@ NtRp2462
 g7
 Nsg8
 Nsg9
-S'Mountain Day'
+V\u5c71\u306e\u65e5
 p2464
 sg11
 Nsg12
@@ -15545,7 +15545,7 @@ NtRp2465
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p2467
 sg11
 Nsg12
@@ -15564,7 +15564,7 @@ NtRp2468
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p2470
 sg11
 Nsg12
@@ -15583,7 +15583,7 @@ NtRp2471
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p2473
 sg11
 Nsg12
@@ -15602,7 +15602,7 @@ NtRp2474
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p2476
 sg11
 Nsg12
@@ -15621,7 +15621,7 @@ NtRp2477
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p2479
 sg11
 Nsg12
@@ -15640,7 +15640,7 @@ NtRp2480
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p2482
 sg11
 Nsg12
@@ -15659,7 +15659,7 @@ NtRp2483
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p2485
 sg11
 Nsg12
@@ -15678,7 +15678,7 @@ NtRp2486
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p2488
 sg11
 Nsg12
@@ -15697,7 +15697,7 @@ NtRp2489
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p2491
 sg11
 Nsg12
@@ -15716,7 +15716,7 @@ NtRp2492
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p2494
 sg11
 Nsg12
@@ -15735,7 +15735,7 @@ NtRp2495
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p2497
 sg11
 Nsg12
@@ -15754,7 +15754,7 @@ NtRp2498
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p2500
 sg11
 Nsg12
@@ -15773,7 +15773,7 @@ NtRp2501
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p2503
 sg11
 Nsg12
@@ -15792,7 +15792,7 @@ NtRp2504
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p2506
 sg11
 Nsg12
@@ -15811,7 +15811,7 @@ NtRp2507
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p2509
 sg11
 Nsg12
@@ -15830,7 +15830,7 @@ NtRp2510
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p2512
 sg11
 Nsg12
@@ -15849,7 +15849,7 @@ NtRp2513
 g7
 Nsg8
 Nsg9
-S'Mountain Day'
+V\u5c71\u306e\u65e5
 p2515
 sg11
 Nsg12
@@ -15868,7 +15868,7 @@ NtRp2516
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p2518
 sg11
 Nsg12
@@ -15887,7 +15887,7 @@ NtRp2519
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p2521
 sg11
 Nsg12
@@ -15906,7 +15906,7 @@ NtRp2522
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p2524
 sg11
 Nsg12
@@ -15925,7 +15925,7 @@ NtRp2525
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p2527
 sg11
 Nsg12
@@ -15944,7 +15944,7 @@ NtRp2528
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p2530
 sg11
 Nsg12
@@ -15963,7 +15963,7 @@ NtRp2531
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p2533
 sg11
 Nsg12
@@ -15982,7 +15982,7 @@ NtRp2534
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p2536
 sg11
 Nsg12
@@ -16001,7 +16001,7 @@ NtRp2537
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p2539
 sg11
 Nsg12
@@ -16020,7 +16020,7 @@ NtRp2540
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p2542
 sg11
 Nsg12
@@ -16039,7 +16039,7 @@ NtRp2543
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p2545
 sg11
 Nsg12
@@ -16058,7 +16058,7 @@ NtRp2546
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p2548
 sg11
 Nsg12
@@ -16077,7 +16077,7 @@ NtRp2549
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p2551
 sg11
 Nsg12
@@ -16096,7 +16096,7 @@ NtRp2552
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p2554
 sg11
 Nsg12
@@ -16115,7 +16115,7 @@ NtRp2555
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p2557
 sg11
 Nsg12
@@ -16134,7 +16134,7 @@ NtRp2558
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p2560
 sg11
 Nsg12
@@ -16153,7 +16153,7 @@ NtRp2561
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p2563
 sg11
 Nsg12
@@ -16172,7 +16172,7 @@ NtRp2564
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p2566
 sg11
 Nsg12
@@ -16191,7 +16191,7 @@ NtRp2567
 g7
 Nsg8
 Nsg9
-S'Mountain Day'
+V\u5c71\u306e\u65e5
 p2569
 sg11
 Nsg12
@@ -16210,7 +16210,7 @@ NtRp2570
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p2572
 sg11
 Nsg12
@@ -16229,7 +16229,7 @@ NtRp2573
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p2575
 sg11
 Nsg12
@@ -16248,7 +16248,7 @@ NtRp2576
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p2578
 sg11
 Nsg12
@@ -16267,7 +16267,7 @@ NtRp2579
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p2581
 sg11
 Nsg12
@@ -16286,7 +16286,7 @@ NtRp2582
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p2584
 sg11
 Nsg12
@@ -16305,7 +16305,7 @@ NtRp2585
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p2587
 sg11
 Nsg12
@@ -16324,7 +16324,7 @@ NtRp2588
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p2590
 sg11
 Nsg12
@@ -16343,7 +16343,7 @@ NtRp2591
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p2593
 sg11
 Nsg12
@@ -16362,7 +16362,7 @@ NtRp2594
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p2596
 sg11
 Nsg12
@@ -16381,7 +16381,7 @@ NtRp2597
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p2599
 sg11
 Nsg12
@@ -16400,7 +16400,7 @@ NtRp2600
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p2602
 sg11
 Nsg12
@@ -16419,7 +16419,7 @@ NtRp2603
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p2605
 sg11
 Nsg12
@@ -16438,7 +16438,7 @@ NtRp2606
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p2608
 sg11
 Nsg12
@@ -16457,7 +16457,7 @@ NtRp2609
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p2611
 sg11
 Nsg12
@@ -16476,7 +16476,7 @@ NtRp2612
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p2614
 sg11
 Nsg12
@@ -16495,7 +16495,7 @@ NtRp2615
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p2617
 sg11
 Nsg12
@@ -16514,7 +16514,7 @@ NtRp2618
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p2620
 sg11
 Nsg12
@@ -16533,7 +16533,7 @@ NtRp2621
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p2623
 sg11
 Nsg12
@@ -16552,7 +16552,7 @@ NtRp2624
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p2626
 sg11
 Nsg12
@@ -16571,7 +16571,7 @@ NtRp2627
 g7
 Nsg8
 Nsg9
-S'Mountain Day'
+V\u5c71\u306e\u65e5
 p2629
 sg11
 Nsg12
@@ -16590,7 +16590,7 @@ NtRp2630
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p2632
 sg11
 Nsg12
@@ -16609,7 +16609,7 @@ NtRp2633
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p2635
 sg11
 Nsg12
@@ -16628,7 +16628,7 @@ NtRp2636
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p2638
 sg11
 Nsg12
@@ -16647,7 +16647,7 @@ NtRp2639
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p2641
 sg11
 Nsg12
@@ -16666,7 +16666,7 @@ NtRp2642
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p2644
 sg11
 Nsg12
@@ -16685,7 +16685,7 @@ NtRp2645
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p2647
 sg11
 Nsg12
@@ -16704,7 +16704,7 @@ NtRp2648
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p2650
 sg11
 Nsg12
@@ -16723,7 +16723,7 @@ NtRp2651
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p2653
 sg11
 Nsg12
@@ -16742,7 +16742,7 @@ NtRp2654
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p2656
 sg11
 Nsg12
@@ -16761,7 +16761,7 @@ NtRp2657
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p2659
 sg11
 Nsg12
@@ -16780,7 +16780,7 @@ NtRp2660
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p2662
 sg11
 Nsg12
@@ -16799,7 +16799,7 @@ NtRp2663
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p2665
 sg11
 Nsg12
@@ -16818,7 +16818,7 @@ NtRp2666
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p2668
 sg11
 Nsg12
@@ -16837,7 +16837,7 @@ NtRp2669
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p2671
 sg11
 Nsg12
@@ -16856,7 +16856,7 @@ NtRp2672
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p2674
 sg11
 Nsg12
@@ -16875,7 +16875,7 @@ NtRp2675
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p2677
 sg11
 Nsg12
@@ -16894,7 +16894,7 @@ NtRp2678
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p2680
 sg11
 Nsg12
@@ -16913,7 +16913,7 @@ NtRp2681
 g7
 Nsg8
 Nsg9
-S'Mountain Day'
+V\u5c71\u306e\u65e5
 p2683
 sg11
 Nsg12
@@ -16932,7 +16932,7 @@ NtRp2684
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p2686
 sg11
 Nsg12
@@ -16951,7 +16951,7 @@ NtRp2687
 g7
 Nsg8
 Nsg9
-S"Citizen's Holiday"
+V\u56fd\u6c11\u306e\u4f11\u65e5
 p2689
 sg11
 Nsg12
@@ -16970,7 +16970,7 @@ NtRp2690
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p2692
 sg11
 Nsg12
@@ -16989,7 +16989,7 @@ NtRp2693
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p2695
 sg11
 Nsg12
@@ -17008,7 +17008,7 @@ NtRp2696
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p2698
 sg11
 Nsg12
@@ -17027,7 +17027,7 @@ NtRp2699
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p2701
 sg11
 Nsg12
@@ -17046,7 +17046,7 @@ NtRp2702
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p2704
 sg11
 Nsg12
@@ -17065,7 +17065,7 @@ NtRp2705
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p2707
 sg11
 Nsg12
@@ -17084,7 +17084,7 @@ NtRp2708
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p2710
 sg11
 Nsg12
@@ -17103,7 +17103,7 @@ NtRp2711
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p2713
 sg11
 Nsg12
@@ -17122,7 +17122,7 @@ NtRp2714
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p2716
 sg11
 Nsg12
@@ -17141,7 +17141,7 @@ NtRp2717
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p2719
 sg11
 Nsg12
@@ -17160,7 +17160,7 @@ NtRp2720
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p2722
 sg11
 Nsg12
@@ -17179,7 +17179,7 @@ NtRp2723
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p2725
 sg11
 Nsg12
@@ -17198,7 +17198,7 @@ NtRp2726
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p2728
 sg11
 Nsg12
@@ -17217,7 +17217,7 @@ NtRp2729
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p2731
 sg11
 Nsg12
@@ -17236,7 +17236,7 @@ NtRp2732
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p2734
 sg11
 Nsg12
@@ -17255,7 +17255,7 @@ NtRp2735
 g7
 Nsg8
 Nsg9
-S'Mountain Day'
+V\u5c71\u306e\u65e5
 p2737
 sg11
 Nsg12
@@ -17274,7 +17274,7 @@ NtRp2738
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p2740
 sg11
 Nsg12
@@ -17293,7 +17293,7 @@ NtRp2741
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p2743
 sg11
 Nsg12
@@ -17312,7 +17312,7 @@ NtRp2744
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p2746
 sg11
 Nsg12
@@ -17331,7 +17331,7 @@ NtRp2747
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p2749
 sg11
 Nsg12
@@ -17350,7 +17350,7 @@ NtRp2750
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p2752
 sg11
 Nsg12
@@ -17369,7 +17369,7 @@ NtRp2753
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p2755
 sg11
 Nsg12
@@ -17388,7 +17388,7 @@ NtRp2756
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p2758
 sg11
 Nsg12
@@ -17407,7 +17407,7 @@ NtRp2759
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p2761
 sg11
 Nsg12
@@ -17426,7 +17426,7 @@ NtRp2762
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p2764
 sg11
 Nsg12
@@ -17445,7 +17445,7 @@ NtRp2765
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p2767
 sg11
 Nsg12
@@ -17464,7 +17464,7 @@ NtRp2768
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p2770
 sg11
 Nsg12
@@ -17483,7 +17483,7 @@ NtRp2771
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p2773
 sg11
 Nsg12
@@ -17502,7 +17502,7 @@ NtRp2774
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p2776
 sg11
 Nsg12
@@ -17521,7 +17521,7 @@ NtRp2777
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p2779
 sg11
 Nsg12
@@ -17540,7 +17540,7 @@ NtRp2780
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p2782
 sg11
 Nsg12
@@ -17559,7 +17559,7 @@ NtRp2783
 g7
 Nsg8
 Nsg9
-S'Mountain Day'
+V\u5c71\u306e\u65e5
 p2785
 sg11
 Nsg12
@@ -17578,7 +17578,7 @@ NtRp2786
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p2788
 sg11
 Nsg12
@@ -17597,7 +17597,7 @@ NtRp2789
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p2791
 sg11
 Nsg12
@@ -17616,7 +17616,7 @@ NtRp2792
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p2794
 sg11
 Nsg12
@@ -17635,7 +17635,7 @@ NtRp2795
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p2797
 sg11
 Nsg12
@@ -17654,7 +17654,7 @@ NtRp2798
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p2800
 sg11
 Nsg12
@@ -17673,7 +17673,7 @@ NtRp2801
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p2803
 sg11
 Nsg12
@@ -17692,7 +17692,7 @@ NtRp2804
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p2806
 sg11
 Nsg12
@@ -17711,7 +17711,7 @@ NtRp2807
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p2809
 sg11
 Nsg12
@@ -17730,7 +17730,7 @@ NtRp2810
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p2812
 sg11
 Nsg12
@@ -17749,7 +17749,7 @@ NtRp2813
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p2815
 sg11
 Nsg12
@@ -17768,7 +17768,7 @@ NtRp2816
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p2818
 sg11
 Nsg12
@@ -17787,7 +17787,7 @@ NtRp2819
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p2821
 sg11
 Nsg12
@@ -17806,7 +17806,7 @@ NtRp2822
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p2824
 sg11
 Nsg12
@@ -17825,7 +17825,7 @@ NtRp2825
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p2827
 sg11
 Nsg12
@@ -17844,7 +17844,7 @@ NtRp2828
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p2830
 sg11
 Nsg12
@@ -17863,7 +17863,7 @@ NtRp2831
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p2833
 sg11
 Nsg12
@@ -17882,7 +17882,7 @@ NtRp2834
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p2836
 sg11
 Nsg12
@@ -17901,7 +17901,7 @@ NtRp2837
 g7
 Nsg8
 Nsg9
-S'Mountain Day'
+V\u5c71\u306e\u65e5
 p2839
 sg11
 Nsg12
@@ -17920,7 +17920,7 @@ NtRp2840
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p2842
 sg11
 Nsg12
@@ -17939,7 +17939,7 @@ NtRp2843
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p2845
 sg11
 Nsg12
@@ -17958,7 +17958,7 @@ NtRp2846
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p2848
 sg11
 Nsg12
@@ -17977,7 +17977,7 @@ NtRp2849
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p2851
 sg11
 Nsg12
@@ -17996,7 +17996,7 @@ NtRp2852
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p2854
 sg11
 Nsg12
@@ -18015,7 +18015,7 @@ NtRp2855
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p2857
 sg11
 Nsg12
@@ -18034,7 +18034,7 @@ NtRp2858
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p2860
 sg11
 Nsg12
@@ -18053,7 +18053,7 @@ NtRp2861
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p2863
 sg11
 Nsg12
@@ -18072,7 +18072,7 @@ NtRp2864
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p2866
 sg11
 Nsg12
@@ -18091,7 +18091,7 @@ NtRp2867
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p2869
 sg11
 Nsg12
@@ -18110,7 +18110,7 @@ NtRp2870
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p2872
 sg11
 Nsg12
@@ -18129,7 +18129,7 @@ NtRp2873
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p2875
 sg11
 Nsg12
@@ -18148,7 +18148,7 @@ NtRp2876
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p2878
 sg11
 Nsg12
@@ -18167,7 +18167,7 @@ NtRp2879
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p2881
 sg11
 Nsg12
@@ -18186,7 +18186,7 @@ NtRp2882
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p2884
 sg11
 Nsg12
@@ -18205,7 +18205,7 @@ NtRp2885
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p2887
 sg11
 Nsg12
@@ -18224,7 +18224,7 @@ NtRp2888
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p2890
 sg11
 Nsg12
@@ -18243,7 +18243,7 @@ NtRp2891
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p2893
 sg11
 Nsg12
@@ -18262,7 +18262,7 @@ NtRp2894
 g7
 Nsg8
 Nsg9
-S'Mountain Day'
+V\u5c71\u306e\u65e5
 p2896
 sg11
 Nsg12
@@ -18281,7 +18281,7 @@ NtRp2897
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p2899
 sg11
 Nsg12
@@ -18300,7 +18300,7 @@ NtRp2900
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p2902
 sg11
 Nsg12
@@ -18319,7 +18319,7 @@ NtRp2903
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p2905
 sg11
 Nsg12
@@ -18338,7 +18338,7 @@ NtRp2906
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p2908
 sg11
 Nsg12
@@ -18357,7 +18357,7 @@ NtRp2909
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p2911
 sg11
 Nsg12
@@ -18376,7 +18376,7 @@ NtRp2912
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p2914
 sg11
 Nsg12
@@ -18395,7 +18395,7 @@ NtRp2915
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p2917
 sg11
 Nsg12
@@ -18414,7 +18414,7 @@ NtRp2918
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p2920
 sg11
 Nsg12
@@ -18433,7 +18433,7 @@ NtRp2921
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p2923
 sg11
 Nsg12
@@ -18452,7 +18452,7 @@ NtRp2924
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p2926
 sg11
 Nsg12
@@ -18471,7 +18471,7 @@ NtRp2927
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p2929
 sg11
 Nsg12
@@ -18490,7 +18490,7 @@ NtRp2930
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p2932
 sg11
 Nsg12
@@ -18509,7 +18509,7 @@ NtRp2933
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p2935
 sg11
 Nsg12
@@ -18528,7 +18528,7 @@ NtRp2936
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p2938
 sg11
 Nsg12
@@ -18547,7 +18547,7 @@ NtRp2939
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p2941
 sg11
 Nsg12
@@ -18566,7 +18566,7 @@ NtRp2942
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p2944
 sg11
 Nsg12
@@ -18585,7 +18585,7 @@ NtRp2945
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p2947
 sg11
 Nsg12
@@ -18604,7 +18604,7 @@ NtRp2948
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p2950
 sg11
 Nsg12
@@ -18623,7 +18623,7 @@ NtRp2951
 g7
 Nsg8
 Nsg9
-S'Mountain Day'
+V\u5c71\u306e\u65e5
 p2953
 sg11
 Nsg12
@@ -18642,7 +18642,7 @@ NtRp2954
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p2956
 sg11
 Nsg12
@@ -18661,7 +18661,7 @@ NtRp2957
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p2959
 sg11
 Nsg12
@@ -18680,7 +18680,7 @@ NtRp2960
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p2962
 sg11
 Nsg12
@@ -18699,7 +18699,7 @@ NtRp2963
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p2965
 sg11
 Nsg12
@@ -18718,7 +18718,7 @@ NtRp2966
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p2968
 sg11
 Nsg12
@@ -18737,7 +18737,7 @@ NtRp2969
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p2971
 sg11
 Nsg12
@@ -18756,7 +18756,7 @@ NtRp2972
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p2974
 sg11
 Nsg12
@@ -18775,7 +18775,7 @@ NtRp2975
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p2977
 sg11
 Nsg12
@@ -18794,7 +18794,7 @@ NtRp2978
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p2980
 sg11
 Nsg12
@@ -18813,7 +18813,7 @@ NtRp2981
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p2983
 sg11
 Nsg12
@@ -18832,7 +18832,7 @@ NtRp2984
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p2986
 sg11
 Nsg12
@@ -18851,7 +18851,7 @@ NtRp2987
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p2989
 sg11
 Nsg12
@@ -18870,7 +18870,7 @@ NtRp2990
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p2992
 sg11
 Nsg12
@@ -18889,7 +18889,7 @@ NtRp2993
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p2995
 sg11
 Nsg12
@@ -18908,7 +18908,7 @@ NtRp2996
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p2998
 sg11
 Nsg12
@@ -18927,7 +18927,7 @@ NtRp2999
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p3001
 sg11
 Nsg12
@@ -18946,7 +18946,7 @@ NtRp3002
 g7
 Nsg8
 Nsg9
-S'Mountain Day'
+V\u5c71\u306e\u65e5
 p3004
 sg11
 Nsg12
@@ -18965,7 +18965,7 @@ NtRp3005
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p3007
 sg11
 Nsg12
@@ -18984,7 +18984,7 @@ NtRp3008
 g7
 Nsg8
 Nsg9
-S"Citizen's Holiday"
+V\u56fd\u6c11\u306e\u4f11\u65e5
 p3010
 sg11
 Nsg12
@@ -19003,7 +19003,7 @@ NtRp3011
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p3013
 sg11
 Nsg12
@@ -19022,7 +19022,7 @@ NtRp3014
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p3016
 sg11
 Nsg12
@@ -19041,7 +19041,7 @@ NtRp3017
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p3019
 sg11
 Nsg12
@@ -19060,7 +19060,7 @@ NtRp3020
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p3022
 sg11
 Nsg12
@@ -19079,7 +19079,7 @@ NtRp3023
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p3025
 sg11
 Nsg12
@@ -19098,7 +19098,7 @@ NtRp3026
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p3028
 sg11
 Nsg12
@@ -19117,7 +19117,7 @@ NtRp3029
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p3031
 sg11
 Nsg12
@@ -19136,7 +19136,7 @@ NtRp3032
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p3034
 sg11
 Nsg12
@@ -19155,7 +19155,7 @@ NtRp3035
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p3037
 sg11
 Nsg12
@@ -19174,7 +19174,7 @@ NtRp3038
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p3040
 sg11
 Nsg12
@@ -19193,7 +19193,7 @@ NtRp3041
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p3043
 sg11
 Nsg12
@@ -19212,7 +19212,7 @@ NtRp3044
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p3046
 sg11
 Nsg12
@@ -19231,7 +19231,7 @@ NtRp3047
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p3049
 sg11
 Nsg12
@@ -19250,7 +19250,7 @@ NtRp3050
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p3052
 sg11
 Nsg12
@@ -19269,7 +19269,7 @@ NtRp3053
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p3055
 sg11
 Nsg12
@@ -19288,7 +19288,7 @@ NtRp3056
 g7
 Nsg8
 Nsg9
-S'Mountain Day'
+V\u5c71\u306e\u65e5
 p3058
 sg11
 Nsg12
@@ -19307,7 +19307,7 @@ NtRp3059
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p3061
 sg11
 Nsg12
@@ -19326,7 +19326,7 @@ NtRp3062
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p3064
 sg11
 Nsg12
@@ -19345,7 +19345,7 @@ NtRp3065
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p3067
 sg11
 Nsg12
@@ -19364,7 +19364,7 @@ NtRp3068
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p3070
 sg11
 Nsg12
@@ -19383,7 +19383,7 @@ NtRp3071
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p3073
 sg11
 Nsg12
@@ -19402,7 +19402,7 @@ NtRp3074
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p3076
 sg11
 Nsg12
@@ -19421,7 +19421,7 @@ NtRp3077
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p3079
 sg11
 Nsg12
@@ -19440,7 +19440,7 @@ NtRp3080
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p3082
 sg11
 Nsg12
@@ -19459,7 +19459,7 @@ NtRp3083
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p3085
 sg11
 Nsg12
@@ -19478,7 +19478,7 @@ NtRp3086
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p3088
 sg11
 Nsg12
@@ -19497,7 +19497,7 @@ NtRp3089
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p3091
 sg11
 Nsg12
@@ -19516,7 +19516,7 @@ NtRp3092
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p3094
 sg11
 Nsg12
@@ -19535,7 +19535,7 @@ NtRp3095
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p3097
 sg11
 Nsg12
@@ -19554,7 +19554,7 @@ NtRp3098
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p3100
 sg11
 Nsg12
@@ -19573,7 +19573,7 @@ NtRp3101
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p3103
 sg11
 Nsg12
@@ -19592,7 +19592,7 @@ NtRp3104
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p3106
 sg11
 Nsg12
@@ -19611,7 +19611,7 @@ NtRp3107
 g7
 Nsg8
 Nsg9
-S'Mountain Day'
+V\u5c71\u306e\u65e5
 p3109
 sg11
 Nsg12
@@ -19630,7 +19630,7 @@ NtRp3110
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p3112
 sg11
 Nsg12
@@ -19649,7 +19649,7 @@ NtRp3113
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p3115
 sg11
 Nsg12
@@ -19668,7 +19668,7 @@ NtRp3116
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p3118
 sg11
 Nsg12
@@ -19687,7 +19687,7 @@ NtRp3119
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p3121
 sg11
 Nsg12
@@ -19706,7 +19706,7 @@ NtRp3122
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p3124
 sg11
 Nsg12
@@ -19725,7 +19725,7 @@ NtRp3125
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p3127
 sg11
 Nsg12
@@ -19744,7 +19744,7 @@ NtRp3128
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p3130
 sg11
 Nsg12
@@ -19763,7 +19763,7 @@ NtRp3131
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p3133
 sg11
 Nsg12
@@ -19782,7 +19782,7 @@ NtRp3134
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p3136
 sg11
 Nsg12
@@ -19801,7 +19801,7 @@ NtRp3137
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p3139
 sg11
 Nsg12
@@ -19820,7 +19820,7 @@ NtRp3140
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p3142
 sg11
 Nsg12
@@ -19839,7 +19839,7 @@ NtRp3143
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p3145
 sg11
 Nsg12
@@ -19858,7 +19858,7 @@ NtRp3146
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p3148
 sg11
 Nsg12
@@ -19877,7 +19877,7 @@ NtRp3149
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p3151
 sg11
 Nsg12
@@ -19896,7 +19896,7 @@ NtRp3152
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p3154
 sg11
 Nsg12
@@ -19915,7 +19915,7 @@ NtRp3155
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p3157
 sg11
 Nsg12
@@ -19934,7 +19934,7 @@ NtRp3158
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p3160
 sg11
 Nsg12
@@ -19953,7 +19953,7 @@ NtRp3161
 g7
 Nsg8
 Nsg9
-S'Mountain Day'
+V\u5c71\u306e\u65e5
 p3163
 sg11
 Nsg12
@@ -19972,7 +19972,7 @@ NtRp3164
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p3166
 sg11
 Nsg12
@@ -19991,7 +19991,7 @@ NtRp3167
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p3169
 sg11
 Nsg12
@@ -20010,7 +20010,7 @@ NtRp3170
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p3172
 sg11
 Nsg12
@@ -20029,7 +20029,7 @@ NtRp3173
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p3175
 sg11
 Nsg12
@@ -20048,7 +20048,7 @@ NtRp3176
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p3178
 sg11
 Nsg12
@@ -20067,7 +20067,7 @@ NtRp3179
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p3181
 sg11
 Nsg12
@@ -20086,7 +20086,7 @@ NtRp3182
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p3184
 sg11
 Nsg12
@@ -20105,7 +20105,7 @@ NtRp3185
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p3187
 sg11
 Nsg12
@@ -20124,7 +20124,7 @@ NtRp3188
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p3190
 sg11
 Nsg12
@@ -20143,7 +20143,7 @@ NtRp3191
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p3193
 sg11
 Nsg12
@@ -20162,7 +20162,7 @@ NtRp3194
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p3196
 sg11
 Nsg12
@@ -20181,7 +20181,7 @@ NtRp3197
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p3199
 sg11
 Nsg12
@@ -20200,7 +20200,7 @@ NtRp3200
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p3202
 sg11
 Nsg12
@@ -20219,7 +20219,7 @@ NtRp3203
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p3205
 sg11
 Nsg12
@@ -20238,7 +20238,7 @@ NtRp3206
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p3208
 sg11
 Nsg12
@@ -20257,7 +20257,7 @@ NtRp3209
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p3211
 sg11
 Nsg12
@@ -20276,7 +20276,7 @@ NtRp3212
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p3214
 sg11
 Nsg12
@@ -20295,7 +20295,7 @@ NtRp3215
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p3217
 sg11
 Nsg12
@@ -20314,7 +20314,7 @@ NtRp3218
 g7
 Nsg8
 Nsg9
-S'Mountain Day'
+V\u5c71\u306e\u65e5
 p3220
 sg11
 Nsg12
@@ -20333,7 +20333,7 @@ NtRp3221
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p3223
 sg11
 Nsg12
@@ -20352,7 +20352,7 @@ NtRp3224
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p3226
 sg11
 Nsg12
@@ -20371,7 +20371,7 @@ NtRp3227
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p3229
 sg11
 Nsg12
@@ -20390,7 +20390,7 @@ NtRp3230
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p3232
 sg11
 Nsg12
@@ -20409,7 +20409,7 @@ NtRp3233
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p3235
 sg11
 Nsg12
@@ -20428,7 +20428,7 @@ NtRp3236
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p3238
 sg11
 Nsg12
@@ -20447,7 +20447,7 @@ NtRp3239
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p3241
 sg11
 Nsg12
@@ -20466,7 +20466,7 @@ NtRp3242
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p3244
 sg11
 Nsg12
@@ -20485,7 +20485,7 @@ NtRp3245
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p3247
 sg11
 Nsg12
@@ -20504,7 +20504,7 @@ NtRp3248
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p3250
 sg11
 Nsg12
@@ -20523,7 +20523,7 @@ NtRp3251
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p3253
 sg11
 Nsg12
@@ -20542,7 +20542,7 @@ NtRp3254
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p3256
 sg11
 Nsg12
@@ -20561,7 +20561,7 @@ NtRp3257
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p3259
 sg11
 Nsg12
@@ -20580,7 +20580,7 @@ NtRp3260
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p3262
 sg11
 Nsg12
@@ -20599,7 +20599,7 @@ NtRp3263
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p3265
 sg11
 Nsg12
@@ -20618,7 +20618,7 @@ NtRp3266
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p3268
 sg11
 Nsg12
@@ -20637,7 +20637,7 @@ NtRp3269
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p3271
 sg11
 Nsg12
@@ -20656,7 +20656,7 @@ NtRp3272
 g7
 Nsg8
 Nsg9
-S'Mountain Day'
+V\u5c71\u306e\u65e5
 p3274
 sg11
 Nsg12
@@ -20675,7 +20675,7 @@ NtRp3275
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p3277
 sg11
 Nsg12
@@ -20694,7 +20694,7 @@ NtRp3278
 g7
 Nsg8
 Nsg9
-S"Citizen's Holiday"
+V\u56fd\u6c11\u306e\u4f11\u65e5
 p3280
 sg11
 Nsg12
@@ -20713,7 +20713,7 @@ NtRp3281
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p3283
 sg11
 Nsg12
@@ -20732,7 +20732,7 @@ NtRp3284
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p3286
 sg11
 Nsg12
@@ -20751,7 +20751,7 @@ NtRp3287
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p3289
 sg11
 Nsg12
@@ -20770,7 +20770,7 @@ NtRp3290
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p3292
 sg11
 Nsg12
@@ -20789,7 +20789,7 @@ NtRp3293
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p3295
 sg11
 Nsg12
@@ -20808,7 +20808,7 @@ NtRp3296
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p3298
 sg11
 Nsg12
@@ -20827,7 +20827,7 @@ NtRp3299
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p3301
 sg11
 Nsg12
@@ -20846,7 +20846,7 @@ NtRp3302
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p3304
 sg11
 Nsg12
@@ -20865,7 +20865,7 @@ NtRp3305
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p3307
 sg11
 Nsg12
@@ -20884,7 +20884,7 @@ NtRp3308
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p3310
 sg11
 Nsg12
@@ -20903,7 +20903,7 @@ NtRp3311
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p3313
 sg11
 Nsg12
@@ -20922,7 +20922,7 @@ NtRp3314
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p3316
 sg11
 Nsg12
@@ -20941,7 +20941,7 @@ NtRp3317
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p3319
 sg11
 Nsg12
@@ -20960,7 +20960,7 @@ NtRp3320
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p3322
 sg11
 Nsg12
@@ -20979,7 +20979,7 @@ NtRp3323
 g7
 Nsg8
 Nsg9
-S'Mountain Day'
+V\u5c71\u306e\u65e5
 p3325
 sg11
 Nsg12
@@ -20998,7 +20998,7 @@ NtRp3326
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p3328
 sg11
 Nsg12
@@ -21017,7 +21017,7 @@ NtRp3329
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p3331
 sg11
 Nsg12
@@ -21036,7 +21036,7 @@ NtRp3332
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p3334
 sg11
 Nsg12
@@ -21055,7 +21055,7 @@ NtRp3335
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p3337
 sg11
 Nsg12
@@ -21074,7 +21074,7 @@ NtRp3338
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p3340
 sg11
 Nsg12
@@ -21093,7 +21093,7 @@ NtRp3341
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p3343
 sg11
 Nsg12
@@ -21112,7 +21112,7 @@ NtRp3344
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p3346
 sg11
 Nsg12
@@ -21131,7 +21131,7 @@ NtRp3347
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p3349
 sg11
 Nsg12
@@ -21150,7 +21150,7 @@ NtRp3350
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p3352
 sg11
 Nsg12
@@ -21169,7 +21169,7 @@ NtRp3353
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p3355
 sg11
 Nsg12
@@ -21188,7 +21188,7 @@ NtRp3356
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p3358
 sg11
 Nsg12
@@ -21207,7 +21207,7 @@ NtRp3359
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p3361
 sg11
 Nsg12
@@ -21226,7 +21226,7 @@ NtRp3362
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p3364
 sg11
 Nsg12
@@ -21245,7 +21245,7 @@ NtRp3365
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p3367
 sg11
 Nsg12
@@ -21264,7 +21264,7 @@ NtRp3368
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p3370
 sg11
 Nsg12
@@ -21283,7 +21283,7 @@ NtRp3371
 g7
 Nsg8
 Nsg9
-S'Mountain Day'
+V\u5c71\u306e\u65e5
 p3373
 sg11
 Nsg12
@@ -21302,7 +21302,7 @@ NtRp3374
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p3376
 sg11
 Nsg12
@@ -21321,7 +21321,7 @@ NtRp3377
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p3379
 sg11
 Nsg12
@@ -21340,7 +21340,7 @@ NtRp3380
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p3382
 sg11
 Nsg12
@@ -21359,7 +21359,7 @@ NtRp3383
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p3385
 sg11
 Nsg12
@@ -21378,7 +21378,7 @@ NtRp3386
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p3388
 sg11
 Nsg12
@@ -21397,7 +21397,7 @@ NtRp3389
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p3391
 sg11
 Nsg12
@@ -21416,7 +21416,7 @@ NtRp3392
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p3394
 sg11
 Nsg12
@@ -21435,7 +21435,7 @@ NtRp3395
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p3397
 sg11
 Nsg12
@@ -21454,7 +21454,7 @@ NtRp3398
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p3400
 sg11
 Nsg12
@@ -21473,7 +21473,7 @@ NtRp3401
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p3403
 sg11
 Nsg12
@@ -21492,7 +21492,7 @@ NtRp3404
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p3406
 sg11
 Nsg12
@@ -21511,7 +21511,7 @@ NtRp3407
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p3409
 sg11
 Nsg12
@@ -21530,7 +21530,7 @@ NtRp3410
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p3412
 sg11
 Nsg12
@@ -21549,7 +21549,7 @@ NtRp3413
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p3415
 sg11
 Nsg12
@@ -21568,7 +21568,7 @@ NtRp3416
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p3418
 sg11
 Nsg12
@@ -21587,7 +21587,7 @@ NtRp3419
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p3421
 sg11
 Nsg12
@@ -21606,7 +21606,7 @@ NtRp3422
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p3424
 sg11
 Nsg12
@@ -21625,7 +21625,7 @@ NtRp3425
 g7
 Nsg8
 Nsg9
-S'Mountain Day'
+V\u5c71\u306e\u65e5
 p3427
 sg11
 Nsg12
@@ -21644,7 +21644,7 @@ NtRp3428
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p3430
 sg11
 Nsg12
@@ -21663,7 +21663,7 @@ NtRp3431
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p3433
 sg11
 Nsg12
@@ -21682,7 +21682,7 @@ NtRp3434
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p3436
 sg11
 Nsg12
@@ -21701,7 +21701,7 @@ NtRp3437
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p3439
 sg11
 Nsg12
@@ -21720,7 +21720,7 @@ NtRp3440
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p3442
 sg11
 Nsg12
@@ -21739,7 +21739,7 @@ NtRp3443
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p3445
 sg11
 Nsg12
@@ -21758,7 +21758,7 @@ NtRp3446
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p3448
 sg11
 Nsg12
@@ -21777,7 +21777,7 @@ NtRp3449
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p3451
 sg11
 Nsg12
@@ -21796,7 +21796,7 @@ NtRp3452
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p3454
 sg11
 Nsg12
@@ -21815,7 +21815,7 @@ NtRp3455
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p3457
 sg11
 Nsg12
@@ -21834,7 +21834,7 @@ NtRp3458
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p3460
 sg11
 Nsg12
@@ -21853,7 +21853,7 @@ NtRp3461
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p3463
 sg11
 Nsg12
@@ -21872,7 +21872,7 @@ NtRp3464
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p3466
 sg11
 Nsg12
@@ -21891,7 +21891,7 @@ NtRp3467
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p3469
 sg11
 Nsg12
@@ -21910,7 +21910,7 @@ NtRp3470
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p3472
 sg11
 Nsg12
@@ -21929,7 +21929,7 @@ NtRp3473
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p3475
 sg11
 Nsg12
@@ -21948,7 +21948,7 @@ NtRp3476
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p3478
 sg11
 Nsg12
@@ -21967,7 +21967,7 @@ NtRp3479
 g7
 Nsg8
 Nsg9
-S'Mountain Day'
+V\u5c71\u306e\u65e5
 p3481
 sg11
 Nsg12
@@ -21986,7 +21986,7 @@ NtRp3482
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p3484
 sg11
 Nsg12
@@ -22005,7 +22005,7 @@ NtRp3485
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p3487
 sg11
 Nsg12
@@ -22024,7 +22024,7 @@ NtRp3488
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p3490
 sg11
 Nsg12
@@ -22043,7 +22043,7 @@ NtRp3491
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p3493
 sg11
 Nsg12
@@ -22062,7 +22062,7 @@ NtRp3494
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p3496
 sg11
 Nsg12
@@ -22081,7 +22081,7 @@ NtRp3497
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p3499
 sg11
 Nsg12
@@ -22100,7 +22100,7 @@ NtRp3500
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p3502
 sg11
 Nsg12
@@ -22119,7 +22119,7 @@ NtRp3503
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p3505
 sg11
 Nsg12
@@ -22138,7 +22138,7 @@ NtRp3506
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p3508
 sg11
 Nsg12
@@ -22157,7 +22157,7 @@ NtRp3509
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p3511
 sg11
 Nsg12
@@ -22176,7 +22176,7 @@ NtRp3512
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p3514
 sg11
 Nsg12
@@ -22195,7 +22195,7 @@ NtRp3515
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p3517
 sg11
 Nsg12
@@ -22214,7 +22214,7 @@ NtRp3518
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p3520
 sg11
 Nsg12
@@ -22233,7 +22233,7 @@ NtRp3521
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p3523
 sg11
 Nsg12
@@ -22252,7 +22252,7 @@ NtRp3524
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p3526
 sg11
 Nsg12
@@ -22271,7 +22271,7 @@ NtRp3527
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p3529
 sg11
 Nsg12
@@ -22290,7 +22290,7 @@ NtRp3530
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p3532
 sg11
 Nsg12
@@ -22309,7 +22309,7 @@ NtRp3533
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p3535
 sg11
 Nsg12
@@ -22328,7 +22328,7 @@ NtRp3536
 g7
 Nsg8
 Nsg9
-S'Mountain Day'
+V\u5c71\u306e\u65e5
 p3538
 sg11
 Nsg12
@@ -22347,7 +22347,7 @@ NtRp3539
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p3541
 sg11
 Nsg12
@@ -22366,7 +22366,7 @@ NtRp3542
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p3544
 sg11
 Nsg12
@@ -22385,7 +22385,7 @@ NtRp3545
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p3547
 sg11
 Nsg12
@@ -22404,7 +22404,7 @@ NtRp3548
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p3550
 sg11
 Nsg12
@@ -22423,7 +22423,7 @@ NtRp3551
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p3553
 sg11
 Nsg12
@@ -22442,7 +22442,7 @@ NtRp3554
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p3556
 sg11
 Nsg12
@@ -22461,7 +22461,7 @@ NtRp3557
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p3559
 sg11
 Nsg12
@@ -22480,7 +22480,7 @@ NtRp3560
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p3562
 sg11
 Nsg12
@@ -22499,7 +22499,7 @@ NtRp3563
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p3565
 sg11
 Nsg12
@@ -22518,7 +22518,7 @@ NtRp3566
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p3568
 sg11
 Nsg12
@@ -22537,7 +22537,7 @@ NtRp3569
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p3571
 sg11
 Nsg12
@@ -22556,7 +22556,7 @@ NtRp3572
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p3574
 sg11
 Nsg12
@@ -22575,7 +22575,7 @@ NtRp3575
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p3577
 sg11
 Nsg12
@@ -22594,7 +22594,7 @@ NtRp3578
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p3580
 sg11
 Nsg12
@@ -22613,7 +22613,7 @@ NtRp3581
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p3583
 sg11
 Nsg12
@@ -22632,7 +22632,7 @@ NtRp3584
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p3586
 sg11
 Nsg12
@@ -22651,7 +22651,7 @@ NtRp3587
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p3589
 sg11
 Nsg12
@@ -22670,7 +22670,7 @@ NtRp3590
 g7
 Nsg8
 Nsg9
-S'Mountain Day'
+V\u5c71\u306e\u65e5
 p3592
 sg11
 Nsg12
@@ -22689,7 +22689,7 @@ NtRp3593
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p3595
 sg11
 Nsg12
@@ -22708,7 +22708,7 @@ NtRp3596
 g7
 Nsg8
 Nsg9
-S"Citizen's Holiday"
+V\u56fd\u6c11\u306e\u4f11\u65e5
 p3598
 sg11
 Nsg12
@@ -22727,7 +22727,7 @@ NtRp3599
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p3601
 sg11
 Nsg12
@@ -22746,7 +22746,7 @@ NtRp3602
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p3604
 sg11
 Nsg12
@@ -22765,7 +22765,7 @@ NtRp3605
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p3607
 sg11
 Nsg12
@@ -22784,7 +22784,7 @@ NtRp3608
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p3610
 sg11
 Nsg12
@@ -22803,7 +22803,7 @@ NtRp3611
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p3613
 sg11
 Nsg12
@@ -22822,7 +22822,7 @@ NtRp3614
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p3616
 sg11
 Nsg12
@@ -22841,7 +22841,7 @@ NtRp3617
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p3619
 sg11
 Nsg12
@@ -22860,7 +22860,7 @@ NtRp3620
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p3622
 sg11
 Nsg12
@@ -22879,7 +22879,7 @@ NtRp3623
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p3625
 sg11
 Nsg12
@@ -22898,7 +22898,7 @@ NtRp3626
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p3628
 sg11
 Nsg12
@@ -22917,7 +22917,7 @@ NtRp3629
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p3631
 sg11
 Nsg12
@@ -22936,7 +22936,7 @@ NtRp3632
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p3634
 sg11
 Nsg12
@@ -22955,7 +22955,7 @@ NtRp3635
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p3637
 sg11
 Nsg12
@@ -22974,7 +22974,7 @@ NtRp3638
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p3640
 sg11
 Nsg12
@@ -22993,7 +22993,7 @@ NtRp3641
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p3643
 sg11
 Nsg12
@@ -23012,7 +23012,7 @@ NtRp3644
 g7
 Nsg8
 Nsg9
-S'Mountain Day'
+V\u5c71\u306e\u65e5
 p3646
 sg11
 Nsg12
@@ -23031,7 +23031,7 @@ NtRp3647
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p3649
 sg11
 Nsg12
@@ -23050,7 +23050,7 @@ NtRp3650
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p3652
 sg11
 Nsg12
@@ -23069,7 +23069,7 @@ NtRp3653
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p3655
 sg11
 Nsg12
@@ -23088,7 +23088,7 @@ NtRp3656
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p3658
 sg11
 Nsg12
@@ -23107,7 +23107,7 @@ NtRp3659
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p3661
 sg11
 Nsg12
@@ -23126,7 +23126,7 @@ NtRp3662
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p3664
 sg11
 Nsg12
@@ -23145,7 +23145,7 @@ NtRp3665
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p3667
 sg11
 Nsg12
@@ -23164,7 +23164,7 @@ NtRp3668
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p3670
 sg11
 Nsg12
@@ -23183,7 +23183,7 @@ NtRp3671
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p3673
 sg11
 Nsg12
@@ -23202,7 +23202,7 @@ NtRp3674
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p3676
 sg11
 Nsg12
@@ -23221,7 +23221,7 @@ NtRp3677
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p3679
 sg11
 Nsg12
@@ -23240,7 +23240,7 @@ NtRp3680
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p3682
 sg11
 Nsg12
@@ -23259,7 +23259,7 @@ NtRp3683
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p3685
 sg11
 Nsg12
@@ -23278,7 +23278,7 @@ NtRp3686
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p3688
 sg11
 Nsg12
@@ -23297,7 +23297,7 @@ NtRp3689
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p3691
 sg11
 Nsg12
@@ -23316,7 +23316,7 @@ NtRp3692
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p3694
 sg11
 Nsg12
@@ -23335,7 +23335,7 @@ NtRp3695
 g7
 Nsg8
 Nsg9
-S'Mountain Day'
+V\u5c71\u306e\u65e5
 p3697
 sg11
 Nsg12
@@ -23354,7 +23354,7 @@ NtRp3698
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p3700
 sg11
 Nsg12
@@ -23373,7 +23373,7 @@ NtRp3701
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p3703
 sg11
 Nsg12
@@ -23392,7 +23392,7 @@ NtRp3704
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p3706
 sg11
 Nsg12
@@ -23411,7 +23411,7 @@ NtRp3707
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p3709
 sg11
 Nsg12
@@ -23430,7 +23430,7 @@ NtRp3710
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p3712
 sg11
 Nsg12
@@ -23449,7 +23449,7 @@ NtRp3713
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p3715
 sg11
 Nsg12
@@ -23468,7 +23468,7 @@ NtRp3716
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p3718
 sg11
 Nsg12
@@ -23487,7 +23487,7 @@ NtRp3719
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p3721
 sg11
 Nsg12
@@ -23506,7 +23506,7 @@ NtRp3722
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p3724
 sg11
 Nsg12
@@ -23525,7 +23525,7 @@ NtRp3725
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p3727
 sg11
 Nsg12
@@ -23544,7 +23544,7 @@ NtRp3728
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p3730
 sg11
 Nsg12
@@ -23563,7 +23563,7 @@ NtRp3731
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p3733
 sg11
 Nsg12
@@ -23582,7 +23582,7 @@ NtRp3734
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p3736
 sg11
 Nsg12
@@ -23601,7 +23601,7 @@ NtRp3737
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p3739
 sg11
 Nsg12
@@ -23620,7 +23620,7 @@ NtRp3740
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p3742
 sg11
 Nsg12
@@ -23639,7 +23639,7 @@ NtRp3743
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p3745
 sg11
 Nsg12
@@ -23658,7 +23658,7 @@ NtRp3746
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p3748
 sg11
 Nsg12
@@ -23677,7 +23677,7 @@ NtRp3749
 g7
 Nsg8
 Nsg9
-S'Mountain Day'
+V\u5c71\u306e\u65e5
 p3751
 sg11
 Nsg12
@@ -23696,7 +23696,7 @@ NtRp3752
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p3754
 sg11
 Nsg12
@@ -23715,7 +23715,7 @@ NtRp3755
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p3757
 sg11
 Nsg12
@@ -23734,7 +23734,7 @@ NtRp3758
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p3760
 sg11
 Nsg12
@@ -23753,7 +23753,7 @@ NtRp3761
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p3763
 sg11
 Nsg12
@@ -23772,7 +23772,7 @@ NtRp3764
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p3766
 sg11
 Nsg12
@@ -23791,7 +23791,7 @@ NtRp3767
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p3769
 sg11
 Nsg12
@@ -23810,7 +23810,7 @@ NtRp3770
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p3772
 sg11
 Nsg12
@@ -23829,7 +23829,7 @@ NtRp3773
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p3775
 sg11
 Nsg12
@@ -23848,7 +23848,7 @@ NtRp3776
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p3778
 sg11
 Nsg12
@@ -23867,7 +23867,7 @@ NtRp3779
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p3781
 sg11
 Nsg12
@@ -23886,7 +23886,7 @@ NtRp3782
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p3784
 sg11
 Nsg12
@@ -23905,7 +23905,7 @@ NtRp3785
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p3787
 sg11
 Nsg12
@@ -23924,7 +23924,7 @@ NtRp3788
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p3790
 sg11
 Nsg12
@@ -23943,7 +23943,7 @@ NtRp3791
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p3793
 sg11
 Nsg12
@@ -23962,7 +23962,7 @@ NtRp3794
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p3796
 sg11
 Nsg12
@@ -23981,7 +23981,7 @@ NtRp3797
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p3799
 sg11
 Nsg12
@@ -24000,7 +24000,7 @@ NtRp3800
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p3802
 sg11
 Nsg12
@@ -24019,7 +24019,7 @@ NtRp3803
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p3805
 sg11
 Nsg12
@@ -24038,7 +24038,7 @@ NtRp3806
 g7
 Nsg8
 Nsg9
-S'Mountain Day'
+V\u5c71\u306e\u65e5
 p3808
 sg11
 Nsg12
@@ -24057,7 +24057,7 @@ NtRp3809
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p3811
 sg11
 Nsg12
@@ -24076,7 +24076,7 @@ NtRp3812
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p3814
 sg11
 Nsg12
@@ -24095,7 +24095,7 @@ NtRp3815
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p3817
 sg11
 Nsg12
@@ -24114,7 +24114,7 @@ NtRp3818
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p3820
 sg11
 Nsg12
@@ -24133,7 +24133,7 @@ NtRp3821
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p3823
 sg11
 Nsg12
@@ -24152,7 +24152,7 @@ NtRp3824
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p3826
 sg11
 Nsg12
@@ -24171,7 +24171,7 @@ NtRp3827
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p3829
 sg11
 Nsg12
@@ -24190,7 +24190,7 @@ NtRp3830
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p3832
 sg11
 Nsg12
@@ -24209,7 +24209,7 @@ NtRp3833
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p3835
 sg11
 Nsg12
@@ -24228,7 +24228,7 @@ NtRp3836
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p3838
 sg11
 Nsg12
@@ -24247,7 +24247,7 @@ NtRp3839
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p3841
 sg11
 Nsg12
@@ -24266,7 +24266,7 @@ NtRp3842
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p3844
 sg11
 Nsg12
@@ -24285,7 +24285,7 @@ NtRp3845
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p3847
 sg11
 Nsg12
@@ -24304,7 +24304,7 @@ NtRp3848
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p3850
 sg11
 Nsg12
@@ -24323,7 +24323,7 @@ NtRp3851
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p3853
 sg11
 Nsg12
@@ -24342,7 +24342,7 @@ NtRp3854
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p3856
 sg11
 Nsg12
@@ -24361,7 +24361,7 @@ NtRp3857
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p3859
 sg11
 Nsg12
@@ -24380,7 +24380,7 @@ NtRp3860
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p3862
 sg11
 Nsg12
@@ -24399,7 +24399,7 @@ NtRp3863
 g7
 Nsg8
 Nsg9
-S'Mountain Day'
+V\u5c71\u306e\u65e5
 p3865
 sg11
 Nsg12
@@ -24418,7 +24418,7 @@ NtRp3866
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p3868
 sg11
 Nsg12
@@ -24437,7 +24437,7 @@ NtRp3869
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p3871
 sg11
 Nsg12
@@ -24456,7 +24456,7 @@ NtRp3872
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p3874
 sg11
 Nsg12
@@ -24475,7 +24475,7 @@ NtRp3875
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p3877
 sg11
 Nsg12
@@ -24494,7 +24494,7 @@ NtRp3878
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p3880
 sg11
 Nsg12
@@ -24513,7 +24513,7 @@ NtRp3881
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p3883
 sg11
 Nsg12
@@ -24532,7 +24532,7 @@ NtRp3884
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p3886
 sg11
 Nsg12
@@ -24551,7 +24551,7 @@ NtRp3887
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p3889
 sg11
 Nsg12
@@ -24570,7 +24570,7 @@ NtRp3890
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p3892
 sg11
 Nsg12
@@ -24589,7 +24589,7 @@ NtRp3893
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p3895
 sg11
 Nsg12
@@ -24608,7 +24608,7 @@ NtRp3896
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p3898
 sg11
 Nsg12
@@ -24627,7 +24627,7 @@ NtRp3899
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p3901
 sg11
 Nsg12
@@ -24646,7 +24646,7 @@ NtRp3902
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p3904
 sg11
 Nsg12
@@ -24665,7 +24665,7 @@ NtRp3905
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p3907
 sg11
 Nsg12
@@ -24684,7 +24684,7 @@ NtRp3908
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p3910
 sg11
 Nsg12
@@ -24703,7 +24703,7 @@ NtRp3911
 g7
 Nsg8
 Nsg9
-S'Mountain Day'
+V\u5c71\u306e\u65e5
 p3913
 sg11
 Nsg12
@@ -24722,7 +24722,7 @@ NtRp3914
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p3916
 sg11
 Nsg12
@@ -24741,7 +24741,7 @@ NtRp3917
 g7
 Nsg8
 Nsg9
-S"Citizen's Holiday"
+V\u56fd\u6c11\u306e\u4f11\u65e5
 p3919
 sg11
 Nsg12
@@ -24760,7 +24760,7 @@ NtRp3920
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p3922
 sg11
 Nsg12
@@ -24779,7 +24779,7 @@ NtRp3923
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p3925
 sg11
 Nsg12
@@ -24798,7 +24798,7 @@ NtRp3926
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p3928
 sg11
 Nsg12
@@ -24817,7 +24817,7 @@ NtRp3929
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p3931
 sg11
 Nsg12
@@ -24836,7 +24836,7 @@ NtRp3932
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p3934
 sg11
 Nsg12
@@ -24855,7 +24855,7 @@ NtRp3935
 g7
 Nsg8
 Nsg9
-S"New Year's Day"
+V\u5143\u65e5
 p3937
 sg11
 Nsg12
@@ -24874,7 +24874,7 @@ NtRp3938
 g7
 Nsg8
 Nsg9
-S'Coming of Age Day'
+V\u6210\u4eba\u306e\u65e5
 p3940
 sg11
 Nsg12
@@ -24893,7 +24893,7 @@ NtRp3941
 g7
 Nsg8
 Nsg9
-S'National Foundation Day'
+V\u5efa\u56fd\u8a18\u5ff5\u306e\u65e5
 p3943
 sg11
 Nsg12
@@ -24912,7 +24912,7 @@ NtRp3944
 g7
 Nsg8
 Nsg9
-S'Vernal Equinox Day'
+V\u6625\u5206\u306e\u65e5
 p3946
 sg11
 Nsg12
@@ -24931,7 +24931,7 @@ NtRp3947
 g7
 Nsg8
 Nsg9
-S'Holiday in lieu'
+V\u632f\u66ff\u4f11\u65e5
 p3949
 sg11
 Nsg12
@@ -24950,7 +24950,7 @@ NtRp3950
 g7
 Nsg8
 Nsg9
-S'Showa Day'
+V\u662d\u548c\u306e\u65e5
 p3952
 sg11
 Nsg12
@@ -24969,7 +24969,7 @@ NtRp3953
 g7
 Nsg8
 Nsg9
-S'Constitution Memorial Day'
+V\u61b2\u6cd5\u8a18\u5ff5\u65e5
 p3955
 sg11
 Nsg12
@@ -24988,7 +24988,7 @@ NtRp3956
 g7
 Nsg8
 Nsg9
-S'Greenery Day'
+V\u307f\u3069\u308a\u306e\u65e5
 p3958
 sg11
 Nsg12
@@ -25007,7 +25007,7 @@ NtRp3959
 g7
 Nsg8
 Nsg9
-S"Children's Day"
+V\u3053\u3069\u3082\u306e\u65e5
 p3961
 sg11
 Nsg12
@@ -25026,7 +25026,7 @@ NtRp3962
 g7
 Nsg8
 Nsg9
-S'Marine Day'
+V\u6d77\u306e\u65e5
 p3964
 sg11
 Nsg12
@@ -25045,7 +25045,7 @@ NtRp3965
 g7
 Nsg8
 Nsg9
-S'Mountain Day'
+V\u5c71\u306e\u65e5
 p3967
 sg11
 Nsg12
@@ -25064,7 +25064,7 @@ NtRp3968
 g7
 Nsg8
 Nsg9
-S'Respect for the Aged Day'
+V\u656c\u8001\u306e\u65e5
 p3970
 sg11
 Nsg12
@@ -25083,7 +25083,7 @@ NtRp3971
 g7
 Nsg8
 Nsg9
-S'Autumnal Equinox Day'
+V\u79cb\u5206\u306e\u65e5
 p3973
 sg11
 Nsg12
@@ -25102,7 +25102,7 @@ NtRp3974
 g7
 Nsg8
 Nsg9
-S'Health and Sports Day'
+V\u4f53\u80b2\u306e\u65e5
 p3976
 sg11
 Nsg12
@@ -25121,7 +25121,7 @@ NtRp3977
 g7
 Nsg8
 Nsg9
-S'National Culture Day'
+V\u6587\u5316\u306e\u65e5
 p3979
 sg11
 Nsg12
@@ -25140,7 +25140,7 @@ NtRp3980
 g7
 Nsg8
 Nsg9
-S'Labor Thanksgiving Day'
+V\u52e4\u52b4\u611f\u8b1d\u306e\u65e5
 p3982
 sg11
 Nsg12
@@ -25159,7 +25159,7 @@ NtRp3983
 g7
 Nsg8
 Nsg9
-S"Emperor's Birthday"
+V\u5929\u7687\u8a95\u751f\u65e5
 p3985
 sg11
 Nsg12
