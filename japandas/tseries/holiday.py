@@ -11,11 +11,16 @@ import pandas.util.testing as tm
 
 current_dir = os.path.dirname(__file__)
 data_path = os.path.join(current_dir, 'data', 'holidays.pkl')
+
 if os.path.exists(data_path):
     f = open(data_path, mode='r')
     rules = compat.cPickle.load(f)
 
-    class JapaneseHolidayCalendar(holiday.AbstractHolidayCalendar):
+elif __name__ != '__main__':
+    raise ImportError("'holidays.pkl' ファイルが読み込めませんでした")
+
+
+class JapaneseHolidayCalendar(holiday.AbstractHolidayCalendar):
         rules = rules
 
 
