@@ -74,7 +74,6 @@ class TestCalendar(tm.TestCase):
         tm.assert_equal(dt + cday, datetime.datetime(2014, 5, 7))
 
         dt = datetime.datetime(2014, 5, 6)
-        cday = pd.offsets.CDay(calendar=calendar)
         tm.assert_equal(dt - cday, datetime.datetime(2014, 5, 2))
         tm.assert_equal(dt + cday, datetime.datetime(2014, 5, 7))
 
