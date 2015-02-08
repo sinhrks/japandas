@@ -1,6 +1,7 @@
 setuptools
 requests
 lxml
+html5lib
 beautifulsoup4
 pandas>=0.14.0
 IPython>=2.3

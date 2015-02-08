@@ -13,11 +13,11 @@ current_dir = os.path.dirname(__file__)
 data_path = os.path.join(current_dir, 'data', 'holidays.pkl')
 
 if os.path.exists(data_path):
-    f = open(data_path, mode='r')
+    f = open(data_path, mode='rb')
     rules = compat.cPickle.load(f)
 
 elif __name__ != '__main__':
-    raise ImportError("'holidays.pkl' ファイルが読み込めませんでした")
+    raise ImportError("Unable to load 'holidays.pkl'")
 
 
 class JapaneseHolidayCalendar(holiday.AbstractHolidayCalendar):
