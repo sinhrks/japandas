@@ -1,3 +1,5 @@
 setuptools
+lxml
+beautifulsoup4
 pandas >= 0.14.0
 matplotlib

@@ -1,5 +1,7 @@
 setuptools
 requests
+lxml
+beautifulsoup4
 pandas>=0.14.0
 IPython>=2.3
 matplotlib>=1.4.0
