@@ -8,6 +8,10 @@ import pandas as pd
 import pandas.io.data as web
 
 
+_ohlc_columns_jp = ['始値', '高値', '安値', '終値', '出来高', '調整後終値*']
+_ohlc_columns_en = ['Open', 'High', 'Low', 'Close', 'Volume', 'Adj Close']
+
+
 def get_quote_yahoojp(code, start=None, end=None, interval='d', en=False):
     base = 'http://info.finance.yahoo.co.jp/history/?code={0}.T&{1}&{2}&tm={3}&p={4}'
     start, end = web._sanitize_dates(start, end)
@@ -29,7 +33,7 @@ def get_quote_yahoojp(code, start=None, end=None, interval='d', en=False):
     result = pd.concat(results, ignore_index=True)
 
     if en:
-        result.columns = ['Date', 'Open', 'High', 'Low', 'Close', 'Volume', 'Adj Close']
+        result.columns = ['Date'] + _ohlc_columns_en
         dtkey = 'Date'
     else:
         dtkey = '日付'

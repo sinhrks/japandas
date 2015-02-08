@@ -6,15 +6,16 @@ from __future__ import unicode_literals
 import pandas as pd
 import pandas.compat as compat
 import pandas.util.testing as tm
+from pandas.tests.test_graphics import TestPlotBase, _check_plot_works
 
 import japandas as jpd
 
 
-class TestDataReader(tm.TestCase):
+class TestDataReader(TestPlotBase):
 
     def test_to_yahoojp(self):
         idx = pd.DatetimeIndex(['2014-10-01', '2014-10-02', '2014-10-03'], name='日付')
-        columns = ['始値', '高値', '安値', '終値', '出来高', '調整後終値*']
+        columns = jpd.io.data._ohlc_columns_jp
         expected = pd.DataFrame({'始値': [6450, 6370, 6231],
                                  '高値': [6559, 6423, 6309],
                                  '安値': [6435, 6256, 6217],
@@ -25,6 +26,7 @@ class TestDataReader(tm.TestCase):
 
         df = jpd.DataReader(7203, 'yahoojp', start='2014-10-01', end='2014-10-05')
         tm.assert_frame_equal(df, expected)
+        _check_plot_works(df.plot, kind='ohlc')
 
         df = jpd.DataReader(7203, 'yahoojp', start='2014-10-01',
                             end='2014-10-05', interval='d')
@@ -62,17 +64,18 @@ class TestDataReader(tm.TestCase):
 
     def test_data_yahoojp_en(self):
         idx = pd.DatetimeIndex(['2014-10-01', '2014-10-02', '2014-10-03'], name='Date')
-        columns = ['Open', 'High', 'Low', 'Close', 'Volume', 'Adj Close']
-        expected = pd.DataFrame({'始値': [6450, 6370, 6231],
-                                 '高値': [6559, 6423, 6309],
-                                 '安値': [6435, 6256, 6217],
-                                 '終値': [6500, 6275, 6290],
-                                 '出来高': [14482100, 15240200, 10280100],
-                                 '調整後終値*': [6500, 6275, 6290]},
+        columns = jpd.io.data._ohlc_columns_en
+        expected = pd.DataFrame({'Open': [6450, 6370, 6231],
+                                 'High': [6559, 6423, 6309],
+                                 'Low': [6435, 6256, 6217],
+                                 'Close': [6500, 6275, 6290],
+                                 'Volume': [14482100, 15240200, 10280100],
+                                 'Adj Close': [6500, 6275, 6290]},
                                 index=idx, columns=columns)
 
         df = jpd.DataReader(7203, 'yahoojp', start='2014-10-01', end='2014-10-05', en=True)
         tm.assert_frame_equal(df, expected)
+        _check_plot_works(df.plot, kind='ohlc')
 
 
 if __name__ == '__main__':

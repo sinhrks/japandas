@@ -5,13 +5,15 @@ from __future__ import unicode_literals
 
 import numpy as np
 import pandas as pd
-
 import pandas.tools.plotting as plotting
+
+from japandas.io.data import _ohlc_columns_jp, _ohlc_columns_en
 
 
 class OhlcPlot(plotting.LinePlot):
     ohlc_cols = pd.Index(['open', 'high', 'low', 'close'])
-    reader_cols = pd.Index(['Open', 'High', 'Low', 'Close', 'Volume', 'Adj Close'])
+    reader_cols_en = pd.Index(_ohlc_columns_en)
+    reader_cols_jp = pd.Index(_ohlc_columns_jp)
 
     def __init__(self, data, **kwargs):
         data = data.copy()
@@ -21,12 +23,16 @@ class OhlcPlot(plotting.LinePlot):
             data = data.resample(self.freq, how='ohlc')
         assert isinstance(data, pd.DataFrame)
         assert isinstance(data.index, pd.DatetimeIndex)
+
         if data.columns.equals(self.ohlc_cols):
             data.columns = [c.title() for c in data.columns]
-        elif data.columns.equals(self.reader_cols):
+        elif data.columns.equals(self.reader_cols_jp):
+            data.columns = self.reader_cols_en
+        elif data.columns.equals(self.reader_cols_en):
             pass
         else:
-            raise ValueError('data is not ohlc-like')
+
+            raise ValueError('data is not ohlc-like:')
         data = data[['Open', 'Close', 'High', 'Low']]
         plotting.LinePlot.__init__(self, data, **kwargs)
 
