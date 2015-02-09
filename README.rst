@@ -13,10 +13,11 @@ Overview
 
 pandas japanese extension.
 
-pandas の日本語拡張。以下 4 つの機能を提供する。
+pandas の日本語拡張。以下 5 つの機能を提供する。
 
 - 日本語の日付のパース
 - 日本の祝日カレンダーと、それを利用した営業日計算
+- Unicode正規化, 全角/半角変換
 - Yahoo! ファイナンスからの日本の株式情報取得
 - ローソク足チャート
 
@@ -62,6 +63,32 @@ pandas の日本語拡張。以下 4 つの機能を提供する。
     >>> datetime.datetime(2014, 5, 3) - cday
     # 5/3は土曜日
     Timestamp('2014-05-02 00:00:00')
+
+
+Unicode正規化, 全角/半角変換
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+.. code-block:: python
+
+    >>> s = pd.Series(['1', '2', '3'])
+    >>> s.str.normalize()
+    0    1
+    1    2
+    2    3
+    dtype: object
+
+    >>> z = s.str.h2z()
+    >>> z
+    0    １
+    1    ２
+    2    ３
+    dtype: object
+
+    >>> z.str.z2h()
+    0    1
+    1    2
+    2    3
+    dtype: object
 
 
 Yahoo! ファイナンスからの日本の株式情報取得
