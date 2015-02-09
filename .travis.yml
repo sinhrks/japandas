@@ -5,7 +5,7 @@ python:
   - "3.4"
           
 install: 
-  - "pip install . --use-mirrors"
+  - "pip install -r requirements_test.txt"
 
 script: nosetests
 

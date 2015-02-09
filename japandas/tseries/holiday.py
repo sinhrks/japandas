@@ -21,7 +21,12 @@ elif __name__ != '__main__':
 
 
 class JapaneseHolidayCalendar(holiday.AbstractHolidayCalendar):
-        rules = rules
+    rules = rules
+
+
+# register to pandas factory
+holiday.register(JapaneseHolidayCalendar)
+
 
 
 if __name__ == '__main__':
@@ -42,7 +47,7 @@ if __name__ == '__main__':
         value = data[key]
 
         dt = value['date']
-        h = holiday.Holiday(value['name_en'], dt.year, month=dt.month, day=dt.day)
+        h = holiday.Holiday(value['name'], dt.year, month=dt.month, day=dt.day)
         rules.append(h)
 
     w = open(data_path, mode='w')
