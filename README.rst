@@ -11,7 +11,7 @@ japandas
 Overview
 ~~~~~~~~
 
-pandas japanese extension.
+pandas Japanese extension.
 
 pandas の日本語拡張。以下 5 つの機能を提供する。
 
