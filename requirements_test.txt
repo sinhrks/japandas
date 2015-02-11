@@ -3,6 +3,6 @@ requests
 lxml
 html5lib
 beautifulsoup4
-pandas>=0.14.0
+pandas>=0.15.0
 IPython>=2.3
 matplotlib>=1.4.0
