@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+import japandas.core.strings
 import japandas.io.data
 from japandas.io.data import DataReader
 from japandas.tseries.tools import to_datetime

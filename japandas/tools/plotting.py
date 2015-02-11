@@ -68,7 +68,8 @@ class OhlcPlot(plotting.LinePlot):
             ax.xaxis.set_major_formatter(AutoDateFormatter(locator))
 
 
-plotting._all_kinds.append('ohlc')
-plotting._common_kinds.append('ohlc')
-plotting._plot_klass['ohlc'] = OhlcPlot
+if 'ohlc' not in plotting._plot_klass:
+    plotting._all_kinds.append('ohlc')
+    plotting._common_kinds.append('ohlc')
+    plotting._plot_klass['ohlc'] = OhlcPlot
 
