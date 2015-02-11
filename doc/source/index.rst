@@ -11,12 +11,15 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   jpdatetime
+   jpstrings
+   jpdatareader
 
 
-Indices and tables
-==================
+API:
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. toctree::
+   :maxdepth: 2
+
+   generated/japandas
 
