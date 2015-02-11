@@ -35,6 +35,8 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.coverage',
     'sphinx.ext.viewcode',
+    'IPython.sphinxext.ipython_directive',
+    'IPython.sphinxext.ipython_console_highlighting'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -44,7 +46,7 @@ templates_path = ['_templates']
 source_suffix = '.rst'
 
 # The encoding of source files.
-#source_encoding = 'utf-8-sig'
+source_encoding = 'utf-8-sig'
 
 # The master toctree document.
 master_doc = 'index'
@@ -267,3 +269,10 @@ texinfo_documents = [
 
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {'http://docs.python.org/': None}
+
+# -- Build API doc ----------------------------------------------------------
+
+fpath = os.path.dirname(__file__)
+gen_path = os.path.join(fpath, 'generated')
+app_path = os.path.join(os.path.dirname(os.path.dirname(fpath)), 'japandas')
+os.system('sphinx-apidoc -f -o {0} {1}'.format(gen_path, app_path))

@@ -237,6 +237,14 @@ class TestStrings(tm.TestCase):
         empty_str = pd.Series(dtype=str)
         tm.assert_series_equal(empty_str.str.normalize(), empty_str)
 
+    def test_normalize_format(self):
+        import unicodedata
+        values = [u'ｱｲｳｴｵ', u'ｶｷｸｹｺ', u'ｶﾞｷﾞｸﾞｹﾞｺﾞ', u'ＡＢＣＤＥ']
+        for format in ['NFD', 'NFC', 'NFKD', 'NFKC']:
+            result = pd.Series(values).str.normalize(format).tolist()
+            expected = [unicodedata.normalize(format, v) for v in values]
+            tm.assert_equal(result, expected)
+
 
 if __name__ == '__main__':
     import nose

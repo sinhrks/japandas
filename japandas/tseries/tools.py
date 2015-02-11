@@ -54,4 +54,38 @@ def to_datetime(arg, box=True, format=None, **kwargs):
     return result
 
 
+def date_range(start=None, end=None, **kwargs):
+    start = to_datetime(start)
+    end = to_datetime(end)
+    return pd.date_range(start=start, end=end, **kwargs)
+
+
+def period_range(start=None, end=None, **kwargs):
+    start = to_datetime(start)
+    end = to_datetime(end)
+    return pd.period_range(start=start, end=end, **kwargs)
+
+
 to_datetime.__doc__ = pd.to_datetime.__doc__
+date_range.__doc__ = pd.date_range.__doc__
+period_range.__doc__ = pd.period_range.__doc__
+
+
+"""
+try:
+    import pandas.tseries.timedeltas as timedeltas
+    abbrevs = [('d' ,'days|d|day|日'),
+               ('h' ,'hours|h|hour|時間'),
+               ('m' ,'minutes|min|minute|m|分'),
+               ('s' ,'seconds|sec|second|s|秒'),
+               ('ms','milliseconds|milli|millis|millisecond|ms'),
+               ('us','microseconds|micro|micros|microsecond|us'),
+               ('ns','nanoseconds|nano|nanos|nanosecond|ns')]
+    timedeltas.abbrevs = abbrevs
+except Exception:
+    pass
+"""
+
+
+
+

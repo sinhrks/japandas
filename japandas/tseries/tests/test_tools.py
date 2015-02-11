@@ -41,6 +41,25 @@ class TestTools(tm.TestCase):
             tm.assert_numpy_array_equal(result, expected)
 
 
+    def test_date_range(self):
+        result = jpd.date_range(start='2013年11月15日', end='2014年12月18日', freq='D')
+        expected = pd.date_range(start='2013-11-15', end='2014-12-18', freq='D')
+        tm.assert_index_equal(result, expected)
+
+        result = jpd.date_range(start='2014年1月15日09時25分', end='2014年1月18日10時45分', freq='M')
+        expected = pd.date_range(start='2014-01-15 09:25', end='2014-01-18 10:45', freq='M')
+        tm.assert_index_equal(result, expected)
+
+    def test_period_range(self):
+        result = jpd.period_range(start='2013年11月15日', end='2014年12月18日', freq='D')
+        expected = pd.period_range(start='2013-11-15', end='2014-12-18', freq='D')
+        tm.assert_index_equal(result, expected)
+
+        result = jpd.period_range(start='2014年1月15日09時25分', end='2014年1月18日10時45分', freq='M')
+        expected = pd.period_range(start='2014-01-15 09:25', end='2014-01-18 10:45', freq='M')
+        tm.assert_index_equal(result, expected)
+
+
 if __name__ == '__main__':
     import nose
     nose.runmodule(argv=[__file__, '-vvs', '-x', '--pdb', '--pdb-failure'],

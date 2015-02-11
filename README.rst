@@ -70,24 +70,21 @@ Unicode正規化, 全角/半角変換
 
 .. code-block:: python
 
-    >>> s = pd.Series(['1', '2', '3'])
+    >>> s = pd.Series([u'ｱｲｳｴｵ', u'ｶｷｸｹｺ'])
     >>> s.str.normalize()
-    0    1
-    1    2
-    2    3
+    0    アイウエオ
+    1    カキクケコ
     dtype: object
 
     >>> z = s.str.h2z()
     >>> z
-    0    １
-    1    ２
-    2    ３
+    0    アイウエオ
+    1    カキクケコ
     dtype: object
 
     >>> z.str.z2h()
-    0    1
-    1    2
-    2    3
+    0    ｱｲｳｴｵ
+    1    ｶｷｸｹｺ
     dtype: object
 
 

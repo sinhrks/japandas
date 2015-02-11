@@ -3,10 +3,10 @@
 
 from __future__ import unicode_literals
 
-import unicodedata
+from unicodedata import normalize
 
 import pandas as pd
-import pandas.compat as compat
+from pandas.compat import PY3, iteritems, u_safe, reduce
 import pandas.core.common as com
 
 import pandas.core.strings as strings
@@ -26,17 +26,17 @@ _ZSYMBOL = '！＂＃＄％＆＇（）＊＋，－．／：；＜＝＞？＠�
 _ZDIGIT = '０１２３４５６７８９'
 
 # mapping from full-width to half width
-_KANA_MAPPER = {unicodedata.normalize('NFKC', c): c for c in _HKANA}
-_ALPHA_MAPPER = {c: unicodedata.normalize('NFKC', c) for c in _ZALPHA}
-_DIGIT_MAPPER = {c: unicodedata.normalize('NFKC', c) for c in _ZDIGIT}
-_SYMBOL_MAPPER = {c: unicodedata.normalize('NFKC', c) for c in _ZSYMBOL}
+_KANA_MAPPER = {normalize('NFKC', c): c for c in _HKANA}
+_ALPHA_MAPPER = {c: normalize('NFKC', c) for c in _ZALPHA}
+_DIGIT_MAPPER = {c: normalize('NFKC', c) for c in _ZDIGIT}
+_SYMBOL_MAPPER = {c: normalize('NFKC', c) for c in _ZSYMBOL}
 
 
 def _reverse_dict(dict):
-    return {v: k for k, v in compat.iteritems(dict)}
+    return {v: k for k, v in iteritems(dict)}
 
 def _ord_dict(dict):
-    return {ord(k): v for k, v in compat.iteritems(dict)}
+    return {ord(k): v for k, v in iteritems(dict)}
 
 
 # for unicode.translate
@@ -51,18 +51,18 @@ _H2Z_SYMBOL = _ord_dict(_reverse_dict(_SYMBOL_MAPPER))
 
 
 # for multiple replace
-_Z2H_SOUNDMARK = {unicodedata.normalize('NFKC', c): c for c in _HSOUNDMARK}
+_Z2H_SOUNDMARK = {normalize('NFKC', c): c for c in _HSOUNDMARK}
 _H2Z_SOUNDMARK = _reverse_dict(_Z2H_SOUNDMARK)
 
 
 def _h2z_sm(text):
-    return compat.reduce(lambda t, kv: t.replace(*kv),
-                         compat.iteritems(_H2Z_SOUNDMARK), text)
+    return reduce(lambda t, kv: t.replace(*kv),
+                  iteritems(_H2Z_SOUNDMARK), text)
 
 
 def _z2h_sm(text):
-    return compat.reduce(lambda t, kv: t.replace(*kv),
-                         compat.iteritems(_Z2H_SOUNDMARK), text)
+    return reduce(lambda t, kv: t.replace(*kv),
+                  iteritems(_Z2H_SOUNDMARK), text)
 
 
 def str_z2h(self, kana=True, alpha=True, digit=True, symbol=True):
@@ -77,16 +77,17 @@ def str_z2h(self, kana=True, alpha=True, digit=True, symbol=True):
         mapper.update(_Z2H_SYMBOL)
 
     if kana:
-        if compat.PY3:
+        if PY3:
             f = lambda x: _z2h_sm(x).translate(mapper)
         else:
-            f = lambda x: _z2h_sm(compat.u_safe(x)).translate(mapper)
+            f = lambda x: _z2h_sm(u_safe(x)).translate(mapper)
     else:
-        if compat.PY3:
+        if PY3:
             f = lambda x: x.translate(mapper)
         else:
-            f = lambda x: compat.u_safe(x).translate(mapper)
+            f = lambda x: u_safe(x).translate(mapper)
     return self._wrap_result(strings._na_map(f, self.series))
+
 
 def str_h2z(self, kana=True, alpha=True, digit=True, symbol=True):
     mapper = dict()
@@ -100,23 +101,23 @@ def str_h2z(self, kana=True, alpha=True, digit=True, symbol=True):
         mapper.update(_H2Z_SYMBOL)
 
     if kana:
-        if compat.PY3:
+        if PY3:
             f = lambda x: _h2z_sm(x).translate(mapper)
         else:
-            f = lambda x: _h2z_sm(compat.u_safe(x)).translate(mapper)
+            f = lambda x: _h2z_sm(u_safe(x)).translate(mapper)
     else:
-        if compat.PY3:
+        if PY3:
             f = lambda x: x.translate(mapper)
         else:
-            f = lambda x: compat.u_safe(x).translate(mapper)
+            f = lambda x: u_safe(x).translate(mapper)
     return self._wrap_result(strings._na_map(f, self.series))
 
 
 def str_normalize(self, form='NFKC'):
-    if compat.PY3:
-        f = lambda x: unicodedata.normalize(form, x)
+    if PY3:
+        f = lambda x: normalize(form, x)
     else:
-        f = lambda x: unicodedata.normalize(form, compat.u_safe(x))
+        f = lambda x: normalize(form, u_safe(x))
     return self._wrap_result(strings._na_map(f, self.series))
 
 
