@@ -12,7 +12,7 @@ REQUIREMENTS = 'requirements.txt'
 # required modules for test and doc build
 REQUIREMENTS_TEST = 'requirements_test.txt'
 
-VERSION = '0.0.1'
+VERSION = '0.0.2dev'
 
 def read(fname):
   # file must be read as utf-8 in py3 to avoid to be bytes
