@@ -56,13 +56,29 @@ _H2Z_SOUNDMARK = _reverse_dict(_Z2H_SOUNDMARK)
 
 
 def _h2z_sm(text):
-    return reduce(lambda t, kv: t.replace(*kv),
-                  iteritems(_H2Z_SOUNDMARK), text)
+    return (text.replace("ｶﾞ", "ガ").replace("ｷﾞ", "ギ").replace("ｸﾞ", "グ").replace("ｹﾞ", "ゲ").
+            replace("ｺﾞ", "ゴ").replace("ｻﾞ", "ザ").replace("ｼﾞ", "ジ").replace("ｽﾞ", "ズ").
+            replace("ｾﾞ", "ゼ").replace("ｿﾞ", "ゾ").replace("ﾀﾞ", "ダ").replace("ﾁﾞ", "ヂ").
+            replace("ﾂﾞ", "ヅ").replace("ﾃﾞ", "デ").replace("ﾄﾞ", "ド").replace("ﾊﾞ", "バ").
+            replace("ﾋﾞ", "ビ").replace("ﾌﾞ", "ブ").replace("ﾍﾞ", "ベ").replace("ﾎﾞ", "ボ").
+            replace("ﾊﾟ", "パ").replace("ﾋﾟ", "ピ").replace("ﾌﾟ", "プ").replace("ﾍﾟ", "ペ").
+            replace("ﾎﾟ", "ポ").replace("ｳﾞ", "ヴ"))
 
+    # for k, v in iteritems(_H2Z_SOUNDMARK):
+    #     text = text.replace(k, v)
+    # return text
+
+    # return reduce(lambda t, kv: t.replace(*kv),
+    #               iteritems(_H2Z_SOUNDMARK), text)
 
 def _z2h_sm(text):
-    return reduce(lambda t, kv: t.replace(*kv),
-                  iteritems(_Z2H_SOUNDMARK), text)
+    return (text.replace("ガ", "ｶﾞ").replace("ギ", "ｷﾞ").replace("グ", "ｸﾞ").replace("ゲ", "ｹﾞ").
+            replace("ゴ", "ｺﾞ").replace("ザ", "ｻﾞ").replace("ジ", "ｼﾞ").replace("ズ", "ｽﾞ").
+            replace("ゼ", "ｾﾞ").replace("ゾ", "ｿﾞ").replace("ダ", "ﾀﾞ").replace("ヂ", "ﾁﾞ").
+            replace("ヅ", "ﾂﾞ").replace("デ", "ﾃﾞ").replace("ド", "ﾄﾞ").replace("バ", "ﾊﾞ").
+            replace("ビ", "ﾋﾞ").replace("ブ", "ﾌﾞ").replace("ベ", "ﾍﾞ").replace("ボ", "ﾎﾞ").
+            replace("パ", "ﾊﾟ").replace("ピ", "ﾋﾟ").replace("プ", "ﾌﾟ").replace("ペ", "ﾍﾟ").
+            replace("ポ", "ﾎﾟ").replace("ヴ", "ｳﾞ"))
 
 
 def str_z2h(self, kana=True, alpha=True, digit=True, symbol=True):
