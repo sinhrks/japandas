@@ -12,7 +12,7 @@ REQUIREMENTS = 'requirements.txt'
 # required modules for test and doc build
 REQUIREMENTS_TEST = 'requirements_test.txt'
 
-VERSION = '0.0.2dev'
+VERSION = '0.0.2'
 
 def read(fname):
   # file must be read as utf-8 in py3 to avoid to be bytes
@@ -40,5 +40,12 @@ setup(name=PACKAGE,
       url='http://japandas.readthedocs.org',
       license = 'BSD',
       packages=find_packages(),
-      install_requires=list(read(REQUIREMENTS).splitlines()))
+      package_data = {
+        'japandas.tseries': ['data/*.pkl'],
+      },
+
+      install_requires=['setuptools', 'pandas >= 0.15.0']
+      # list(read(REQUIREMENTS).splitlines())
+      )
+
 

@@ -3,6 +3,8 @@
 
 from __future__ import unicode_literals
 
+import time
+
 import numpy as np
 import pandas as pd
 import pandas.io.data as web
@@ -10,6 +12,9 @@ import pandas.io.data as web
 
 _ohlc_columns_jp = ['始値', '高値', '安値', '終値', '出来高', '調整後終値*']
 _ohlc_columns_en = ['Open', 'High', 'Low', 'Close', 'Volume', 'Adj Close']
+
+
+_SLEEP_TIME = 0.5
 
 
 def get_quote_yahoojp(code, start=None, end=None, interval='d', en=False):
@@ -30,6 +35,7 @@ def get_quote_yahoojp(code, start=None, end=None, interval='d', en=False):
             break
         results.append(tables[1])
         p += 1
+        time.sleep(_SLEEP_TIME)
     result = pd.concat(results, ignore_index=True)
 
     if en:
