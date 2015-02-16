@@ -1,10 +1,9 @@
+# -*- coding: utf-8 -*-
 #!/usr/bin/env python
 
 import codecs
 import os
 from setuptools import setup, find_packages
-
-
 
 PACKAGE = 'japandas'
 README = 'README.rst'
@@ -28,7 +27,7 @@ version = '%s'
     finally:
         a.close()
 
-version_file = os.path.join(os.path.dirname(__file__), 'japandas', 'version.py')
+version_file = os.path.join(os.path.dirname(__file__), PACKAGE, 'version.py')
 write_version_py(filename=version_file)
 
 setup(name=PACKAGE,
@@ -40,12 +39,8 @@ setup(name=PACKAGE,
       url='http://japandas.readthedocs.org',
       license = 'BSD',
       packages=find_packages(),
-      package_data = {
-        'japandas.tseries': ['data/*.pkl'],
-      },
-
-      install_requires=['setuptools', 'pandas >= 0.15.0']
-      # list(read(REQUIREMENTS).splitlines())
+      package_data = {'japandas.tseries': ['data/*.pkl']},
+      install_requires=list(read(REQUIREMENTS).splitlines())
       )
 
 
