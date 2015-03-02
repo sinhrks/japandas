@@ -82,6 +82,9 @@ class TestCalendar(tm.TestCase):
         calendar = pd.tseries.holiday.get_calendar('JapaneseHolidayCalendar')
         self.assertTrue(isinstance(calendar, jpd.JapaneseHolidayCalendar))
 
+        calendar = pd.tseries.holiday.get_calendar('TSEHolidayCalendar')
+        self.assertTrue(isinstance(calendar, jpd.TSEHolidayCalendar))
+
     def test_holiday_attributes(self):
         calendar = jpd.JapaneseHolidayCalendar()
         tm.assert_equal(calendar.rules[0].name, '元日')
@@ -89,6 +92,27 @@ class TestCalendar(tm.TestCase):
         tm.assert_equal(calendar.rules[0].month, 1)
         tm.assert_equal(calendar.rules[0].day, 1)
 
+    def test_jpholiday_holidays(self):
+        calendar = jpd.JapaneseHolidayCalendar()
+        holidays = calendar.holidays()
+        for y in range(1970, 2030):
+            for m, d in [(1, 1)]:
+                dt = datetime.date(y, m, d)
+                self.assertTrue(dt in holidays)
+
+        for e in self.expected:
+            self.assertTrue(dt in holidays)
+
+    def test_tseholiday_holidays(self):
+        calendar = jpd.TSEHolidayCalendar()
+        holidays = calendar.holidays()
+        for y in range(1970, 2030):
+            for m, d in [(1, 1), (1, 2), (1, 3), (12, 31)]:
+                dt = datetime.date(y, m, d)
+                self.assertTrue(dt in holidays)
+
+        for e in self.expected:
+            self.assertTrue(dt in holidays)
 
 if __name__ == '__main__':
     import nose

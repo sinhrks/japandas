@@ -275,11 +275,6 @@ intersphinx_mapping = {'http://docs.python.org/': None}
 import mock
 
 MOCK_MODULES = ['numpy', 'scipy', 'matplotlib', 'matplotlib.pyplot',
-                'sklearn.datasets', 'sklearn.decomposition',
-                'sklearn.cluster', 'sklearn.cross_validation',
-                'pandas', 'pandas.util', 'pandas.util.decorators',
-                'pandas.core', 'pandas.core.common', 'pandas.core.strings',
-                'pandas.compat',
                 'IPython', 'IPython.sphinxext',
                 'IPython.sphinxext.ipython_directive',
                 'IPython.sphinxext.ipython_console_highlighting']

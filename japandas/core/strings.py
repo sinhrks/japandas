@@ -66,12 +66,6 @@ def _h2z_sm(text):
             replace("ﾊﾟ", "パ").replace("ﾋﾟ", "ピ").replace("ﾌﾟ", "プ").replace("ﾍﾟ", "ペ").
             replace("ﾎﾟ", "ポ").replace("ｳﾞ", "ヴ"))
 
-    # for k, v in iteritems(_H2Z_SOUNDMARK):
-    #     text = text.replace(k, v)
-    # return text
-
-    # return reduce(lambda t, kv: t.replace(*kv),
-    #               iteritems(_H2Z_SOUNDMARK), text)
 
 def _z2h_sm(text):
     return (text.replace("ガ", "ｶﾞ").replace("ギ", "ｷﾞ").replace("グ", "ｸﾞ").replace("ゲ", "ｹﾞ").

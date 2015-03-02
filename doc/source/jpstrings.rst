@@ -52,7 +52,7 @@ Unicode 正規化
 
 ``Series.str.zen_to_han`` で値を 全角文字から半角文字へ変換、 ``Series.str.han_to_zen`` で値を 半角文字から全角文字へ変換できます。利用できるオプションなど、詳細は `mojimoji` のドキュメントを参照してください。
 
-https://github.com/studio-ousia/mojimoji
+- https://github.com/studio-ousia/mojimoji
 
 .. code-block:: python
 
@@ -70,4 +70,5 @@ https://github.com/studio-ousia/mojimoji
    2    DE345
    dtype: object
 
-.. deprecated:: ``Series.str.z2h``, ``Series.str.h2z`` は deprecate され、将来のバージョンで削除されます。また、一部記号の扱いが ``mojimoji`` では異なります。
+.. deprecated:: 0.0.3
+   ``Series.str.z2h``, ``Series.str.h2z`` は deprecate され、将来のバージョンで削除されます。また、一部記号の扱いが ``mojimoji`` では異なっています。
