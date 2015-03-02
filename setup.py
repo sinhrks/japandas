@@ -8,8 +8,6 @@ from setuptools import setup, find_packages
 PACKAGE = 'japandas'
 README = 'README.rst'
 REQUIREMENTS = 'requirements.txt'
-# required modules for test and doc build
-REQUIREMENTS_TEST = 'requirements_test.txt'
 
 VERSION = '0.0.3dev'
 

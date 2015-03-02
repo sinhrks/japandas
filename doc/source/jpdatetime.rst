@@ -1,10 +1,3 @@
-.. ipython:: python
-   :suppress:
-
-   import pandas as pd
-   pd.options.display.max_columns=10
-   pd.options.display.max_rows=10
-
 
 日時処理
 ========
@@ -42,6 +35,7 @@
     [2013-12, ..., 2014-12]
     Length: 13, Freq: M
 
+
 日本の祝日カレンダー
 --------------------
 
@@ -54,6 +48,7 @@
     <class 'pandas.tseries.index.DatetimeIndex'>
     [1970-01-01, ..., 2030-12-23]
     Length: 969, Freq: None, Timezone: None
+
 
 このカレンダーと ``pd.offsets.CDay`` クラスを利用すると、カレンダーの定義に従って営業日の計算を行うことができます。
 
