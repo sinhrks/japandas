@@ -48,56 +48,26 @@ Unicode 正規化
 全角/半角変換
 -------------
 
-``Series.str.z2h`` で値を 全角文字から半角文字へ変換、 ``Series.str.h2z`` で値を 半角文字から全角文字へ変換できます。
+.. note:: この機能を利用するためには `mojimoji` のインストールが必要です。
+
+``Series.str.zen_to_han`` で値を 全角文字から半角文字へ変換、 ``Series.str.han_to_zen`` で値を 半角文字から全角文字へ変換できます。利用できるオプションなど、詳細は `mojimoji` のドキュメントを参照してください。
+
+https://github.com/studio-ousia/mojimoji
 
 .. code-block:: python
 
    >>> s = pd.Series([u'ｱｲｳｴｵ', u'ABC01', u'DE345'])
-   >>> z = s.str.h2z()
+   >>> z = s.str.han_to_zen()
    >>> z
    0    アイウエオ
    1    ＡＢＣ０１
    2    ＤＥ３４５
    dtype: object
 
-   >>> z.str.z2h()
+   >>> z.str.zen_to_han()
    0    ｱｲｳｴｵ
    1    ABC01
    2    DE345
    dtype: object
 
-
-変換の対象とする文字のグループはキーワードオプションで変更できます。それぞれのキーワードについて対象となる文字列は以下の通りです。デフォルトでは全て ``True`` で、全ての文字が変換されます。変換したくないグループがある場合は 対応するキーワードに ``False`` を指定してください。
-
-**補足** ``kana`` には日本語の記号 (句読点) も含まれることに注意してください。
-
-- ``kana``: ``ァアィイゥウェエォオカガキギクグケゲコゴサザシジスズセゼソゾタダチヂッツヅテデトドナニヌネノ
-  ハバパヒビピフブプヘベペホボポマミムメモャヤュユョヨラリルレロワヲンヴー・「」。、``
-- ``alpha``: ``ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz``
-- ``digit``: ``0123456789``
-- ``symbol``: ``!"#$%&'()*+,"-./:;<=>?@[\]^_`~{|}``
-
-.. code-block:: python
-
-    >>> s = pd.Series([u'ｱｲｳｴｵ', u'ABC01', u'DE345'])
-
-    # アルファベットは全角にしない
-    >>> s.str.h2z(alpha=False)
-    0    アイウエオ
-    1    ABC０１
-    2    DE３４５
-    dtype: object
-
-    # カナ、アルファベットは全角にしない
-    >>> s.str.h2z(kana=False, alpha=False, digit=True)
-    0    ｱｲｳｴｵ
-    1    ABC０１
-    2    DE３４５
-    dtype: object
-
-    # カナ、アルファベット、数値は全角にしない = 記号以外は半角のまま
-    >>> s.str.h2z(kana=False, alpha=False, digit=False)
-    0    ｱｲｳｴｵ
-    1    ABC01
-    2    DE345
-    dtype: object
+.. deprecated:: ``Series.str.z2h``, ``Series.str.h2z`` は deprecate され、将来のバージョンで削除されます。また、一部記号の扱いが ``mojimoji`` では異なります。
