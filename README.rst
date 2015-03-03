@@ -137,14 +137,14 @@ Unicode正規化, 全角/半角変換
     dtype: object
 
    >>> s = pd.Series([u'ｱｲｳｴｵ', u'ABC01', u'DE345'])
-   >>> z = s.str.h2z()
+   >>> z = s.str.han_to_zen()
    >>> z
    0    アイウエオ
    1    ＡＢＣ０１
    2    ＤＥ３４５
    dtype: object
 
-   >>> z.str.z2h()
+   >>> z.str.zen_to_han()
    0    ｱｲｳｴｵ
    1    ABC01
    2    DE345

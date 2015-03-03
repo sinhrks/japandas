@@ -39,7 +39,12 @@
 日本の祝日カレンダー
 --------------------
 
-``jpd.JapaneseHolidayCalendar`` は 1970 年から 2030 年までの日本の祝日を定義したカレンダークラスです。定義された祝日の一覧は、 ``jpd.JapaneseHolidayCalendar.holidays`` で確認することができます。
+`japandas` では以下 2 種類のカレンダークラスを定義しています。
+
+- ``japandas.JapaneseHolidayCalendar``: 1970 年から 2030 年までの日本の祝日を定義したカレンダークラスです。
+- ``japandas.TSEHolidayCalendar``: 1970 年から 2030 年までの東京証券取引所の休業日 (日本の祝日 + 年末年始 12/31 - 1/3) を定義したカレンダークラスです。
+
+定義された祝日の一覧は、それぞれ ``Calendar.holidays()`` メソッドで確認することができます。
 
 .. code-block:: python
 
