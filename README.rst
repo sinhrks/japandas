@@ -89,7 +89,7 @@ pandas の日本語拡張。以下 5 つの機能を提供する。
 
     # 適当なデータを作成
     >>> df = pd.DataFrame(np.random.randn(10, 3),
-                          index=jpd.date_range(u'2014年5月1日', u'2014年5月10日', freq='D'))
+    ...                   index=jpd.date_range(u'2014年5月1日', u'2014年5月10日', freq='D'))
     >>> df
                        0         1         2
     2014-05-01  0.762453 -1.418762 -0.150073
