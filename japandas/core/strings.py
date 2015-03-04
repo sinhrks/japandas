@@ -4,11 +4,9 @@
 from __future__ import unicode_literals
 
 from unicodedata import normalize
-import warnings
 
-import numpy as np
 import pandas as pd
-from pandas.compat import PY3, iteritems, u_safe, reduce, string_types
+from pandas.compat import PY3, iteritems, u_safe, reduce
 import pandas.core.common as com
 
 import pandas.core.strings as strings
@@ -78,7 +76,6 @@ def _z2h_sm(text):
 
 
 def str_z2h(self, kana=True, alpha=True, digit=True, symbol=True):
-    warnings.warn("str.z2h is deprecated. Use str.zen_to_han instead", FutureWarning)
     mapper = dict()
     if kana:
         mapper.update(_Z2H_KANA)
@@ -103,7 +100,6 @@ def str_z2h(self, kana=True, alpha=True, digit=True, symbol=True):
 
 
 def str_h2z(self, kana=True, alpha=True, digit=True, symbol=True):
-    warnings.warn("str.h2z is deprecated. Use str.han_to_zen instead", FutureWarning)
     mapper = dict()
     if kana:
         mapper.update(_H2Z_KANA)
@@ -127,59 +123,7 @@ def str_h2z(self, kana=True, alpha=True, digit=True, symbol=True):
     return self._wrap_result(strings._na_map(f, self.series))
 
 
-def str_zen_to_han(self, ascii=True, digit=True, kana=True):
-    try:
-        import mojimoji
-
-        def f(x):
-            if PY3:
-                return mojimoji.zen_to_han(x, ascii=ascii, digit=digit, kana=kana)
-            else:
-                return mojimoji.zen_to_han(u_safe(x), ascii=ascii, digit=digit, kana=kana)
-
-        return self._wrap_result(strings._na_map(f, self.series))
-    except ImportError:
-        raise ImportError('str.zen_to_hanを利用するためには mojimoji をインストールしてください')
-
-
-def str_han_to_zen(self, ascii=True, digit=True, kana=True):
-    try:
-        import mojimoji
-
-        def f(x):
-            if PY3:
-                return mojimoji.han_to_zen(x, ascii=ascii, digit=digit, kana=kana)
-            else:
-                return mojimoji.han_to_zen(u_safe(x), ascii=ascii, digit=digit, kana=kana)
-
-        return self._wrap_result(strings._na_map(f, self.series))
-    except ImportError:
-        raise ImportError('str.han_to_zenを利用するためには mojimoji をインストールしてください')
-
-
-def str_normalize(self, form='NFKC'):
-    if PY3:
-        f = lambda x: normalize(form, x)
-    else:
-        f = lambda x: normalize(form, u_safe(x))
-    return self._wrap_result(strings._na_map(f, self.series))
-
-
 # do not overwrite existing func
-if not hasattr(strings.StringMethods, 'normalize'):
-    strings.StringMethods.normalize = str_normalize
-
-
-if not hasattr(strings.StringMethods, 'zen_to_han'):
-    strings.StringMethods.zen_to_han = str_zen_to_han
-
-
-if not hasattr(strings.StringMethods, 'han_to_zen'):
-    strings.StringMethods.han_to_zen = str_han_to_zen
-
-
-# deprecated
-
 if not hasattr(strings.StringMethods, 'z2h'):
     strings.StringMethods.z2h = str_z2h
 
