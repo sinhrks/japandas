@@ -21,5 +21,7 @@ API:
 .. toctree::
    :maxdepth: 2
 
-   generated/japandas
-
+   generated/japandas.core
+   generated/japandas.io
+   generated/japandas.tools
+   generated/japandas.tseries
