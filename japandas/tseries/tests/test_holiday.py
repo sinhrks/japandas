@@ -106,11 +106,14 @@ class TestCalendar(tm.TestCase):
     def test_tseholiday_holidays(self):
         calendar = jpd.TSEHolidayCalendar()
         holidays = calendar.holidays()
-        for y in range(1970, 2030):
+        for y in range(1970, 2031):
             for m, d in [(1, 1), (1, 2), (1, 3), (12, 31)]:
                 dt = datetime.date(y, m, d)
                 self.assertTrue(dt in holidays)
 
+        # test initial / final date explicitly
+        self.assertTrue(datetime.date(1970, 1, 1) in holidays)
+        self.assertTrue(datetime.date(2030, 12, 31) in holidays)
         for e in self.expected:
             self.assertTrue(dt in holidays)
 

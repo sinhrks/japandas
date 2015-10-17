@@ -7,7 +7,11 @@ import time
 
 import numpy as np
 import pandas as pd
-import pandas.io.data as web
+
+try:
+    from pandas_datareader import data as web
+except ImportError:
+    import pandas.io.data as web
 
 
 _ohlc_columns_jp = ['始値', '高値', '安値', '終値', '出来高', '調整後終値*']
