@@ -5,7 +5,7 @@
 Unicode 正規化
 --------------
 
- **補足** この機能は ``pandas`` 0.16.1 標準にポーティングされました。API は [``unicodedata.normalize``](http://docs.python.jp/2/library/unicodedata.html#unicodedata.normalize) と同一です。引数 ``form`` を省略することはできなくなるため注意してください。
+ **補足** この機能は ``pandas`` 0.16.1 標準にポーティングされました。API は `unicodedata.normalize <http://docs.python.jp/2/library/unicodedata.html#unicodedata.normalize>`_ と同一です。引数 ``form`` を省略することはできなくなるため注意してください。
 
 ``Series.str.normalize`` は、標準の ``unicodedata.normalize`` と同じ処理を ``Series`` の値に対して行います。
 
