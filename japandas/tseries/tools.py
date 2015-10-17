@@ -22,16 +22,20 @@ _formats = ['%Y年%m月%d日', '%Y年%m月',
 
 def to_datetime(arg, box=True, format=None, **kwargs):
 
-    result = pd.to_datetime(arg, box=box, format=format, **kwargs)
+    try:
+        result = pd.to_datetime(arg, box=box, format=format, **kwargs)
 
-    if format is not None:
-        # if format is specified, return pd.to_datetime as it is
-        return result
+        if format is not None:
+            # if format is specified, return pd.to_datetime as it is
+            return result
 
-    if result is None:
-        return result
-    elif isinstance(result, (pd.Timestamp, pd.DatetimeIndex)):
-        return result
+        if result is None:
+            return result
+        elif isinstance(result, (pd.Timestamp, pd.DatetimeIndex)):
+            return result
+    except ValueError:
+        # as of pandas 0.17, to_datetime raises when parsing fails
+        result = arg
 
     def _convert_listlike(arg, box):
         for format in _formats:

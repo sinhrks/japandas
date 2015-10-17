@@ -72,7 +72,7 @@ if __name__ == '__main__':
     to_pickle(data, data_path)
 
     tse_data = data.copy()
-    for y in range(1970, 2030):
+    for y in range(1970, 2031):
         for m, d in [(1, 1), (1, 2), (1, 3), (12, 31)]:
             dt = datetime.date(y, m, d)
             if dt not in tse_data:
