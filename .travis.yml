@@ -5,6 +5,7 @@ python:
   - "3.4"
 
 install:
+  - sudo pip install python-coveralls coverage
   - sudo pip install conda
   - sudo conda init
   # - sudo conda update conda --yes
@@ -13,7 +14,8 @@ install:
   - export PATH=$HOME/py/bin:$PATH
   - "pip install -r requirements_test.txt"
 
-script: nosetests
+script:
+  - nosetests --with-coverage
 
 after_success:
   - coveralls
