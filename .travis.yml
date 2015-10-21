@@ -3,15 +3,15 @@ python:
   - "2.7"
   - "3.3" 
   - "3.4"
+  - "3.5"
 
 install:
-  - sudo pip install python-coveralls coverage
   - sudo pip install conda
   - sudo conda init
-  # - sudo conda update conda --yes
   - deps='pip numpy scipy pandas nose matplotlib'
   - conda create -p $HOME/py --yes $deps "python=$TRAVIS_PYTHON_VERSION"
   - export PATH=$HOME/py/bin:$PATH
+  - python -m pip install python-coveralls coverage
   - "pip install -r requirements_test.txt"
 
 script:
