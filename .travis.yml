@@ -1,27 +1,29 @@
 language: python
-python:
-  - "2.7"
-  - "3.3" 
-  - "3.4"
-  - "3.5"
+
+env:
+  - PYTHON=2.7 PANDAS=0.16.0
+  - PYTHON=2.7 PANDAS=0.17.0
+  - PYTHON=3.4 PANDAS=0.16.0
+  - PYTHON=3.4 PANDAS=0.17.0
+  - PYTHON=3.5 PANDAS=0.17.0
 
 install:
-  - if [ "$TRAVIS_PYTHON_VERSION" == "2.7" ]; then
-        wget -O conda.sh https://repo.continuum.io/miniconda/Miniconda-latest-Linux-x86_64.sh;
+  - sudo pip install python-coveralls coverage
+  - if [[ "$PYTHON" == "2.7" ]]; then
+      wget http://repo.continuum.io/miniconda/Miniconda-3.4.2-Linux-x86_64.sh -O miniconda.sh;
     else
-        wget -O conda.sh https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh;
+      wget http://repo.continuum.io/miniconda/Miniconda3-3.4.2-Linux-x86_64.sh -O miniconda.sh;
     fi
-  - bash conda.sh -b -p $HOME/miniconda
+  - bash miniconda.sh -b -p $HOME/miniconda
   - export PATH="$HOME/miniconda/bin:$PATH"
   - hash -r
   - conda config --set always_yes yes --set changeps1 no
+  - conda config --add channels pandas
   - conda update -q conda
   # Useful for debugging any issues with conda
   - conda info -a
-  - conda create -n myenv "python=$TRAVIS_PYTHON_VERSION"
-  - source activate myenv
-  - conda install pip numpy scipy pandas nose matplotlib
-  - python -m pip install python-coveralls coverage
+  - conda create -q -n test-environment python=$PYTHON pip numpy scipy pandas=$PANDAS nose matplotlib
+  - source activate test-environment
   - "pip install -r requirements_test.txt"
 
 script:
