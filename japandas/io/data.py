@@ -7,6 +7,7 @@ import time
 
 import numpy as np
 import pandas as pd
+from japandas.io.estat import get_estat_list, get_estat
 
 try:
     from pandas_datareader import data as web
@@ -57,10 +58,20 @@ def get_quote_yahoojp(code, start=None, end=None, interval='d', en=False):
     return result
 
 
-def DataReader(name, data_source=None, start=None, end=None, **kwargs):
-    if data_source == "yahoojp":
+def DataReader(name, data_source=None, start=None, end=None, appid=None, **kwargs):
+    if data_source == 'yahoojp':
         return get_quote_yahoojp(name, start=start,
                                  end=end, **kwargs)
+    elif data_source == 'estat':
+        if appid is None:
+            raise ValueError(u'appid を指定してください')
+
+        if isinstance(name, pd.compat.string_types):
+            if len(name) == 8:
+                return get_estat_list(name, appid=appid)
+            elif len(name) == 10:
+                return get_estat(name, appid=appid)
+        raise ValueError(u'コードが不正です: {name}'.format(name))
     else:
         return web.DataReader(name, data_source=data_source,
                               start=start, end=end, **kwargs)

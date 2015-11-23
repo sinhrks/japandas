@@ -37,7 +37,10 @@ class OhlcPlot(plotting.LinePlot):
         plotting.LinePlot.__init__(self, data, **kwargs)
 
     def _get_plot_function(self):
-        from matplotlib.finance import candlestick
+        try:
+            from matplotlib.finance import candlestick
+        except ImportError:
+            from matplotlib.finance import candlestick_ohlc as candlestick
         def _plot(data, ax, **kwds):
             candles = candlestick(ax, data.values, **kwds)
             return candles

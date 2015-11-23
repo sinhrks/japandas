@@ -96,7 +96,12 @@ def str_z2h(self, kana=True, alpha=True, digit=True, symbol=True):
             f = lambda x: x.translate(mapper)
         else:
             f = lambda x: u_safe(x).translate(mapper)
-    return self._wrap_result(strings._na_map(f, self.series))
+
+    try:
+        target = self.series
+    except AttributeError:
+        target = self._data
+    return self._wrap_result(strings._na_map(f, target))
 
 
 def str_h2z(self, kana=True, alpha=True, digit=True, symbol=True):
@@ -120,7 +125,12 @@ def str_h2z(self, kana=True, alpha=True, digit=True, symbol=True):
             f = lambda x: x.translate(mapper)
         else:
             f = lambda x: u_safe(x).translate(mapper)
-    return self._wrap_result(strings._na_map(f, self.series))
+
+    try:
+        target = self.series
+    except AttributeError:
+        target = self._data
+    return self._wrap_result(strings._na_map(f, target))
 
 
 # do not overwrite existing func

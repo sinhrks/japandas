@@ -3,6 +3,8 @@
 
 from __future__ import unicode_literals
 
+import os
+
 import pandas as pd
 import pandas.compat as compat
 import pandas.util.testing as tm
@@ -76,6 +78,27 @@ class TestDataReader(TestPlotBase):
         df = jpd.DataReader(7203, 'yahoojp', start='2014-10-01', end='2014-10-05', en=True)
         tm.assert_frame_equal(df, expected)
         _check_plot_works(df.plot, kind='ohlc')
+
+    def test_data_estat_list(self):
+
+        ESTAT_KEY = os.environ['ESTAT']
+
+        df = jpd.DataReader('00200521', 'estat', appid=ESTAT_KEY)
+        exp_columns = pd.Index(['CYCLE', 'GOV_ORG', 'MAIN_CATEGORY', 'OPEN_DATE',
+                                'OVERALL_TOTAL_NUMBER', 'SMALL_AREA',
+                                'STATISTICS_NAME', 'STAT_NAME', 'SUB_CATEGORY',
+                                'SURVEY_DATE', 'TABLE_INF', 'TITLE', 'UPDATED_DATE', 'id'])
+        self.assert_index_equal(df.columns, exp_columns)
+
+        df = jpd.DataReader('0000030001', 'estat', appid=ESTAT_KEY)
+
+        exp = pd.DataFrame({u'value': [117060396, 89187409, 27872987, 5575989, 1523907],
+                            u'全国都道府県030001': [u'全国', u'全国市部', u'全国郡部', u'北海道', u'青森県'],
+                            u'全域・集中の別030002': [u'全域'] * 5,
+                            u'年齢５歳階級Ａ030002': [u'総数'] * 5,
+                            u'男女Ａ030001': [u'男女総数'] * 5},
+                           index=pd.Index([u'1980年'] * 5, name=u'時間軸(年次)'))
+        self.assert_frame_equal(df.head(), exp)
 
 
 if __name__ == '__main__':
