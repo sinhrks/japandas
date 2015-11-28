@@ -11,10 +11,10 @@ import pandas.compat as compat
 import pandas.core.common as com
 
 
-_formats = ['%Y年%m月%d日', '%Y年%m月',
+_formats = ['%Y年', '%Y年%m月%d日', '%Y年%m月',
             '%Y年%m月%d日%H時%M分', '%Y年%m月%d日%H時%M分%S秒',
 
-            '%y年%m月%d日', '%y年%m月',
+            '%y年', '%y年%m月%d日', '%y年%m月',
             '%y年%m月%d日%H時%M分', '%y年%m月%d日%H時%M分%S秒',
 
             '%m月%d日', '%m月%d日%H時%M分', '%m月%d日%H時%M分%S秒']
