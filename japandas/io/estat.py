@@ -10,64 +10,42 @@ import numpy as np
 import pandas as pd
 
 from pandas_datareader.base import _BaseReader
+from japandas.tseries.tools import to_datetime
 
 
 # http://www.e-stat.go.jp/api/e-stat-manual/
 
 METADATA_MAPPER = {
-    # 'TABLE_INF': u'統計表ID',
-    'STAT_NAME': u'政府統計名',
-    'GOV_ORG': u'作成機関名',
-    'STATISTICS_NAME': u'提供統計名及び提供分類名',
-    'TITLE': u'統計表題名及び表番号',
-    'CYCLE': u'提供周期',
-    'SURVEY_DATE': u'調査年月',
-    'OPEN_DATE': u'公開日',
-    'SMALL_AREA': u'小地域属性フラグ',
-    'MAIN_CATEGORY': u'統計大分野名',
-    'SUB_CATEGORY': u'統計小分野名',
-    'OVERALL_TOTAL_NUMBER': u'総件数',
-    'UPDATED_DATE': u'最終更新日',
-    'id': u'統計表ID'
+    # 'TABLE_INF': '統計表ID',
+    'STAT_NAME': '政府統計名',
+    'GOV_ORG': '作成機関名',
+    'STATISTICS_NAME': '提供統計名及び提供分類名',
+    'TITLE': '統計表題名及び表番号',
+    'CYCLE': '提供周期',
+    'SURVEY_DATE': '調査年月',
+    'OPEN_DATE': '公開日',
+    'SMALL_AREA': '小地域属性フラグ',
+    'MAIN_CATEGORY': '統計大分野名',
+    'SUB_CATEGORY': '統計小分野名',
+    'OVERALL_TOTAL_NUMBER': '総件数',
+    'UPDATED_DATE': '最終更新日',
+    'id': '統計表ID'
 }
 
 
-def get_estat_list(code, appid, **kwargs):
-    url = 'http://api.e-stat.go.jp/rest/2.0/app/getStatsList'
-    params = {'appId': appid, 'lang': 'J', 'statsCode': code}
-    params.update(kwargs)
-    response = requests.get(url, params=params)
-    root = ET.fromstring(response.content)
-
-    values = []
-    for table in root.findall('.//TABLE_INF'):
-        columns = [u'統計表ID']
-        row = {u'統計表ID': table.get('id')}
-        for elem in table.iter():
-            if elem.tag == 'TABLE_INF':
-                continue
-
-            if elem.tag in ('UPDATED_DATE', 'OPEN_DATE'):
-                val = pd.to_datetime(elem.text)
-            elif elem.tag == 'SURVEY_DATE':
-                # Almost impossible to parse SURVEY_DATE as Timestamp...
-                val = elem.text
-            elif elem.tag == 'OVERALL_TOTAL_NUMVER':
-                val = pd.to_numeric(elem.text)
-            else:
-                val = elem.text
-            label = METADATA_MAPPER.get(elem.tag, elem.tag)
-            columns.append(label)
-            row[label] = val
-        values.append(row)
-
-    df = pd.DataFrame(values, columns=columns)
-    return df
-
 class EStatReader(_BaseReader):
 
-    def __init__(self, appid, **kwargs):
-        super(EStatReader, self).__init__(**kwargs)
+    def __init__(self, symbols=None, appid=None, **kwargs):
+        if isinstance(symbols, pd.DataFrame):
+            if '統計表ID' in symbols.columns:
+                symbols = symbols.loc[:, '統計表ID']
+            else:
+                raise ValueError('DataFrame 中に "統計表ID" カラムがありません')
+
+        super(EStatReader, self).__init__(symbols=symbols, **kwargs)
+
+        if appid is None:
+            raise ValueError('アプリケーションID "appid" を文字列で指定してください')
         self.appid = appid
 
     @property
@@ -81,9 +59,13 @@ class EStatReader(_BaseReader):
     def read(self):
         """ read data """
         if isinstance(self.symbols, pd.compat.string_types):
+            if len(self.symbols) == 8:
+                return self.get_estat_list()
+
             params = self.params
             params['statsDataId'] = self.symbols
             return self._read_one_data(self.url, params)
+
         elif pd.core.common.is_list_like(self.symbols):
             dfs = []
             for symbol in self.symbols:
@@ -93,13 +75,13 @@ class EStatReader(_BaseReader):
                 dfs.append(df)
 
             if len(dfs) == 0:
-                raise ValueError(u'取得するIDがありません')
+                raise ValueError('取得するIDがありません')
             elif len(dfs) == 1:
                 return dfs[0]
             else:
                 return dfs[0].append(dfs[1:])
         else:
-            raise ValueError(u'IDは文字列もしくはそのリストで指定してください')
+            raise ValueError('IDは文字列もしくはそのリストで指定してください')
 
     def _read_lines(self, out):
         root = ET.fromstring(out.getvalue())
@@ -132,4 +114,37 @@ class EStatReader(_BaseReader):
 
         if 'time' in class_names:
             df = df.set_index(class_names['time'])
+            df.index = to_datetime(df.index)
+        return df
+
+    def get_estat_list(self):
+        url = 'http://api.e-stat.go.jp/rest/2.0/app/getStatsList'
+        params = {'appId': self.appid, 'lang': 'J', 'statsCode': self.symbols}
+
+        out = self._read_url_as_StringIO(url, params=params)
+        root = ET.fromstring(out.getvalue())
+
+        values = []
+        for table in root.findall('.//TABLE_INF'):
+            columns = ['統計表ID']
+            row = {'統計表ID': table.get('id')}
+            for elem in table.iter():
+                if elem.tag == 'TABLE_INF':
+                    continue
+
+                if elem.tag in ('UPDATED_DATE', 'OPEN_DATE'):
+                    val = pd.to_datetime(elem.text)
+                elif elem.tag == 'SURVEY_DATE':
+                    # Almost impossible to parse SURVEY_DATE as Timestamp...
+                    val = elem.text
+                elif elem.tag == 'OVERALL_TOTAL_NUMVER':
+                    val = pd.to_numeric(elem.text)
+                else:
+                    val = elem.text
+                label = METADATA_MAPPER.get(elem.tag, elem.tag)
+                columns.append(label)
+                row[label] = val
+            values.append(row)
+
+        df = pd.DataFrame(values, columns=columns)
         return df

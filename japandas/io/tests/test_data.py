@@ -9,7 +9,6 @@ import pandas as pd
 import pandas.compat as compat
 import pandas.util.testing as tm
 from pandas.tests.test_graphics import TestPlotBase, _check_plot_works
-
 import japandas as jpd
 
 
@@ -99,11 +98,18 @@ class TestDataReader(TestPlotBase):
         ESTAT_KEY = os.environ['ESTAT']
         df = jpd.DataReader('00200521', 'estat', appid=ESTAT_KEY)
 
-        exp_columns = pd.Index([u'統計表ID', u'政府統計名',
-                                u'作成機関名', u'提供統計名及び提供分類名',
-                                u'統計表題名及び表番号', u'提供周期', u'調査年月',
-                                u'公開日', u'小地域属性フラグ', u'統計大分野名',
-                                u'統計小分野名', u'総件数', u'最終更新日'],)
+        exp_columns = pd.Index(['統計表ID', '政府統計名',
+                                '作成機関名', '提供統計名及び提供分類名',
+                                '統計表題名及び表番号', '提供周期', '調査年月',
+                                '公開日', '小地域属性フラグ', '統計大分野名',
+                                '統計小分野名', '総件数', '最終更新日'],)
+        self.assert_index_equal(df.columns, exp_columns)
+
+        target = df.head(n=3)
+        df = jpd.DataReader(target, 'estat', appid=ESTAT_KEY)
+        self.assertIsInstance(df, pd.DataFrame)
+
+        df = jpd.DataReader('00200523', 'estat', appid=ESTAT_KEY)
         self.assert_index_equal(df.columns, exp_columns)
 
     def test_data_estat_data(self):
@@ -111,16 +117,25 @@ class TestDataReader(TestPlotBase):
         ESTAT_KEY = os.environ['ESTAT']
         df = jpd.DataReader('0000030001', 'estat', appid=ESTAT_KEY)
 
-        exp = pd.DataFrame({u'value': [117060396, 89187409, 27872987, 5575989, 1523907],
-                            u'全国都道府県030001': [u'全国', u'全国市部', u'全国郡部', u'北海道', u'青森県'],
-                            u'全域・集中の別030002': [u'全域'] * 5,
-                            u'年齢５歳階級Ａ030002': [u'総数'] * 5,
-                            u'男女Ａ030001': [u'男女総数'] * 5},
-                           index=pd.Index([u'1980年'] * 5, name=u'時間軸(年次)'))
+        exp = pd.DataFrame({'value': [117060396, 89187409, 27872987, 5575989, 1523907],
+                            '全国都道府県030001': ['全国', '全国市部', '全国郡部', '北海道', '青森県'],
+                            '全域・集中の別030002': ['全域'] * 5,
+                            '年齢５歳階級Ａ030002': ['総数'] * 5,
+                            '男女Ａ030001': ['男女総数'] * 5},
+                           index=pd.DatetimeIndex(['1980-01-01'] * 5, name='時間軸(年次)'))
         self.assert_frame_equal(df.head(), exp)
 
         df = jpd.DataReader(['0000030001', '0000030002'], 'estat', appid=ESTAT_KEY)
         self.assertIsInstance(df, pd.DataFrame)
+
+        df = jpd.DataReader("0002180001", 'estat', appid=ESTAT_KEY)
+        exp = pd.DataFrame({'value': [445007, 194243, 199623, 203464, 190711],
+                            '全国・都道府県・大都市': ['全国'] * 5,
+                            '性別': ['総数'] * 5,
+                            '表章項目': ['都道府県（自都市）内移動者数'] * 5},
+                           index=pd.DatetimeIndex(['2009-03-01', '2009-02-01', '2009-01-01',
+                                                   '2008-12-01', '2008-11-01'], name='時間軸（月次）'))
+        self.assert_frame_equal(df.head(), exp)
 
 
 if __name__ == '__main__':
