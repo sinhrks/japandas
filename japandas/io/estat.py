@@ -9,6 +9,8 @@ import xml.etree.ElementTree as ET
 import numpy as np
 import pandas as pd
 
+from pandas_datareader.base import _BaseReader
+
 
 # http://www.e-stat.go.jp/api/e-stat-manual/
 
@@ -62,42 +64,72 @@ def get_estat_list(code, appid, **kwargs):
     df = pd.DataFrame(values, columns=columns)
     return df
 
+class EStatReader(_BaseReader):
 
-def get_estat(code, appid, **kwargs):
-    url = 'http://api.e-stat.go.jp/rest/2.0/app/getStatsData'
-    params = {'appId': appid, 'lang': 'J', 'statsDataId': code}
-    params.update(kwargs)
+    def __init__(self, appid, **kwargs):
+        super(EStatReader, self).__init__(**kwargs)
+        self.appid = appid
 
-    response = requests.get(url, params=params)
-    root = ET.fromstring(response.content)
+    @property
+    def url(self):
+        return 'http://api.e-stat.go.jp/rest/2.0/app/getStatsData'
 
-    # retrieve class
-    class_names = {}   # mapping from class id to name
-    class_codes = {}   # mapping from class id to codes
-    for c in root.findall('.//CLASS_OBJ'):
-        class_id = c.attrib['id']
-        class_names[class_id] = c.attrib['name']
+    @property
+    def params(self):
+        return {'appId': self.appid, 'lang': 'J'}
 
-        mapper = {}
-        for code in c.findall('CLASS'):
-            mapper[code.attrib['code']] = code.attrib['name']
-        class_codes[class_id] = mapper
+    def read(self):
+        """ read data """
+        if isinstance(self.symbols, pd.compat.string_types):
+            params = self.params
+            params['statsDataId'] = self.symbols
+            return self._read_one_data(self.url, params)
+        elif pd.core.common.is_list_like(self.symbols):
+            dfs = []
+            for symbol in self.symbols:
+                params = self.params
+                params['statsDataId'] = symbol
+                df = self._read_one_data(self.url, params)
+                dfs.append(df)
 
-    # retrieve values
-    values = []
-    for value in root.findall('.//VALUE'):
-        row = {}
-        for cat in class_codes:
-            name = class_names[cat]
-            code = value.attrib[cat]
-            row[name] = class_codes[cat][code]
+            if len(dfs) == 0:
+                raise ValueError(u'取得するIDがありません')
+            elif len(dfs) == 1:
+                return dfs[0]
+            else:
+                return dfs[0].append(dfs[1:])
+        else:
+            raise ValueError(u'IDは文字列もしくはそのリストで指定してください')
 
-        row['value'] = value.text
-        values.append(row)
+    def _read_lines(self, out):
+        root = ET.fromstring(out.getvalue())
+        # retrieve class
+        class_names = {}   # mapping from class id to name
+        class_codes = {}   # mapping from class id to codes
+        for c in root.findall('.//CLASS_OBJ'):
+            class_id = c.attrib['id']
+            class_names[class_id] = c.attrib['name']
 
-    df = pd.DataFrame(values)
-    df.loc[:, 'value'] = pd.to_numeric(df['value'], errors='ignore')
+            mapper = {}
+            for code in c.findall('CLASS'):
+                mapper[code.attrib['code']] = code.attrib['name']
+            class_codes[class_id] = mapper
 
-    if 'time' in class_names:
-        df = df.set_index(class_names['time'])
-    return df
+        # retrieve values
+        values = []
+        for value in root.findall('.//VALUE'):
+            row = {}
+            for cat in class_codes:
+                name = class_names[cat]
+                code = value.attrib[cat]
+                row[name] = class_codes[cat][code]
+
+            row['value'] = value.text
+            values.append(row)
+
+        df = pd.DataFrame(values)
+        df.loc[:, 'value'] = pd.to_numeric(df['value'], errors='ignore')
+
+        if 'time' in class_names:
+            df = df.set_index(class_names['time'])
+        return df
