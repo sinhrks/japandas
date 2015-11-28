@@ -64,14 +64,14 @@ def DataReader(name, data_source=None, start=None, end=None, appid=None, **kwarg
                                  end=end, **kwargs)
     elif data_source == 'estat':
         if appid is None:
-            raise ValueError(u'appid を指定してください')
+            raise ValueError(u'アプリケーション を指定してください')
 
         if isinstance(name, pd.compat.string_types):
             if len(name) == 8:
                 return get_estat_list(name, appid=appid)
-            elif len(name) == 10:
+            else:
                 return get_estat(name, appid=appid)
-        raise ValueError(u'コードが不正です: {name}'.format(name))
+        raise ValueError(u'政府統計コードID (8桁) もしくは統計表ID を指定してください: {name}'.format(name))
     else:
         return web.DataReader(name, data_source=data_source,
                               start=start, end=end, **kwargs)

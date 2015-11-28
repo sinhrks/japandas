@@ -10,6 +10,26 @@ import numpy as np
 import pandas as pd
 
 
+# http://www.e-stat.go.jp/api/e-stat-manual/
+
+METADATA_MAPPER = {
+    'TABLE_INF': u'統計表ID',
+    'STAT_NAME': u'政府統計名',
+    'GOV_ORG': u'作成機関名',
+    'STATISTICS_NAME': u'提供統計名及び提供分類名',
+    'TITLE': u'統計表題名及び表番号',
+    'CYCLE': u'提供周期',
+    'SURVEY_DATE': u'調査年月',
+    'OPEN_DATE': u'公開日',
+    'SMALL_AREA': u'小地域属性フラグ',
+    'MAIN_CATEGORY': u'統計大分野名',
+    'SUB_CATEGORY': u'統計小分野名',
+    'OVERALL_TOTAL_NUMBER': u'総件数',
+    'UPDATED_DATE': u'最終更新日',
+    'id': u'統計表ID'
+}
+
+
 def get_estat_list(code, appid, **kwargs):
     url = 'http://api.e-stat.go.jp/rest/2.0/app/getStatsList'
     params = {'appId': appid, 'lang': 'J', 'statsCode': code}
@@ -19,8 +39,12 @@ def get_estat_list(code, appid, **kwargs):
 
     values = []
     for table in root.findall('.//TABLE_INF'):
-        row = {'id': table.get('id')}
+        columns = [u'統計表ID']
+        row = {u'統計表ID': table.get('id')}
         for elem in table.iter():
+            if elem.tag == 'TABLE_INF':
+                continue
+
             if elem.tag in ('UPDATED_DATE', 'OPEN_DATE'):
                 val = pd.to_datetime(elem.text)
             elif elem.tag == 'SURVEY_DATE':
@@ -30,10 +54,12 @@ def get_estat_list(code, appid, **kwargs):
                 val = pd.to_numeric(elem.text)
             else:
                 val = elem.text
-            row[elem.tag] = val
+            label = METADATA_MAPPER.get(elem.tag, elem.tag)
+            columns.append(label)
+            row[label] = val
         values.append(row)
 
-    df = pd.DataFrame(values)
+    df = pd.DataFrame(values, columns=columns)
     return df
 
 
