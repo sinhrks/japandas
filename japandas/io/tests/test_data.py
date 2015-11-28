@@ -84,10 +84,11 @@ class TestDataReader(TestPlotBase):
         ESTAT_KEY = os.environ['ESTAT']
 
         df = jpd.DataReader('00200521', 'estat', appid=ESTAT_KEY)
-        exp_columns = pd.Index(['CYCLE', 'GOV_ORG', 'MAIN_CATEGORY', 'OPEN_DATE',
-                                'OVERALL_TOTAL_NUMBER', 'SMALL_AREA',
-                                'STATISTICS_NAME', 'STAT_NAME', 'SUB_CATEGORY',
-                                'SURVEY_DATE', 'TABLE_INF', 'TITLE', 'UPDATED_DATE', 'id'])
+        exp_columns = pd.Index([u'統計表ID', u'政府統計名',
+                                u'作成機関名', u'提供統計名及び提供分類名',
+                                u'統計表題名及び表番号', u'提供周期', u'調査年月',
+                                u'公開日', u'小地域属性フラグ', u'統計大分野名',
+                                u'統計小分野名', u'総件数', u'最終更新日'],)
         self.assert_index_equal(df.columns, exp_columns)
 
         df = jpd.DataReader('0000030001', 'estat', appid=ESTAT_KEY)
