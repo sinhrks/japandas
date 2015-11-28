@@ -13,7 +13,7 @@ import pandas as pd
 # http://www.e-stat.go.jp/api/e-stat-manual/
 
 METADATA_MAPPER = {
-    'TABLE_INF': u'統計表ID',
+    # 'TABLE_INF': u'統計表ID',
     'STAT_NAME': u'政府統計名',
     'GOV_ORG': u'作成機関名',
     'STATISTICS_NAME': u'提供統計名及び提供分類名',
