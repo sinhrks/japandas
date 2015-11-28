@@ -79,11 +79,26 @@ class TestDataReader(TestPlotBase):
         tm.assert_frame_equal(df, expected)
         _check_plot_works(df.plot, kind='ohlc')
 
-    def test_data_estat_list(self):
+    def test_data_estat_error(self):
+        with tm.assertRaises(ValueError):
+            # no app ID
+            jpd.DataReader('00200521', 'estat', appid=None)
 
         ESTAT_KEY = os.environ['ESTAT']
 
+        with tm.assertRaises(ValueError):
+            # blank list
+            jpd.DataReader([], 'estat', appid=ESTAT_KEY)
+
+        with tm.assertRaises(ValueError):
+            # invalid type
+            jpd.DataReader(1, 'estat', appid=ESTAT_KEY)
+
+    def test_data_estat_list(self):
+
+        ESTAT_KEY = os.environ['ESTAT']
         df = jpd.DataReader('00200521', 'estat', appid=ESTAT_KEY)
+
         exp_columns = pd.Index([u'統計表ID', u'政府統計名',
                                 u'作成機関名', u'提供統計名及び提供分類名',
                                 u'統計表題名及び表番号', u'提供周期', u'調査年月',
@@ -91,6 +106,9 @@ class TestDataReader(TestPlotBase):
                                 u'統計小分野名', u'総件数', u'最終更新日'],)
         self.assert_index_equal(df.columns, exp_columns)
 
+    def test_data_estat_data(self):
+
+        ESTAT_KEY = os.environ['ESTAT']
         df = jpd.DataReader('0000030001', 'estat', appid=ESTAT_KEY)
 
         exp = pd.DataFrame({u'value': [117060396, 89187409, 27872987, 5575989, 1523907],
@@ -100,6 +118,9 @@ class TestDataReader(TestPlotBase):
                             u'男女Ａ030001': [u'男女総数'] * 5},
                            index=pd.Index([u'1980年'] * 5, name=u'時間軸(年次)'))
         self.assert_frame_equal(df.head(), exp)
+
+        df = jpd.DataReader(['0000030001', '0000030002'], 'estat', appid=ESTAT_KEY)
+        self.assertIsInstance(df, pd.DataFrame)
 
 
 if __name__ == '__main__':

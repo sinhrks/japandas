@@ -7,7 +7,7 @@ import time
 
 import numpy as np
 import pandas as pd
-from japandas.io.estat import get_estat_list, get_estat
+from japandas.io.estat import get_estat_list, EStatReader
 
 from pandas_datareader import data
 from pandas_datareader.yahoo.daily import YahooDailyReader
@@ -89,10 +89,9 @@ def DataReader(symbols, data_source=None, start=None, end=None, appid=None, **kw
         if isinstance(symbols, pd.compat.string_types):
             if len(symbols) == 8:
                 return get_estat_list(symbols, appid=appid)
-            else:
-                return get_estat(symbols, appid=appid)
-        msg = u'政府統計コードID (8桁) もしくは統計表ID を文字列で指定してください: {name}'
-        raise ValueError(msg.format(symbols))
+        return EStatReader(symbols=symbols, appid=appid, **kwargs).read()
+        msg = u'政府統計コードID (8桁) もしくは統計表ID を文字列で指定してください: {0}'
+        raise ValueError(msg.format(str(symbols)))
     else:
         return data.DataReader(symbols=symbols, data_source=data_source,
                               start=start, end=end, **kwargs)
