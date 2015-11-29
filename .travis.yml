@@ -3,11 +3,11 @@ env:
   global:
     secure: dlKlpVXGzCuN1Wc0h48HeT3EYjND2erX6hPeya/c6SR9LTN+ybcWGyZrHDtybOaRw28REVIXqH3unkVtX/X4d46U/tmRcC/Fy7wInhOS82yuFRCB8TinQkpeqRDZuU+HiW737uzmYf3U37NZnm2VGCsvVXUAoZe6/aLgTXMHP6U=
   matrix:
-    - PYTHON=2.7 PANDAS=0.16.0
     - PYTHON=2.7 PANDAS=0.17.0
-    - PYTHON=3.4 PANDAS=0.16.0
+    - PYTHON=2.7 PANDAS=0.17.1
     - PYTHON=3.4 PANDAS=0.17.0
     - PYTHON=3.5 PANDAS=0.17.0
+    - PYTHON=3.5 PANDAS=0.17.1
 
 install:
   - sudo pip install python-coveralls coverage
