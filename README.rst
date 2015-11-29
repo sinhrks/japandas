@@ -126,14 +126,14 @@ pandas の日本語拡張。以下の機能を提供する。
 .. code-block:: python
 
    >>> s = pd.Series([u'ｱｲｳｴｵ', u'ABC01', u'DE345'])
-   >>> z = s.str.han_to_zen()
+   >>> z = s.str.h2z()
    >>> z
    0    アイウエオ
    1    ＡＢＣ０１
    2    ＤＥ３４５
    dtype: object
 
-   >>> z.str.zen_to_han()
+   >>> z.str.z2h()
    0    ｱｲｳｴｵ
    1    ABC01
    2    DE345
