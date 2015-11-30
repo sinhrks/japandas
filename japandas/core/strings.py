@@ -12,20 +12,14 @@ import pandas.core.common as com
 import pandas.core.strings as strings
 
 
-# requires special handling
-_HSOUNDMARK = ['ｶﾞ', 'ｷﾞ', 'ｸﾞ', 'ｹﾞ', 'ｺﾞ',
-               'ｻﾞ', 'ｼﾞ', 'ｽﾞ', 'ｾﾞ', 'ｿﾞ',
-               'ﾀﾞ', 'ﾁﾞ', 'ﾂﾞ', 'ﾃﾞ', 'ﾄﾞ',
-               'ﾊﾞ', 'ﾋﾞ', 'ﾌﾞ', 'ﾍﾞ', 'ﾎﾞ',
-               'ﾊﾟ', 'ﾋﾟ', 'ﾌﾟ', 'ﾍﾟ', 'ﾎﾟ', 'ｳﾞ']
-
+# soundmarks require special handlings
 _HKANA = 'ｧｱｨｲｩｳｪｴｫｵｶｷｸｹｺｻｼｽｾｿﾀﾁｯﾂﾃﾄﾅﾆﾇﾈﾉﾊﾋﾌﾍﾎﾏﾐﾑﾒﾓｬﾔｭﾕｮﾖﾗﾘﾙﾚﾛﾜｦﾝﾞｰ･｢｣｡､'
 _ZALPHA = ('ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ'
            'ａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ')
 _ZSYMBOL = '！＂＃＄％＆＇（）＊＋，－．／：；＜＝＞？＠［＼］＾＿｀｛｜｝～　'
 _ZDIGIT = '０１２３４５６７８９'
 
-# mapping from full-width to half width
+# mapping from full-width to half-width
 _KANA_MAPPER = {normalize('NFKC', c): c for c in _HKANA}
 _ALPHA_MAPPER = {c: normalize('NFKC', c) for c in _ZALPHA}
 _DIGIT_MAPPER = {c: normalize('NFKC', c) for c in _ZDIGIT}
@@ -48,11 +42,6 @@ _H2Z_KANA = _ord_dict(_reverse_dict(_KANA_MAPPER))
 _H2Z_ALPHA = _ord_dict(_reverse_dict(_ALPHA_MAPPER))
 _H2Z_DIGIT = _ord_dict(_reverse_dict(_DIGIT_MAPPER))
 _H2Z_SYMBOL = _ord_dict(_reverse_dict(_SYMBOL_MAPPER))
-
-
-# for multiple replace
-_Z2H_SOUNDMARK = {normalize('NFKC', c): c for c in _HSOUNDMARK}
-_H2Z_SOUNDMARK = _reverse_dict(_Z2H_SOUNDMARK)
 
 
 def _h2z_sm(text):
