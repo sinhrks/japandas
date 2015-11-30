@@ -90,9 +90,6 @@ class TestStrings(tm.TestCase):
         tm.assert_equal(len(s._Z2H_DIGIT), len(s._H2Z_DIGIT))
         tm.assert_equal(len(s._reverse_dict(s._SYMBOL_MAPPER)), len(s._ZSYMBOL))
 
-        tm.assert_equal(len(s._Z2H_SOUNDMARK), len(s._HSOUNDMARK))
-        tm.assert_equal(len(s._H2Z_SOUNDMARK), len(s._HSOUNDMARK))
-
     def test_z2h(self):
         s = pd.Series([u'ａａａ', 'bbb', u'アアア', u'１', u'＊'])
         result = s.str.z2h()
