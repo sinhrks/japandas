@@ -8,6 +8,7 @@ import xml.etree.ElementTree as ET
 
 import numpy as np
 import pandas as pd
+import pandas.compat as compat
 
 from pandas_datareader.base import _BaseReader
 from japandas.tseries.tools import to_datetime
@@ -125,6 +126,7 @@ class EStatReader(_BaseReader):
         root = ET.fromstring(out.getvalue())
 
         values = []
+        columns = []
         for table in root.findall('.//TABLE_INF'):
             columns = ['統計表ID']
             row = {'統計表ID': table.get('id')}
@@ -145,6 +147,17 @@ class EStatReader(_BaseReader):
                 columns.append(label)
                 row[label] = val
             values.append(row)
+
+        if len(values) == 0:
+
+            try:
+                # if msg can be extracted from XML, raise it
+                root = ET.fromstring(out.getvalue())
+                msg = root.find('RESULT').find('ERROR_MSG').text
+            except Exception:
+                # otherwie, raise all XML content
+                raise ValueError(out.getvalue())
+            raise ValueError(msg.encode('utf-8', 'replace'))
 
         df = pd.DataFrame(values, columns=columns)
         return df
