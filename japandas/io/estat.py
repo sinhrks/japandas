@@ -107,7 +107,11 @@ class EStatReader(_BaseReader):
                 code = value.attrib[cat]
                 row[name] = class_codes[cat][code]
 
-            row['value'] = value.text
+            if value.text in ('-', ):
+                # avoid to_numeric fails
+                row['value'] = np.nan
+            else:
+                row['value'] = value.text
             values.append(row)
 
         df = pd.DataFrame(values)
