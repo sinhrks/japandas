@@ -5,6 +5,7 @@ from __future__ import unicode_literals
 
 import os
 
+import numpy as np
 import pandas as pd
 import pandas.compat as compat
 import pandas.util.testing as tm
@@ -104,6 +105,12 @@ class TestEstat(tm.TestCase):
                            index=pd.DatetimeIndex(['2009-03-01', '2009-02-01', '2009-01-01',
                                                    '2008-12-01', '2008-11-01'], name='時間軸（月次）'))
         self.assert_frame_equal(df.head(), exp)
+
+
+    def test_data_estat_data_numeric(self):
+        ESTAT_KEY = os.environ['ESTAT']
+        df = jpd.DataReader('0003109612', 'estat', appid=ESTAT_KEY)
+        self.assertEqual(df['value'].dtype, np.float64)
 
 
 if __name__ == '__main__':
