@@ -3,7 +3,6 @@
 
 from __future__ import unicode_literals
 
-import numpy as np
 import pandas as pd
 import pandas.tools.plotting as plotting
 
@@ -41,9 +40,11 @@ class OhlcPlot(plotting.LinePlot):
             from matplotlib.finance import candlestick
         except ImportError:
             from matplotlib.finance import candlestick_ohlc as candlestick
+
         def _plot(data, ax, **kwds):
             candles = candlestick(ax, data.values, **kwds)
             return candles
+
         return _plot
 
     def _make_plot(self):
@@ -63,6 +64,7 @@ class OhlcPlot(plotting.LinePlot):
             format_dateaxis(ax, self.freq)
         else:
             from matplotlib.dates import date2num, AutoDateFormatter, AutoDateLocator
+
             data['Date'] = data['Date'].apply(lambda x: date2num(x.to_timestamp()))
             candles = plotf(data, ax, **self.kwds)
 
@@ -70,9 +72,10 @@ class OhlcPlot(plotting.LinePlot):
             ax.xaxis.set_major_locator(locator)
             ax.xaxis.set_major_formatter(AutoDateFormatter(locator))
 
+        return candles
+
 
 if 'ohlc' not in plotting._plot_klass:
     plotting._all_kinds.append('ohlc')
     plotting._common_kinds.append('ohlc')
     plotting._plot_klass['ohlc'] = OhlcPlot
-

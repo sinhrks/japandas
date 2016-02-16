@@ -6,7 +6,6 @@ from __future__ import unicode_literals
 import datetime
 
 import pandas as pd
-import pandas.compat as compat
 import pandas.util.testing as tm
 
 import japandas as jpd
@@ -42,12 +41,10 @@ class TestCalendar(tm.TestCase):
         holidays_0 = calendar.holidays(self.start_date,
                                        self.end_date)
 
-        holidays_1 = calendar.holidays(
-                        self.start_date.strftime('%Y-%m-%d'),
-                        self.end_date.strftime('%Y-%m-%d'))
-        holidays_2 = calendar.holidays(
-                        pd.Timestamp(self.start_date),
-                        pd.Timestamp(self.end_date))
+        holidays_1 = calendar.holidays(self.start_date.strftime('%Y-%m-%d'),
+                                       self.end_date.strftime('%Y-%m-%d'))
+        holidays_2 = calendar.holidays(pd.Timestamp(self.start_date),
+                                       pd.Timestamp(self.end_date))
 
         self.assertEqual(holidays_0.to_pydatetime().tolist(), self.expected)
         self.assertEqual(holidays_1.to_pydatetime().tolist(), self.expected)
@@ -76,7 +73,6 @@ class TestCalendar(tm.TestCase):
         dt = datetime.datetime(2014, 5, 6)
         tm.assert_equal(dt - cday, datetime.datetime(2014, 5, 2))
         tm.assert_equal(dt + cday, datetime.datetime(2014, 5, 7))
-
 
     def test_factory(self):
         calendar = pd.tseries.holiday.get_calendar('JapaneseHolidayCalendar')

@@ -3,8 +3,6 @@
 
 from __future__ import unicode_literals
 
-import re
-
 import numpy as np
 import pandas as pd
 import pandas.compat as compat
@@ -41,7 +39,7 @@ def to_datetime(arg, box=True, format=None, **kwargs):
         for format in _formats:
             try:
                 return pd.to_datetime(arg, box=box, format=format, **kwargs)
-            except ValueError as e:
+            except ValueError:
                 pass
         return arg
 
@@ -52,7 +50,7 @@ def to_datetime(arg, box=True, format=None, **kwargs):
 
     if isinstance(result, pd.Series):
         values = _convert_listlike(arg.values, False)
-        return Series(values, index=arg.index, name=arg.name)
+        return pd.Series(values, index=arg.index, name=arg.name)
     elif com.is_list_like(result):
         return _convert_listlike(result, box)
     return result
@@ -89,7 +87,3 @@ try:
 except Exception:
     pass
 """
-
-
-
-

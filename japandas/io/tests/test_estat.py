@@ -7,7 +7,6 @@ import os
 
 import numpy as np
 import pandas as pd
-import pandas.compat as compat
 import pandas.util.testing as tm
 import japandas as jpd
 
@@ -56,7 +55,7 @@ class TestEstat(tm.TestCase):
                    '00200532', '00200533', '00200541', '00200543', '00200544',
                    '00200545', '00200551', '00200552', '00200553', '00200561',
                    '00200563', '00200564', '00200565', '00200566', '00200571',
-                   '00200572', '00200573', # '00200511', '00200502', (no data found)
+                   '00200572', '00200573',    # '00200511', '00200502', (no data found)
                    '00250011',
                    '00350600', '00350620', '00351000', '00400001', '00400002',
                    '00400003', '00400004', '00400202', '00450011', '00450012',
@@ -105,7 +104,6 @@ class TestEstat(tm.TestCase):
                            index=pd.DatetimeIndex(['2009-03-01', '2009-02-01', '2009-01-01',
                                                    '2008-12-01', '2008-11-01'], name='時間軸（月次）'))
         self.assert_frame_equal(df.head(), exp)
-
 
     def test_data_estat_data_numeric(self):
         ESTAT_KEY = os.environ['ESTAT']
