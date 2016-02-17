@@ -5,7 +5,6 @@ from __future__ import unicode_literals
 
 import time
 
-import numpy as np
 import pandas as pd
 from japandas.io.estat import EStatReader
 

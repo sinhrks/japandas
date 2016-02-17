@@ -26,7 +26,11 @@ install:
   - conda create -q -n test-environment python=$PYTHON pip numpy scipy pandas=$PANDAS nose matplotlib requests
   - source activate test-environment
   - "pip install -r requirements_test.txt"
+  - pip install flake8
+
 script:
   - nosetests --with-coverage
+  - flake8 --ignore E501 japandas
+
 after_success:
   - coveralls

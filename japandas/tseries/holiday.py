@@ -8,8 +8,6 @@ import os
 
 import pandas.compat as compat
 import pandas.tseries.holiday as holiday
-from pandas.util.decorators import cache_readonly
-import pandas.util.testing as tm
 
 
 current_dir = os.path.dirname(__file__)
@@ -48,8 +46,6 @@ holiday.register(TSEHolidayCalendar)
 if __name__ == '__main__':
 
     # https://github.com/k1LoW/holiday_jp
-
-    import collections
     import yaml
 
     def to_pickle(dates, path):
@@ -64,7 +60,6 @@ if __name__ == '__main__':
         with open(path, mode='w') as w:
             compat.cPickle.dump(rules, w)
             print('pickled {0} data'.format(len(dates)))
-
 
     with open(os.path.join('data', 'holidays.yml'), mode='r') as f:
         data = yaml.load(f)

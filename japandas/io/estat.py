@@ -3,12 +3,10 @@
 
 from __future__ import unicode_literals
 
-import requests
 import xml.etree.ElementTree as ET
 
 import numpy as np
 import pandas as pd
-import pandas.compat as compat
 
 from pandas_datareader.base import _BaseReader
 from japandas.tseries.tools import to_datetime

@@ -3,10 +3,7 @@
 
 from __future__ import unicode_literals
 
-import os
-
 import pandas as pd
-import pandas.compat as compat
 import pandas.util.testing as tm
 from pandas.tests.test_graphics import TestPlotBase, _check_plot_works
 import japandas as jpd

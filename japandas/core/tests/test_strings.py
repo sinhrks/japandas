@@ -3,13 +3,8 @@
 
 # do not import unicode_literals here to test ASCII in Python 2.7
 
-import datetime
-
 import pandas as pd
-import pandas.compat as compat
 import pandas.util.testing as tm
-
-import japandas as jpd
 
 
 class TestStrings(tm.TestCase):
@@ -211,7 +206,7 @@ class TestStrings(tm.TestCase):
         empty_str = pd.Series(dtype=str)
         tm.assert_series_equal(empty_str.str.h2z(), empty_str)
 
-    def test_h2z(self):
+    def test_h2z_obj(self):
         s = pd.Series(['aaa', None, u'ｱｱｱ', u'あああ', u'１', 3])
         result = s.str.h2z()
         expected = pd.Series([u'ａａａ', None, u'アアア', u'あああ', u'１', None])
@@ -223,12 +218,12 @@ class TestStrings(tm.TestCase):
     def test_normalize(self):
         s = pd.Series([u'ａａａ', 'bbb', u'ｱｱｱ', u'１', u'＊'])
         result = s.str.normalize('NFKC')
-        expected= pd.Series(['aaa', 'bbb', u'アアア', '1', '*'])
+        expected = pd.Series(['aaa', 'bbb', u'アアア', '1', '*'])
         tm.assert_series_equal(result, expected)
 
         s = pd.Series([u'ａａａ', None, 'bbb', u'ｱｱｱ', u'１', 5, u'＊'])
         result = s.str.normalize('NFKC')
-        expected= pd.Series(['aaa', None, 'bbb', u'アアア', '1', None, '*'])
+        expected = pd.Series(['aaa', None, 'bbb', u'アアア', '1', None, '*'])
         tm.assert_series_equal(result, expected)
 
         empty_str = pd.Series(dtype=str)
