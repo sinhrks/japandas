@@ -4,17 +4,16 @@ env:
     secure: dlKlpVXGzCuN1Wc0h48HeT3EYjND2erX6hPeya/c6SR9LTN+ybcWGyZrHDtybOaRw28REVIXqH3unkVtX/X4d46U/tmRcC/Fy7wInhOS82yuFRCB8TinQkpeqRDZuU+HiW737uzmYf3U37NZnm2VGCsvVXUAoZe6/aLgTXMHP6U=
   matrix:
     - PYTHON=2.7 PANDAS=0.17.0
-    - PYTHON=2.7 PANDAS=0.17.1
+    - PYTHON=2.7 PANDAS=0.18.0
     - PYTHON=3.4 PANDAS=0.17.0
-    - PYTHON=3.5 PANDAS=0.17.0
-    - PYTHON=3.5 PANDAS=0.17.1
+    - PYTHON=3.5 PANDAS=0.18.0
+    - PYTHON=3.5 PANDAS=0.18.1
 
 install:
-  - sudo pip install python-coveralls coverage
   - if [[ "$PYTHON" == "2.7" ]]; then
-      wget http://repo.continuum.io/miniconda/Miniconda-3.4.2-Linux-x86_64.sh -O miniconda.sh;
+      wget http://repo.continuum.io/miniconda/Miniconda-latest-Linux-x86_64.sh -O miniconda.sh;
     else
-      wget http://repo.continuum.io/miniconda/Miniconda3-3.4.2-Linux-x86_64.sh -O miniconda.sh;
+      wget http://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh;
     fi
   - bash miniconda.sh -b -p $HOME/miniconda
   - export PATH="$HOME/miniconda/bin:$PATH"
@@ -26,10 +25,10 @@ install:
   - conda create -q -n test-environment python=$PYTHON pip numpy scipy pandas=$PANDAS nose matplotlib requests
   - source activate test-environment
   - "pip install -r requirements_test.txt"
-  - pip install flake8
+  - pip install flake8 python-coveralls coverage
 
 script:
-  - nosetests --with-coverage
+  - nosetests --with-coverage --cover-package=japandas
   - flake8 --ignore E501 japandas
 
 after_success:
