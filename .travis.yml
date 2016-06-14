@@ -28,8 +28,14 @@ install:
   - pip install flake8 python-coveralls coverage
 
 script:
-  - nosetests --with-coverage --cover-package=japandas
+  - if [[ "$PYTHON" == "2.7" ]]; then
+      nosetests;
+    else
+      nosetests --with-coverage --cover-package=japandas;
+    fi
   - flake8 --ignore E501 japandas
 
 after_success:
-  - coveralls
+  - if [[ "$PYTHON" != "2.7" ]]; then
+      coveralls;
+    fi
