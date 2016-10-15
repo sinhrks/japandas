@@ -5,8 +5,9 @@ from __future__ import unicode_literals
 
 import pandas as pd
 import pandas.util.testing as tm
-from pandas.tests.test_graphics import TestPlotBase, _check_plot_works
+
 import japandas as jpd
+from japandas.tools.tests.test_plotting import TestPlotBase, _check_plot_works
 
 
 class TestDataReader(TestPlotBase):

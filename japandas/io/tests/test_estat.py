@@ -56,29 +56,36 @@ class TestEstat(tm.TestCase):
                    '00200545', '00200551', '00200552', '00200553', '00200561',
                    '00200563', '00200564', '00200565', '00200566', '00200571',
                    '00200572', '00200573',    # '00200511', '00200502', (no data found)
-                   '00250011',
-                   '00350600', '00350620', '00351000', '00400001', '00400002',
+                   '00250011']
+        for target in targets:
+            self._assert_target(target)
+
+    def test_data_estat_list_all2(self):
+        # Travis CI でのタイムアウトを防ぐため分割
+        targets = ['00350600', '00350620', '00351000', '00400001', '00400002',
                    '00400003', '00400004', '00400202', '00450011', '00450012',
                    '00450021', '00450022', '00450061', '00450071', '00450091',
                    '00450151', '00500201', '00500209', '00500215', '00500216',
                    '00500217', '00500225', '00550010', '00550020', '00550030',
                    '00550040', '00550100', '00550200', '00550210', '00551020',
                    '00551130', '00600330', '00600470', '00600480']
+        for target in targets:
+            self._assert_target(target)
 
+    def _assert_target(self, target):
         ESTAT_KEY = os.environ['ESTAT']
 
-        for target in targets:
-            df = jpd.DataReader(target, 'estat', appid=ESTAT_KEY)
-            exp_columns = pd.Index(['統計表ID', '政府統計名',
-                                    '作成機関名', '提供統計名及び提供分類名',
-                                    '統計表題名及び表番号', '提供周期', '調査年月',
-                                    '公開日', '小地域属性フラグ', '統計大分野名',
-                                    '統計小分野名', '総件数', '最終更新日'],)
-            self.assert_index_equal(df.columns, exp_columns)
+        df = jpd.DataReader(target, 'estat', appid=ESTAT_KEY)
+        exp_columns = pd.Index(['統計表ID', '政府統計名',
+                                '作成機関名', '提供統計名及び提供分類名',
+                                '統計表題名及び表番号', '提供周期', '調査年月',
+                                '公開日', '小地域属性フラグ', '統計大分野名',
+                                '統計小分野名', '総件数', '最終更新日'],)
+        self.assert_index_equal(df.columns, exp_columns)
 
-            target = df.head(n=3)
-            df = jpd.DataReader(target, 'estat', appid=ESTAT_KEY)
-            self.assertIsInstance(df, pd.DataFrame)
+        target = df.head(n=3)
+        df = jpd.DataReader(target, 'estat', appid=ESTAT_KEY)
+        self.assertIsInstance(df, pd.DataFrame)
 
     def test_data_estat_data(self):
 

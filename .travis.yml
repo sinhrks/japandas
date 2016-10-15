@@ -3,11 +3,11 @@ env:
   global:
     secure: dlKlpVXGzCuN1Wc0h48HeT3EYjND2erX6hPeya/c6SR9LTN+ybcWGyZrHDtybOaRw28REVIXqH3unkVtX/X4d46U/tmRcC/Fy7wInhOS82yuFRCB8TinQkpeqRDZuU+HiW737uzmYf3U37NZnm2VGCsvVXUAoZe6/aLgTXMHP6U=
   matrix:
-    - PYTHON=2.7 PANDAS=0.17.0
-    - PYTHON=2.7 PANDAS=0.18.0
+    - PYTHON=2.7 PANDAS=0.18.1
+    - PYTHON=2.7 PANDAS=0.19.0
     - PYTHON=3.4 PANDAS=0.17.0
-    - PYTHON=3.5 PANDAS=0.18.0
     - PYTHON=3.5 PANDAS=0.18.1
+    - PYTHON=3.5 PANDAS=0.19.0 COVERAGE=true
 
 install:
   - if [[ "$PYTHON" == "2.7" ]]; then
@@ -29,13 +29,13 @@ install:
 
 script:
   - if [[ "$PYTHON" == "2.7" ]]; then
-      nosetests;
+      nosetests -v -s;
     else
-      nosetests --with-coverage --cover-package=japandas;
+      nosetests -v -s --with-coverage --cover-package=japandas;
     fi
   - flake8 --ignore E501 japandas
 
 after_success:
-  - if [[ "$PYTHON" != "2.7" ]]; then
+  - if [ "$COVERAGE" ]; then
       coveralls;
     fi

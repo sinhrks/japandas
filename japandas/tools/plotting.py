@@ -6,6 +6,7 @@ from __future__ import unicode_literals
 import pandas as pd
 import pandas.tools.plotting as plotting
 
+from japandas.compat import PANDAS_0180
 from japandas.io.data import _ohlc_columns_jp, _ohlc_columns_en
 
 
@@ -19,7 +20,10 @@ class OhlcPlot(plotting.LinePlot):
         self.freq = kwargs.pop('freq', 'B')
 
         if isinstance(data, pd.Series):
-            data = data.resample(self.freq, how='ohlc')
+            if PANDAS_0180:
+                data = data.resample(self.freq).ohlc()
+            else:
+                data = data.resample(self.freq, how='ohlc')
         assert isinstance(data, pd.DataFrame)
         assert isinstance(data.index, pd.DatetimeIndex)
 
