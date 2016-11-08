@@ -113,6 +113,20 @@ class TestCalendar(tm.TestCase):
         for e in self.expected:
             self.assertTrue(dt in holidays)
 
+    def test_holiday_bug(self):
+        # GH 42
+
+        for calendar in [jpd.TSEHolidayCalendar(),
+                         jpd.JapaneseHolidayCalendar()]:
+            holidays = calendar.holidays()
+
+            self.assertFalse(datetime.datetime(1993, 9, 5) in holidays)
+            self.assertTrue(datetime.datetime(1993, 9, 15) in holidays)
+
+            self.assertFalse(datetime.datetime(2020, 8, 12) in holidays)
+            self.assertTrue(datetime.datetime(2020, 8, 11) in holidays)
+
+
 if __name__ == '__main__':
     import nose
     nose.runmodule(argv=[__file__, '-vvs', '-x', '--pdb', '--pdb-failure'],

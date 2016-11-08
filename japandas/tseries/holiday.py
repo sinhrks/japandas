@@ -57,11 +57,11 @@ if __name__ == '__main__':
             h = holiday.Holiday(value['name'], dt.year, month=dt.month, day=dt.day)
             rules.append(h)
         print(len(rules))
-        with open(path, mode='w') as w:
-            compat.cPickle.dump(rules, w)
+        with open(path, mode='wb') as w:
+            compat.cPickle.dump(rules, w, protocol=2)
             print('pickled {0} data'.format(len(dates)))
 
-    with open(os.path.join('data', 'holidays.yml'), mode='r') as f:
+    with open(os.path.join('data', 'holidays.yml'), mode='rb') as f:
         data = yaml.load(f)
     # JapaneseHolidayCalendar
     to_pickle(data, data_path)
