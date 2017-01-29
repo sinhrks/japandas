@@ -9,7 +9,7 @@ PACKAGE = 'japandas'
 README = 'README.rst'
 REQUIREMENTS = 'requirements.txt'
 
-VERSION = '0.3.2.dev'
+VERSION = '0.4.0'
 
 def read(fname):
   # file must be read as utf-8 in py3 to avoid to be bytes
@@ -40,5 +40,3 @@ setup(name=PACKAGE,
       package_data = {'japandas.tseries': ['data/*.pkl']},
       install_requires=list(read(REQUIREMENTS).splitlines())
       )
-
-
