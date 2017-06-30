@@ -4,6 +4,7 @@
 from __future__ import unicode_literals
 
 import os
+import unittest
 
 import numpy as np
 import pandas as pd
@@ -11,20 +12,20 @@ import pandas.util.testing as tm
 import japandas as jpd
 
 
-class TestEstat(tm.TestCase):
+class TestEstat(unittest.TestCase):
 
     def test_data_estat_error(self):
-        with tm.assertRaises(ValueError):
+        with self.assertRaises(ValueError):
             # no app ID
             jpd.DataReader('00200521', 'estat', appid=None)
 
         ESTAT_KEY = os.environ['ESTAT']
 
-        with tm.assertRaises(ValueError):
+        with self.assertRaises(ValueError):
             # blank list
             jpd.DataReader([], 'estat', appid=ESTAT_KEY)
 
-        with tm.assertRaises(ValueError):
+        with self.assertRaises(ValueError):
             # invalid type
             jpd.DataReader(1, 'estat', appid=ESTAT_KEY)
 
@@ -38,14 +39,14 @@ class TestEstat(tm.TestCase):
                                 '統計表題名及び表番号', '提供周期', '調査年月',
                                 '公開日', '小地域属性フラグ', '統計大分野名',
                                 '統計小分野名', '総件数', '最終更新日'],)
-        self.assert_index_equal(df.columns, exp_columns)
+        tm.assert_index_equal(df.columns, exp_columns)
 
         target = df.head(n=3)
         df = jpd.DataReader(target, 'estat', appid=ESTAT_KEY)
         self.assertIsInstance(df, pd.DataFrame)
 
         df = jpd.DataReader('00200523', 'estat', appid=ESTAT_KEY)
-        self.assert_index_equal(df.columns, exp_columns)
+        tm.assert_index_equal(df.columns, exp_columns)
 
     def test_data_estat_list_all(self):
         # 以下 すべての提供データをテスト
@@ -81,7 +82,7 @@ class TestEstat(tm.TestCase):
                                 '統計表題名及び表番号', '提供周期', '調査年月',
                                 '公開日', '小地域属性フラグ', '統計大分野名',
                                 '統計小分野名', '総件数', '最終更新日'],)
-        self.assert_index_equal(df.columns, exp_columns)
+        tm.assert_index_equal(df.columns, exp_columns)
 
         target = df.head(n=3)
         df = jpd.DataReader(target, 'estat', appid=ESTAT_KEY)
@@ -98,7 +99,7 @@ class TestEstat(tm.TestCase):
                             '年齢５歳階級Ａ030002': ['総数'] * 5,
                             '男女Ａ030001': ['男女総数'] * 5},
                            index=pd.DatetimeIndex(['1980-01-01'] * 5, name='時間軸(年次)'))
-        self.assert_frame_equal(df.head(), exp)
+        tm.assert_frame_equal(df.head(), exp)
 
         df = jpd.DataReader(['0000030001', '0000030002'], 'estat', appid=ESTAT_KEY)
         self.assertIsInstance(df, pd.DataFrame)
@@ -110,7 +111,7 @@ class TestEstat(tm.TestCase):
                             '表章項目': ['都道府県（自都市）内移動者数'] * 5},
                            index=pd.DatetimeIndex(['2009-03-01', '2009-02-01', '2009-01-01',
                                                    '2008-12-01', '2008-11-01'], name='時間軸（月次）'))
-        self.assert_frame_equal(df.head(), exp)
+        tm.assert_frame_equal(df.head(), exp)
 
     def test_data_estat_data_numeric(self):
         ESTAT_KEY = os.environ['ESTAT']

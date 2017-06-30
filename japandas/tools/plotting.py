@@ -4,9 +4,12 @@
 from __future__ import unicode_literals
 
 import pandas as pd
-import pandas.tools.plotting as plotting
+try:
+    import pandas.plotting._core as plotting
+except ImportError:
+    import pandas.tools.plotting as plotting
 
-from japandas.compat import PANDAS_0180
+from japandas.compat import PANDAS_0180, PANDAS_0200
 from japandas.io.data import _ohlc_columns_jp, _ohlc_columns_en
 
 
@@ -52,20 +55,28 @@ class OhlcPlot(plotting.LinePlot):
         return _plot
 
     def _make_plot(self):
-        from pandas.tseries.plotting import _decorate_axes, format_dateaxis
+        try:
+            from pandas.plotting._timeseries import (_decorate_axes,
+                                                     format_dateaxis)
+        except ImportError:
+            from pandas.tseries.plotting import _decorate_axes, format_dateaxis
         plotf = self._get_plot_function()
         ax = self._get_ax(0)
 
         data = self.data
         data.index.name = 'Date'
         data = data.to_period(freq=self.freq)
+        index = data.index
         data = data.reset_index(level=0)
 
         if self._is_ts_plot():
             data['Date'] = data['Date'].apply(lambda x: x.ordinal)
             _decorate_axes(ax, self.freq, self.kwds)
             candles = plotf(data, ax, **self.kwds)
-            format_dateaxis(ax, self.freq)
+            if PANDAS_0200:
+                format_dateaxis(ax, self.freq, index)
+            else:
+                format_dateaxis(ax, self.freq)
         else:
             from matplotlib.dates import date2num, AutoDateFormatter, AutoDateLocator
 

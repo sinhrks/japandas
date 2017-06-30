@@ -7,6 +7,11 @@ from distutils.version import LooseVersion
 
 PANDAS_VERSION = LooseVersion(pd.__version__)
 
+if PANDAS_VERSION >= LooseVersion('0.20.0'):
+    PANDAS_0200 = True
+else:
+    PANDAS_0200 = False
+
 if PANDAS_VERSION >= LooseVersion('0.19.0'):
     PANDAS_0190 = True
 else:

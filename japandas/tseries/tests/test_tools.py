@@ -3,6 +3,8 @@
 
 from __future__ import unicode_literals
 
+import unittest
+
 import pandas as pd
 import pandas.compat as compat
 import pandas.util.testing as tm
@@ -10,7 +12,7 @@ import pandas.util.testing as tm
 import japandas as jpd
 
 
-class TestTools(tm.TestCase):
+class TestTools(unittest.TestCase):
 
     def test_to_datetime(self):
         cases = {'2011年10月30日': ('2011-10-30', '%Y-%m-%d'),
@@ -31,7 +33,7 @@ class TestTools(tm.TestCase):
         for k, (s, f) in compat.iteritems(cases):
             result = jpd.to_datetime(k)
             expected = pd.to_datetime(s, format=f)
-            tm.assert_equal(result, expected)
+            self.assertEqual(result, expected)
 
             result = jpd.to_datetime([k])
             expected = pd.to_datetime([s], format=f)

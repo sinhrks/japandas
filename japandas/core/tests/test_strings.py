@@ -2,12 +2,13 @@
 # coding: utf-8
 
 # do not import unicode_literals here to test ASCII in Python 2.7
+import unittest
 
 import pandas as pd
 import pandas.util.testing as tm
 
 
-class TestStrings(tm.TestCase):
+class TestStrings(unittest.TestCase):
 
     def setUp(self):
         self.zhiragana_s = pd.Series([u'ぁあぃいぅうぇえぉお',
@@ -70,20 +71,20 @@ class TestStrings(tm.TestCase):
 
     def test_mapper(self):
         import japandas.core.strings as s
-        tm.assert_equal(len(s._KANA_MAPPER), len(s._HKANA))
-        tm.assert_equal(len(s._ALPHA_MAPPER), len(s._ZALPHA))
-        tm.assert_equal(len(s._DIGIT_MAPPER), len(s._ZDIGIT))
-        tm.assert_equal(len(s._SYMBOL_MAPPER), len(s._ZSYMBOL))
+        self.assertEqual(len(s._KANA_MAPPER), len(s._HKANA))
+        self.assertEqual(len(s._ALPHA_MAPPER), len(s._ZALPHA))
+        self.assertEqual(len(s._DIGIT_MAPPER), len(s._ZDIGIT))
+        self.assertEqual(len(s._SYMBOL_MAPPER), len(s._ZSYMBOL))
 
-        tm.assert_equal(len(s._reverse_dict(s._KANA_MAPPER)), len(s._HKANA))
-        tm.assert_equal(len(s._reverse_dict(s._ALPHA_MAPPER)), len(s._ZALPHA))
-        tm.assert_equal(len(s._reverse_dict(s._DIGIT_MAPPER)), len(s._ZDIGIT))
-        tm.assert_equal(len(s._Z2H_SYMBOL), len(s._H2Z_SYMBOL))
+        self.assertEqual(len(s._reverse_dict(s._KANA_MAPPER)), len(s._HKANA))
+        self.assertEqual(len(s._reverse_dict(s._ALPHA_MAPPER)), len(s._ZALPHA))
+        self.assertEqual(len(s._reverse_dict(s._DIGIT_MAPPER)), len(s._ZDIGIT))
+        self.assertEqual(len(s._Z2H_SYMBOL), len(s._H2Z_SYMBOL))
 
-        tm.assert_equal(len(s._Z2H_KANA), len(s._H2Z_KANA))
-        tm.assert_equal(len(s._Z2H_ALPHA), len(s._H2Z_ALPHA))
-        tm.assert_equal(len(s._Z2H_DIGIT), len(s._H2Z_DIGIT))
-        tm.assert_equal(len(s._reverse_dict(s._SYMBOL_MAPPER)), len(s._ZSYMBOL))
+        self.assertEqual(len(s._Z2H_KANA), len(s._H2Z_KANA))
+        self.assertEqual(len(s._Z2H_ALPHA), len(s._H2Z_ALPHA))
+        self.assertEqual(len(s._Z2H_DIGIT), len(s._H2Z_DIGIT))
+        self.assertEqual(len(s._reverse_dict(s._SYMBOL_MAPPER)), len(s._ZSYMBOL))
 
     def test_z2h(self):
         s = pd.Series([u'ａａａ', 'bbb', u'アアア', u'１', u'＊'])
@@ -235,7 +236,7 @@ class TestStrings(tm.TestCase):
         for format in ['NFD', 'NFC', 'NFKD', 'NFKC']:
             result = pd.Series(values).str.normalize(format).tolist()
             expected = [unicodedata.normalize(format, v) for v in values]
-            tm.assert_equal(result, expected)
+            self.assertEqual(result, expected)
 
 
 if __name__ == '__main__':

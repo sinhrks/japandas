@@ -4,14 +4,14 @@
 from __future__ import unicode_literals
 
 import datetime
+import unittest
 
 import pandas as pd
-import pandas.util.testing as tm
 
 import japandas as jpd
 
 
-class TestCalendar(tm.TestCase):
+class TestCalendar(unittest.TestCase):
 
     def setUp(self):
         self.expected = [datetime.datetime(2014, 1, 1, 0, 0),
@@ -55,24 +55,24 @@ class TestCalendar(tm.TestCase):
         cday = pd.offsets.CDay(calendar=calendar)
 
         dt = datetime.datetime(2014, 1, 12)
-        tm.assert_equal(dt - cday, datetime.datetime(2014, 1, 10))
-        tm.assert_equal(dt + cday, datetime.datetime(2014, 1, 14))
+        self.assertEqual(dt - cday, datetime.datetime(2014, 1, 10))
+        self.assertEqual(dt + cday, datetime.datetime(2014, 1, 14))
 
         dt = datetime.datetime(2014, 1, 10)
-        tm.assert_equal(dt - cday, datetime.datetime(2014, 1, 9))
-        tm.assert_equal(dt + cday, datetime.datetime(2014, 1, 14))
+        self.assertEqual(dt - cday, datetime.datetime(2014, 1, 9))
+        self.assertEqual(dt + cday, datetime.datetime(2014, 1, 14))
 
         dt = datetime.datetime(2014, 4, 28)
-        tm.assert_equal(dt - cday, datetime.datetime(2014, 4, 25))
-        tm.assert_equal(dt + cday, datetime.datetime(2014, 4, 30))
+        self.assertEqual(dt - cday, datetime.datetime(2014, 4, 25))
+        self.assertEqual(dt + cday, datetime.datetime(2014, 4, 30))
 
         dt = datetime.datetime(2014, 5, 3)
-        tm.assert_equal(dt - cday, datetime.datetime(2014, 5, 2))
-        tm.assert_equal(dt + cday, datetime.datetime(2014, 5, 7))
+        self.assertEqual(dt - cday, datetime.datetime(2014, 5, 2))
+        self.assertEqual(dt + cday, datetime.datetime(2014, 5, 7))
 
         dt = datetime.datetime(2014, 5, 6)
-        tm.assert_equal(dt - cday, datetime.datetime(2014, 5, 2))
-        tm.assert_equal(dt + cday, datetime.datetime(2014, 5, 7))
+        self.assertEqual(dt - cday, datetime.datetime(2014, 5, 2))
+        self.assertEqual(dt + cday, datetime.datetime(2014, 5, 7))
 
     def test_factory(self):
         calendar = pd.tseries.holiday.get_calendar('JapaneseHolidayCalendar')
@@ -83,10 +83,10 @@ class TestCalendar(tm.TestCase):
 
     def test_holiday_attributes(self):
         calendar = jpd.JapaneseHolidayCalendar()
-        tm.assert_equal(calendar.rules[0].name, '元日')
-        tm.assert_equal(calendar.rules[0].year, 1970)
-        tm.assert_equal(calendar.rules[0].month, 1)
-        tm.assert_equal(calendar.rules[0].day, 1)
+        self.assertEqual(calendar.rules[0].name, '元日')
+        self.assertEqual(calendar.rules[0].year, 1970)
+        self.assertEqual(calendar.rules[0].month, 1)
+        self.assertEqual(calendar.rules[0].day, 1)
 
     def test_jpholiday_holidays(self):
         calendar = jpd.JapaneseHolidayCalendar()
