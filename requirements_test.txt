@@ -1,7 +1,7 @@
 lxml
 html5lib
 beautifulsoup4
-pandas>=0.17.0
+pandas>=0.17.0, <=0.21.0
 pandas-datareader>=0.2.1
 IPython>=2.3
-matplotlib>=1.4.0
+matplotlib>=1.4.0, <2.0.0

@@ -1,2 +1,2 @@
-pandas >= 0.17.0
+pandas >= 0.17.0, <= 0.21.0
 pandas-datareader >= 0.2.1

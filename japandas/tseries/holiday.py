@@ -9,7 +9,6 @@ import os
 import pandas.compat as compat
 import pandas.tseries.holiday as holiday
 
-
 current_dir = os.path.dirname(__file__)
 data_path = os.path.join(current_dir, 'data', 'holidays.pkl')
 tse_data_path = os.path.join(current_dir, 'data', 'tseholidays.pkl')
@@ -51,10 +50,10 @@ if __name__ == '__main__':
     def to_pickle(dates, path):
         rules = []
         keys = sorted(compat.iterkeys(dates))
-        for key in keys:
-            value = dates[key]
-            dt = value['date']
-            h = holiday.Holiday(value['name'], dt.year, month=dt.month, day=dt.day)
+        for dt in keys:
+            name = dates[dt]
+            h = holiday.Holiday(
+                name, dt.year, month=dt.month, day=dt.day)
             rules.append(h)
         print(len(rules))
         with open(path, mode='wb') as w:

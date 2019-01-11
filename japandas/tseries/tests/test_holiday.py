@@ -124,7 +124,42 @@ class TestCalendar(unittest.TestCase):
             self.assertTrue(datetime.datetime(1993, 9, 15) in holidays)
 
             self.assertFalse(datetime.datetime(2020, 8, 12) in holidays)
-            self.assertTrue(datetime.datetime(2020, 8, 11) in holidays)
+            # http://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html#tokurei
+            self.assertFalse(datetime.datetime(2020, 8, 11) in holidays)
+
+    def test_heisei_emperor_abdication_holiday(self):
+
+        for calendar in [jpd.TSEHolidayCalendar(),
+                         jpd.JapaneseHolidayCalendar()]:
+            holidays = calendar.holidays()
+
+            self.assertTrue(datetime.datetime(2018, 12, 23) in holidays)
+            self.assertFalse(datetime.datetime(2019, 12, 23) in holidays)
+
+            self.assertFalse(datetime.datetime(2019, 2, 23) in holidays)
+            self.assertTrue(datetime.datetime(2020, 2, 23) in holidays)
+
+    def test_tokurei(self):
+        # http://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html#tokurei
+
+        for calendar in [jpd.TSEHolidayCalendar(),
+                         jpd.JapaneseHolidayCalendar()]:
+            holidays = calendar.holidays()
+
+            # 海の日
+            self.assertTrue(datetime.datetime(2020, 7, 23) in holidays)
+            self.assertFalse(datetime.datetime(2020, 7, 20) in holidays)
+            self.assertTrue(datetime.datetime(2021, 7, 19) in holidays)
+
+            # 山の日
+            self.assertTrue(datetime.datetime(2020, 8, 10) in holidays)
+            self.assertFalse(datetime.datetime(2020, 8, 11) in holidays)
+            self.assertTrue(datetime.datetime(2021, 8, 11) in holidays)
+
+            # スポーツの日
+            self.assertTrue(datetime.datetime(2020, 7, 24) in holidays)
+            self.assertFalse(datetime.datetime(2020, 10, 12) in holidays)
+            self.assertTrue(datetime.datetime(2021, 10, 11) in holidays)
 
 
 if __name__ == '__main__':
