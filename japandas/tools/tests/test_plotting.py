@@ -6,13 +6,7 @@ from __future__ import unicode_literals
 import numpy as np
 import pandas as pd
 
-from japandas.compat import PANDAS_0190, PANDAS_0180
-
-
-if PANDAS_0190:
-    from pandas.tests.plotting.common import TestPlotBase, _check_plot_works
-else:
-    from pandas.tests.test_graphics import TestPlotBase, _check_plot_works
+from pandas.tests.plotting.common import TestPlotBase, _check_plot_works
 
 
 class TestTools(TestPlotBase):
@@ -24,10 +18,7 @@ class TestTools(TestPlotBase):
         _check_plot_works(s.plot, kind='ohlc')
         _check_plot_works(s.plot, kind='ohlc', x_compat=True)
 
-        if PANDAS_0180:
-            ohlc = s.resample('B').ohlc()
-        else:
-            ohlc = s.resample('B', how='ohlc')
+        ohlc = s.resample('B').ohlc()
         _check_plot_works(ohlc.plot, kind='ohlc')
         _check_plot_works(ohlc.plot, kind='ohlc', x_compat=True)
 

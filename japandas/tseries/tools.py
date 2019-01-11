@@ -6,7 +6,6 @@ from __future__ import unicode_literals
 import numpy as np
 import pandas as pd
 import pandas.compat as compat
-import pandas.core.common as com
 
 
 _formats = ['%Y年', '%Y年%m月%d日', '%Y年%m月',

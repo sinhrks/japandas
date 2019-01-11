@@ -11,7 +11,6 @@ import pandas as pd
 from pandas_datareader.base import _BaseReader
 from japandas.tseries.tools import to_datetime
 
-
 # http://www.e-stat.go.jp/api/e-stat-manual/
 
 METADATA_MAPPER = {
@@ -65,7 +64,7 @@ class EStatReader(_BaseReader):
             params['statsDataId'] = self.symbols
             return self._read_one_data(self.url, params)
 
-        elif pd.core.common.is_list_like(self.symbols):
+        elif pd.api.types.is_list_like(self.symbols):
             dfs = []
             for symbol in self.symbols:
                 params = self.params

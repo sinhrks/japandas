@@ -9,7 +9,6 @@ try:
 except ImportError:
     import pandas.tools.plotting as plotting
 
-from japandas.compat import PANDAS_0180, PANDAS_0200
 from japandas.io.data import _ohlc_columns_jp, _ohlc_columns_en
 
 
@@ -23,10 +22,7 @@ class OhlcPlot(plotting.LinePlot):
         self.freq = kwargs.pop('freq', 'B')
 
         if isinstance(data, pd.Series):
-            if PANDAS_0180:
-                data = data.resample(self.freq).ohlc()
-            else:
-                data = data.resample(self.freq, how='ohlc')
+            data = data.resample(self.freq).ohlc()
         assert isinstance(data, pd.DataFrame)
         assert isinstance(data.index, pd.DatetimeIndex)
 
@@ -44,12 +40,15 @@ class OhlcPlot(plotting.LinePlot):
 
     def _get_plot_function(self):
         try:
-            from matplotlib.finance import candlestick
-        except ImportError:
-            from matplotlib.finance import candlestick_ohlc as candlestick
+            from mpl_finance import candlestick_ohlc
+        except ImportError as e:
+            try:
+                from matplotlib.finance import candlestick_ohlc
+            except ImportError:
+                raise ImportError(e)
 
         def _plot(data, ax, **kwds):
-            candles = candlestick(ax, data.values, **kwds)
+            candles = candlestick_ohlc(ax, data.values, **kwds)
             return candles
 
         return _plot
@@ -73,10 +72,7 @@ class OhlcPlot(plotting.LinePlot):
             data['Date'] = data['Date'].apply(lambda x: x.ordinal)
             _decorate_axes(ax, self.freq, self.kwds)
             candles = plotf(data, ax, **self.kwds)
-            if PANDAS_0200:
-                format_dateaxis(ax, self.freq, index)
-            else:
-                format_dateaxis(ax, self.freq)
+            format_dateaxis(ax, self.freq, index)
         else:
             from matplotlib.dates import date2num, AutoDateFormatter, AutoDateLocator
 

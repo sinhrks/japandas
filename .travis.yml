@@ -3,11 +3,11 @@ env:
   global:
     secure: dlKlpVXGzCuN1Wc0h48HeT3EYjND2erX6hPeya/c6SR9LTN+ybcWGyZrHDtybOaRw28REVIXqH3unkVtX/X4d46U/tmRcC/Fy7wInhOS82yuFRCB8TinQkpeqRDZuU+HiW737uzmYf3U37NZnm2VGCsvVXUAoZe6/aLgTXMHP6U=
   matrix:
-    - PYTHON=2.7 PANDAS=0.19.2
     - PYTHON=2.7 PANDAS=0.20.2
-    - PYTHON=3.5 PANDAS=0.19.2
-    - PYTHON=3.6 PANDAS=0.20.2
-    - PYTHON=3.6 PANDAS=0.21.0 COVERAGE=true
+    - PYTHON=2.7 PANDAS=0.23.2
+    - PYTHON=3.5 PANDAS=0.21.1
+    - PYTHON=3.6 PANDAS=0.22.0
+    - PYTHON=3.6 PANDAS=0.23.2 COVERAGE=true
 
 install:
   - if [[ "$PYTHON" == "2.7" ]]; then
