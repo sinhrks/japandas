@@ -51,7 +51,7 @@ def to_datetime(arg, box=True, format=None, **kwargs):
     if isinstance(result, pd.Series):
         values = _convert_listlike(arg.values, False)
         return pd.Series(values, index=arg.index, name=arg.name)
-    elif com.is_list_like(result):
+    elif pd.api.types.is_list_like(result):
         return _convert_listlike(result, box)
     return result
 

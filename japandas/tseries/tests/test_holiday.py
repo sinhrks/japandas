@@ -161,6 +161,26 @@ class TestCalendar(unittest.TestCase):
             self.assertFalse(datetime.datetime(2020, 10, 12) in holidays)
             self.assertTrue(datetime.datetime(2021, 10, 11) in holidays)
 
+    def test_new_era(self):
+
+        for calendar in [jpd.TSEHolidayCalendar(),
+                         jpd.JapaneseHolidayCalendar()]:
+            holidays = calendar.holidays()
+
+            self.assertFalse(datetime.datetime(2019, 4, 26) in holidays)
+            self.assertFalse(datetime.datetime(2019, 4, 27) in holidays)
+            self.assertFalse(datetime.datetime(2019, 4, 28) in holidays)
+            self.assertTrue(datetime.datetime(2019, 4, 29) in holidays)
+            self.assertTrue(datetime.datetime(2019, 4, 30) in holidays)
+            self.assertTrue(datetime.datetime(2019, 5, 1) in holidays)
+            self.assertTrue(datetime.datetime(2019, 5, 2) in holidays)
+            self.assertTrue(datetime.datetime(2019, 5, 3) in holidays)
+            self.assertTrue(datetime.datetime(2019, 5, 4) in holidays)
+            self.assertTrue(datetime.datetime(2019, 5, 5) in holidays)
+            self.assertTrue(datetime.datetime(2019, 5, 6) in holidays)
+            self.assertFalse(datetime.datetime(2019, 5, 7) in holidays)
+            self.assertFalse(datetime.datetime(2019, 12, 23) in holidays)
+
 
 if __name__ == '__main__':
     import nose

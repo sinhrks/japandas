@@ -44,7 +44,12 @@ holiday.register(TSEHolidayCalendar)
 
 if __name__ == '__main__':
 
-    # https://github.com/k1LoW/holiday_jp
+    # Procedure
+    # cd japandas/tseries
+    # Open https://github.com/holiday-jp/holiday_jp
+    # Download holidays.yaml to data directory
+    # python holiday.py
+
     import yaml
 
     def to_pickle(dates, path):
@@ -55,7 +60,7 @@ if __name__ == '__main__':
             h = holiday.Holiday(
                 name, dt.year, month=dt.month, day=dt.day)
             rules.append(h)
-        print(len(rules))
+
         with open(path, mode='wb') as w:
             compat.cPickle.dump(rules, w, protocol=2)
             print('pickled {0} data'.format(len(dates)))
