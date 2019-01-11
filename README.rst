@@ -175,6 +175,6 @@ BSD.
 
   Copyright (c) 2009 Masaki Komagata. See `LICENSE <https://github.com/komagata/holiday_jp/blob/master/LICENSE>`_ for details.
 
-- `k1LoW/holiday_jp <https://github.com/k1LoW/holiday_jp>`_
+- `holiday_jp <https://github.com/holiday-jp/holiday_jp>`_
 
   MIT.
