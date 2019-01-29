@@ -2,14 +2,14 @@ japandas
 ========
 
 .. image:: https://img.shields.io/pypi/v/japandas.svg
-    :target: https://pypi.python.org/pypi/japandas/
+  :target: https://pypi.python.org/pypi/japandas/
 .. image:: https://readthedocs.org/projects/japandas/badge/?version=latest
-    :target: http://japandas.readthedocs.org/en/latest/
-    :alt: Latest Docs
+  :target: http://japandas.readthedocs.org/en/latest/
+  :alt: Latest Docs
 .. image:: https://travis-ci.org/sinhrks/japandas.svg?branch=master
-    :target: https://travis-ci.org/sinhrks/japandas
-.. image:: https://coveralls.io/repos/sinhrks/japandas/badge.svg?branch=master&service=github
-    :target: https://coveralls.io/github/sinhrks/japandas?branch=master
+  :target: https://travis-ci.org/sinhrks/japandas
+.. image:: https://codecov.io/gh/sinhrks/japandas/branch/master/graph/badge.svg
+  :target: https://codecov.io/gh/sinhrks/japandas
 
 Overview
 ~~~~~~~~
