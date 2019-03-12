@@ -118,6 +118,28 @@ class TestEstat(unittest.TestCase):
         df = jpd.DataReader('0003109612', 'estat', appid=ESTAT_KEY)
         self.assertEqual(df['value'].dtype, np.float64)
 
+    def test_data_limit(self):
+        ESTAT_KEY = os.environ['ESTAT']
+        df = jpd.DataReader('0003280394', 'estat', appid=ESTAT_KEY)
+        assert len(df) == 100000
+        self.assertEqual(df['value'].dtype, np.float64)
+
+        df = jpd.DataReader('0003280394', 'estat', appid=ESTAT_KEY,
+                            limit=20)
+        assert len(df) == 20
+        self.assertEqual(df['value'].dtype, np.float64)
+
+    def test_data_position(self):
+        ESTAT_KEY = os.environ['ESTAT']
+        df = jpd.DataReader('0003280394', 'estat', appid=ESTAT_KEY, limit=100)
+        assert len(df) == 100
+        self.assertEqual(df['value'].dtype, np.float64)
+
+        df2 = jpd.DataReader('0003280394', 'estat', appid=ESTAT_KEY,
+                             startPosition=11, limit=90)
+        tm.assert_frame_equal(df.iloc[10:], df2)
+        self.assertEqual(df2['value'].dtype, np.float64)
+
 
 if __name__ == '__main__':
     import nose

@@ -4,7 +4,6 @@
 
 ``jpd.DataReader`` を利用すると、国内のデータソースの情報を ``DataFrame`` として取得できます。以下のデータソースをサポートしています。
 
-- ``yahoojp``: 削除されました。 https://www.yahoo-help.jp/app/answers/detail/p/546/a_id/93575
 - ``estat``: e-Stat API から統計情報を取得。
 - ほか、``pd.DataReader`` でサポートしているデータソース
 
@@ -78,3 +77,19 @@ e-Stat API
     1980-01-01      男女総数
     1980-01-01      男女総数
     1980-01-01      男女総数
+
+
+e-Statでは、一度のリクエストで10万件のレコードまで取得できます。
+取得するレコード数は `limit`キーワードで変更できます。
+
+.. code-block:: python
+
+    >>> df = jpd.DataReader("0003280394", 'estat', appid=key, limit=100)
+
+
+取得するレコードの開始位置は `startPosition`キーワードで変更できます。
+10万件目以降のレコードを取得する際にはこのキーワードを利用してください。
+
+.. code-block:: python
+
+    >>> df = jpd.DataReader("0003280394", 'estat', appid=key, startPosition=100001)

@@ -33,7 +33,8 @@ METADATA_MAPPER = {
 
 class EStatReader(_BaseReader):
 
-    def __init__(self, symbols=None, appid=None, **kwargs):
+    def __init__(self, symbols=None, appid=None,
+                 limit=None, startPosition=None, **kwargs):
         if isinstance(symbols, pd.DataFrame):
             if '統計表ID' in symbols.columns:
                 symbols = symbols.loc[:, '統計表ID']
@@ -46,13 +47,23 @@ class EStatReader(_BaseReader):
             raise ValueError('アプリケーションID "appid" を文字列で指定してください')
         self.appid = appid
 
+        # e-Stat attrs
+        self.limit = limit
+        self.startPosition = startPosition
+
     @property
     def url(self):
         return 'http://api.e-stat.go.jp/rest/2.0/app/getStatsData'
 
     @property
     def params(self):
-        return {'appId': self.appid, 'lang': 'J'}
+        params = {'appId': self.appid, 'lang': 'J'}
+
+        for attr in ['limit', 'startPosition']:
+            value = getattr(self, attr, None)
+            if value is not None:
+                params[attr] = value
+        return params
 
     def read(self):
         """ read data """
