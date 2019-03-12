@@ -80,16 +80,18 @@ e-Stat API
 
 
 e-Statでは、一度のリクエストで10万件のレコードまで取得できます。
-取得するレコード数は `limit`キーワードで変更できます。
+取得するレコード数は ``limit`` キーワードで変更できます。
 
 .. code-block:: python
 
     >>> df = jpd.DataReader("0003280394", 'estat', appid=key, limit=100)
 
 
-取得するレコードの開始位置は `startPosition`キーワードで変更できます。
+取得するレコードの開始位置は ``startPosition`` キーワードで変更できます。
 10万件目以降のレコードを取得する際にはこのキーワードを利用してください。
 
 .. code-block:: python
 
     >>> df = jpd.DataReader("0003280394", 'estat', appid=key, startPosition=100001)
+
+オプションの詳細は `e-Stat API 仕様 <https://www.e-stat.go.jp/api/api-info/e-stat-manual>`_ を参照してください。
